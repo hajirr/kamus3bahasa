@@ -1,0 +1,19 @@
+{
+    "items": [
+      {
+        "bahasa": "p1",
+        "bebasan": "Item 1",
+        "english": "Description 1"
+      },
+      {
+        "bahasa": "p2",
+        "bebasan": "Item 2",
+        "english": "Description 2"
+      },
+      {
+        "bahasa": "p3",
+        "bebasan": "Item 3",
+        "english": "Description 3"
+      }
+    ]
+  }
