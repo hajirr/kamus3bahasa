@@ -28,10 +28,17 @@ class _HomeState extends State<Home> {
               itemCount: items.isEmpty ? 0 : items.length,
               itemBuilder: (context, index) {
                 return Card(
+                  color: items[index].imbuhan == true
+                      ? Colors.yellow[300]
+                      : Colors.green[300],
                   elevation: 5,
-                  margin:
-                      const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                  margin: EdgeInsets.fromLTRB(
+                      items[index].imbuhan == true ? 25 : 10,
+                      10,
+                      items[index].imbuhan != true ? 25 : 10,
+                      10),
                   child: Container(
+                    margin: const EdgeInsets.only(left: 10),
                     padding: const EdgeInsets.all(8),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -42,28 +49,40 @@ class _HomeState extends State<Home> {
                           padding: const EdgeInsets.only(bottom: 8),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: items[index].imbuhan == true
+                                ? CrossAxisAlignment.end
+                                : CrossAxisAlignment.start,
                             children: [
-                              Padding(
-                                padding:
-                                    const EdgeInsets.only(left: 8, right: 8),
-                                child: Text(
-                                  items[index].bahasa.toString(),
-                                  style: const TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold),
+                              Text(
+                                "Bahasa: ${items[index].bahasa}",
+                                textAlign: items[index].imbuhan == true
+                                    ? TextAlign.right
+                                    : TextAlign.left,
+                                style: const TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.black,
                                 ),
                               ),
                               Padding(
                                 padding:
-                                    const EdgeInsets.only(left: 8, right: 8),
-                                child: Text(items[index].bebasan.toString()),
+                                    const EdgeInsets.symmetric(vertical: 8),
+                                child: Text(
+                                  "Bebasan: ${items[index].bebasan}",
+                                  textAlign: items[index].imbuhan == true
+                                      ? TextAlign.right
+                                      : TextAlign.left,
+                                  style: const TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.pink,
+                                  ),
+                                ),
                               ),
-                              Padding(
-                                padding:
-                                    const EdgeInsets.only(left: 8, right: 8),
-                                child: Text(items[index].english.toString()),
-                              ),
+                              Text("Inggris: ${items[index].english}",
+                                  textAlign: items[index].imbuhan == true
+                                      ? TextAlign.right
+                                      : TextAlign.left,
+                                  style: const TextStyle(
+                                      fontSize: 16, color: Colors.deepPurple)),
                             ],
                           ),
                         ))
