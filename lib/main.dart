@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kamus3bahasa/screens/home.dart';
 import 'package:get/get.dart';
+
+import 'package:kamus3bahasa/screens/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +14,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const Home(),
-    );
+        title: 'Kamus 3 Bahasa',
+        theme: ThemeData(
+          primarySwatch: Colors.orange,
+        ),
+        home: const Splash());
   }
 }

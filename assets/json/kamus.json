@@ -1,19 +1,7800 @@
-{
-    "items": [
-      {
-        "bahasa": "p1",
-        "bebasan": "Item 1",
-        "english": "Description 1"
-      },
-      {
-        "bahasa": "p2",
-        "bebasan": "Item 2",
-        "english": "Description 2"
-      },
-      {
-        "bahasa": "p3",
-        "bebasan": "Item 3",
-        "english": "Description 3"
-      }
-    ]
-  }
+[
+    {
+        "bahasa": "aba aba",
+        "bebasan": "abé-abé",
+        "english": "cue"
+    },
+    {
+        "bahasa": "abad",
+        "bebasan": "abad",
+        "english": "century"
+    },
+    {
+        "bahasa": "abadi",
+        "bebasan": "kekēl/langgēng/selawasè",
+        "english": "eternal"
+    },
+    {
+        "bahasa": "abai",
+        "bebasan": "masé bodo/ngèndahakēn",
+        "english": "ignore"
+    },
+    {
+        "bahasa": "diabaikan",
+        "bebasan": "dimasé bodokakēn/dièndahakēn",
+        "english": "ignored"
+    },
+    {
+        "bahasa": "mengabaikan",
+        "bebasan": "ngemasé bodokakēn/ ngèndahakēn",
+        "english": "ignore"
+    },
+    {
+        "bahasa": "terabaikan",
+        "bebasan": "kemasé bodokakēn",
+        "english": "neglected"
+    },
+    {
+        "bahasa": "absah",
+        "bebasan": "sah",
+        "english": "valid"
+    },
+    {
+        "bahasa": "absen",
+        "bebasan": "absèn/malēs",
+        "english": "absent"
+    },
+    {
+        "bahasa": "abstrak",
+        "bebasan": "abstrak",
+        "english": "abstract"
+    },
+    {
+        "bahasa": "abu",
+        "bebasan": "awu",
+        "english": "ash"
+    },
+    {
+        "bahasa": "abu-abu",
+        "bebasan": "kelawu",
+        "english": "Gray"
+    },
+    {
+        "bahasa": "abjad",
+        "bebasan": "abjad/huruf",
+        "english": "alphabet"
+    },
+    {
+        "bahasa": "acak",
+        "bebasan": "acak/semerawut",
+        "english": "random"
+    },
+    {
+        "bahasa": "acak-acakan",
+        "bebasan": "acak-acakan/awur-awuran/awut-aturan",
+        "english": "disheveled"
+    },
+    {
+        "bahasa": "diacak-acak",
+        "bebasan": "diacak-acak/diawur-awur/ diawur-awuri/diawur-awurakēn/diawut-awut/diawut-awutakēn",
+        "english": "ruffled"
+    },
+    {
+        "bahasa": "mengacak",
+        "bebasan": "ngacak-acak/ngawur-awur/ngawut-awut",
+        "english": "scramble"
+    },
+    {
+        "bahasa": "mengacak-acak",
+        "bebasan": "ngacak-acaki/ngacak-ngacakakēn/ngawur-awuri/ngawur-awurakēn",
+        "english": "random shuffle"
+    },
+    {
+        "bahasa": "pengacak",
+        "bebasan": "sing ngacak-acak/sing ngawur-awur/sing ngawut-awut",
+        "english": "scrambler"
+    },
+    {
+        "bahasa": "teracak",
+        "bebasan": "paling acak",
+        "english": "random"
+    },
+    {
+        "bahasa": "acara",
+        "bebasan": "acaré",
+        "english": "program"
+    },
+    {
+        "bahasa": "acaranya",
+        "bebasan": "acaranè",
+        "english": "the event"
+    },
+    {
+        "bahasa": "acuan",
+        "bebasan": "acuan/arahan",
+        "english": "reference"
+    },
+    {
+        "bahasa": "mengacu",
+        "bebasan": "ngacu/ngarah",
+        "english": "refers to"
+    },
+    {
+        "bahasa": "acuh",
+        "bebasan": "acuh/api oré/masé bodo",
+        "english": "indifferent"
+    },
+    {
+        "bahasa": "acuhkan",
+        "bebasan": "botēn ngerèkēn",
+        "english": "ignore"
+    },
+    {
+        "bahasa": "diacuhkan",
+        "bebasan": "botēn diopèn",
+        "english": "ignored"
+    },
+    {
+        "bahasa": "mengacuhkan",
+        "bebasan": "ngemasébodokakēn/botēn ngopèn",
+        "english": "ignore"
+    },
+    {
+        "bahasa": "ada",
+        "bebasan": "wèntēn",
+        "english": "there is"
+    },
+    {
+        "bahasa": "adakan",
+        "bebasan": "wèntenakēn",
+        "english": "held"
+    },
+    {
+        "bahasa": "adanya",
+        "bebasan": "wèntenè/kewèntenanè",
+        "english": "existence"
+    },
+    {
+        "bahasa": "adakalanya",
+        "bebasan": "wèntēn kalanè/ kadang-kadang",
+        "english": "sometimes"
+    },
+    {
+        "bahasa": "ada-ada saja",
+        "bebasan": "wèntēn-wèntēn saos",
+        "english": "Seriously"
+    },
+    {
+        "bahasa": "berada",
+        "bebasan": "wèntēn",
+        "english": "is at"
+    },
+    {
+        "bahasa": "diadakan",
+        "bebasan": "diwèntenakēn",
+        "english": "held"
+    },
+    {
+        "bahasa": "kaeadaan",
+        "bebasan": "kewèntenanè",
+        "english": "circumstances"
+    },
+    {
+        "bahasa": "mengadakan",
+        "bebasan": "ngewèntenakēn",
+        "english": "stage"
+    },
+    {
+        "bahasa": "demikian adanya",
+        "bebasan": "semongko wèntenè",
+        "english": "that's how it is"
+    },
+    {
+        "bahasa": "adat istiadat",
+        "bebasan": "adat istiadat/kebiasaan",
+        "english": "customs"
+    },
+    {
+        "bahasa": "adik",
+        "bebasan": "adi",
+        "english": "younger brother"
+    },
+    {
+        "bahasa": "adiknya",
+        "bebasan": "adinè",
+        "english": "his sister"
+    },
+    {
+        "bahasa": "adik - adiknya",
+        "bebasan": "adi-adinè",
+        "english": "younger siblings"
+    },
+    {
+        "bahasa": "adik sepupu",
+        "bebasan": "adi misan",
+        "english": "younger cousin"
+    },
+    {
+        "bahasa": "adik bapak(paman)",
+        "bebasan": "mamang",
+        "english": "father's brother (uncle)"
+    },
+    {
+        "bahasa": "adik ibu (tante)",
+        "bebasan": "bibi",
+        "english": "mother's sister (aunt)"
+    },
+    {
+        "bahasa": "adik kakek",
+        "bebasan": "abah yai",
+        "english": "grandpa's sister"
+    },
+    {
+        "bahasa": "adik nenek",
+        "bebasan": "ibu nyai",
+        "english": "grandma's sister"
+    },
+    {
+        "bahasa": "adil",
+        "bebasan": "adil",
+        "english": "fair"
+    },
+    {
+        "bahasa": "adilnya",
+        "bebasan": "adilè",
+        "english": "fair"
+    },
+    {
+        "bahasa": "diadili",
+        "bebasan": "diadili",
+        "english": "put on trial"
+    },
+    {
+        "bahasa": "keadilan",
+        "bebasan": "keadilan",
+        "english": "Justice"
+    },
+    {
+        "bahasa": "mengadili",
+        "bebasan": "ngadili",
+        "english": "judge"
+    },
+    {
+        "bahasa": "adu",
+        "bebasan": "adu",
+        "english": "fight"
+    },
+    {
+        "bahasa": "adukan",
+        "bebasan": "ngadokakēn",
+        "english": "mix"
+    },
+    {
+        "bahasa": "diadu",
+        "bebasan": "diadu",
+        "english": "pitted"
+    },
+    {
+        "bahasa": "diadukan",
+        "bebasan": "diadukakēn",
+        "english": "complained"
+    },
+    {
+        "bahasa": "mengadu",
+        "bebasan": "ngadu/wewadul",
+        "english": "complain"
+    },
+    {
+        "bahasa": "mengadukan",
+        "bebasan": "ngewadulakēn",
+        "english": "complain"
+    },
+    {
+        "bahasa": "aduh",
+        "bebasan": "aduh",
+        "english": "Ouch"
+    },
+    {
+        "bahasa": "mengaduh",
+        "bebasan": "ngaduh",
+        "english": "complain"
+    },
+    {
+        "bahasa": "aduk",
+        "bebasan": "aduk/guēr/udēk",
+        "english": "stir"
+    },
+    {
+        "bahasa": "adukkan",
+        "bebasan": "adukakēn/guērakēn/udēkakēn",
+        "english": "stir"
+    },
+    {
+        "bahasa": "diaduk",
+        "bebasan": "diaduk/diguēr/diudēk",
+        "english": "stirred"
+    },
+    {
+        "bahasa": "diaduk-aduk",
+        "bebasan": "diaduk-aduk/diguēr-guēr/diudēk-udēk",
+        "english": "stirred up"
+    },
+    {
+        "bahasa": "mengaduk",
+        "bebasan": "ngaduk/ngeguēr/ngudēk",
+        "english": "stirring"
+    },
+    {
+        "bahasa": "mengadukan",
+        "bebasan": "ngadukakēn/ngegué-rakēn/ ngudēkakēn",
+        "english": "complain"
+    },
+    {
+        "bahasa": "mengaduk-aduk",
+        "bebasan": "ngaduk-aduk/ngeguēr-guēr/ ngudēk-udēk",
+        "english": "stir"
+    },
+    {
+        "bahasa": "keaduk",
+        "bebasan": "keaduk/keguēr/keudēk",
+        "english": "stir"
+    },
+    {
+        "bahasa": "adonan",
+        "bebasan": "adonan",
+        "english": "dough"
+    },
+    {
+        "bahasa": "diadoni",
+        "bebasan": "diadoni",
+        "english": "donned"
+    },
+    {
+        "bahasa": "mengadoni",
+        "bebasan": "ngadoni",
+        "english": "knead"
+    },
+    {
+        "bahasa": "andai",
+        "bebasan": "lamun",
+        "english": "if"
+    },
+    {
+        "bahasa": "andaikan",
+        "bebasan": "andènè/lamunmah",
+        "english": "suppose"
+    },
+    {
+        "bahasa": "seandainya",
+        "bebasan": "seandènè",
+        "english": "if"
+    },
+    {
+        "bahasa": "agar",
+        "bebasan": "dipunè",
+        "english": "so that"
+    },
+    {
+        "bahasa": "agar/supaya",
+        "bebasan": "dipunè saos",
+        "english": "in order to"
+    },
+    {
+        "bahasa": "ahli",
+        "bebasan": "ahli",
+        "english": "expert"
+    },
+    {
+        "bahasa": "keahliannya",
+        "bebasan": "keahliananè",
+        "english": "his skills"
+    },
+    {
+        "bahasa": "ajaib",
+        "bebasan": "ajaib",
+        "english": "wonderful"
+    },
+    {
+        "bahasa": "keajaiban",
+        "bebasan": "keajaiban",
+        "english": "wonder"
+    },
+    {
+        "bahasa": "mengajaibkan",
+        "bebasan": "ngajaibakēn",
+        "english": "miraculous"
+    },
+    {
+        "bahasa": "air ",
+        "bebasan": "banyu",
+        "english": "water"
+    },
+    {
+        "bahasa": "air belerang",
+        "bebasan": "banyu welirang",
+        "english": "sulfur water"
+    },
+    {
+        "bahasa": "air cuci tangan",
+        "bebasan": "kobokan",
+        "english": "hand wash water"
+    },
+    {
+        "bahasa": "air cuci beras",
+        "bebasan": "banyu leri",
+        "english": "rice washing water"
+    },
+    {
+        "bahasa": "air kencing (air seni)",
+        "bebasan": "uyuh",
+        "english": "urine / urine"
+    },
+    {
+        "bahasa": "air ketuban",
+        "bebasan": "kekawah",
+        "english": "amniotic fluid"
+    },
+    {
+        "bahasa": "air mani",
+        "bebasan": "mani",
+        "english": "semen"
+    },
+    {
+        "bahasa": "air minum",
+        "bebasan": "wèdang",
+        "english": "drinking water"
+    },
+    {
+        "bahasa": "air tajin",
+        "bebasan": "tajin",
+        "english": "starch water"
+    },
+    {
+        "bahasa": "air santan",
+        "bebasan": "pati",
+        "english": "coconut milk"
+    },
+    {
+        "bahasa": "air teh",
+        "bebasan": "wèdang tèh",
+        "english": "tea water"
+    },
+    {
+        "bahasa": "air tergenang",
+        "bebasan": "banyu menēng",
+        "english": "stagnant water"
+    },
+    {
+        "bahasa": "air liur",
+        "bebasan": "ilēr",
+        "english": "saliva"
+    },
+    {
+        "bahasa": "air ludah",
+        "bebasan": "idu",
+        "english": "saliva"
+    },
+    {
+        "bahasa": "ajak",
+        "bebasan": "ajak",
+        "english": "invite"
+    },
+    {
+        "bahasa": "ajaklah",
+        "bebasan": "ajaksih",
+        "english": "invite"
+    },
+    {
+        "bahasa": "diajak",
+        "bebasan": "diajak",
+        "english": "invited"
+    },
+    {
+        "bahasa": "mengajak",
+        "bebasan": "ngajak",
+        "english": "invite"
+    },
+    {
+        "bahasa": "mengajak-ajak",
+        "bebasan": "ngajak-ajaki",
+        "english": "invite"
+    },
+    {
+        "bahasa": "ajal",
+        "bebasan": "ajal",
+        "english": "death"
+    },
+    {
+        "bahasa": "ajalnya",
+        "bebasan": "ajalè",
+        "english": "death"
+    },
+    {
+        "bahasa": "ajang",
+        "bebasan": "ajang",
+        "english": "event"
+    },
+    {
+        "bahasa": "ajar",
+        "bebasan": "ajar/muruk/wuruk",
+        "english": "teach"
+    },
+    {
+        "bahasa": "ngajari",
+        "bebasan": "ngajari/muruki/wuruki",
+        "english": "teach"
+    },
+    {
+        "bahasa": "diajar",
+        "bebasan": "diajar/diwuruk",
+        "english": "taught"
+    },
+    {
+        "bahasa": "diajari",
+        "bebasan": "diajari/diwuruki",
+        "english": "taught"
+    },
+    {
+        "bahasa": "diajarkan",
+        "bebasan": "diajarakēn/diwurukakēn",
+        "english": "taught"
+    },
+    {
+        "bahasa": "mengajar",
+        "bebasan": "ngajar/muruk",
+        "english": "teach"
+    },
+    {
+        "bahasa": "mengajari",
+        "bebasan": "ngajari/ngewewuruki/ngewarahi",
+        "english": "teaching"
+    },
+    {
+        "bahasa": "mengajarkan",
+        "bebasan": "ngajarakēn/murukakēn/ ngewurukakēn",
+        "english": "teach"
+    },
+    {
+        "bahasa": "ajukan",
+        "bebasan": "ajokakēn",
+        "english": "apply"
+    },
+    {
+        "bahasa": "diajukan",
+        "bebasan": "diajokakēn",
+        "english": "submitted"
+    },
+    {
+        "bahasa": "mengajukan",
+        "bebasan": "ngajokakēn",
+        "english": "submit"
+    },
+    {
+        "bahasa": "akal",
+        "bebasan": "akal",
+        "english": "sense"
+    },
+    {
+        "bahasa": "akalnya",
+        "bebasan": "akalè",
+        "english": "his mind"
+    },
+    {
+        "bahasa": "akal-akalan",
+        "bebasan": "akal-akalan",
+        "english": "subterfuge"
+    },
+    {
+        "bahasa": "diakali",
+        "bebasan": "diakali",
+        "english": "tricked"
+    },
+    {
+        "bahasa": "berakal",
+        "bebasan": "derebè akal",
+        "english": "sensible"
+    },
+    {
+        "bahasa": "akan",
+        "bebasan": "ayun",
+        "english": "will"
+    },
+    {
+        "bahasa": "akar",
+        "bebasan": "oyod",
+        "english": "root"
+    },
+    {
+        "bahasa": "akar-akaran",
+        "bebasan": "oyod-oyodan",
+        "english": "roots"
+    },
+    {
+        "bahasa": "berakar",
+        "bebasan": "ngoyod",
+        "english": "rooted"
+    },
+    {
+        "bahasa": "keakar-akarnya",
+        "bebasan": "ning oyod-oyodè",
+        "english": "the roots"
+    },
+    {
+        "bahasa": "akas",
+        "bebasan": "akas",
+        "english": "akas"
+    },
+    {
+        "bahasa": "akhir (ujung)",
+        "bebasan": "pugas/pojok/pepojok",
+        "english": "end"
+    },
+    {
+        "bahasa": "akhir",
+        "bebasan": "akhir/kari/pugas/butil",
+        "english": "end"
+    },
+    {
+        "bahasa": "akhirnya",
+        "bebasan": "akhirè/pugasè",
+        "english": "finally"
+    },
+    {
+        "bahasa": "berakhir",
+        "bebasan": "akhirè",
+        "english": "end"
+    },
+    {
+        "bahasa": "diakhiri",
+        "bebasan": "diakhiri",
+        "english": "ended"
+    },
+    {
+        "bahasa": "diakhirkan",
+        "bebasan": "diakhirakēn/dikarèkakēn/ pemugasan",
+        "english": "ended"
+    },
+    {
+        "bahasa": "mengakhiri",
+        "bebasan": "ngakhiri",
+        "english": "end"
+    },
+    {
+        "bahasa": "terakhir",
+        "bebasan": "pēmpugasan/paling butil",
+        "english": "final"
+    },
+    {
+        "bahasa": "akhir zaman",
+        "bebasan": "akhir zaman",
+        "english": "end of time"
+    },
+    {
+        "bahasa": "akhirat",
+        "bebasan": "akhirat",
+        "english": "hereafter"
+    },
+    {
+        "bahasa": "akhlak (budi pekerti)",
+        "bebasan": "akhlak/budipekērti",
+        "english": "morals (manners)"
+    },
+    {
+        "bahasa": "akibat",
+        "bebasan": "akibat",
+        "english": "consequence"
+    },
+    {
+        "bahasa": "akibatnya",
+        "bebasan": "akibatè",
+        "english": "as a result"
+    },
+    {
+        "bahasa": "berakibat",
+        "bebasan": "ngakibatakēn",
+        "english": "caused"
+    },
+    {
+        "bahasa": "diakibatkan",
+        "bebasan": "diakibatakēn",
+        "english": "caused"
+    },
+    {
+        "bahasa": "mengakibatkan",
+        "bebasan": "ngakibatakēn",
+        "english": "result in"
+    },
+    {
+        "bahasa": "akikah",
+        "bebasan": "akèkah",
+        "english": "aqeekah"
+    },
+    {
+        "bahasa": "diakikahi",
+        "bebasan": "diakèkahi",
+        "english": "married"
+    },
+    {
+        "bahasa": "mengakikahkan",
+        "bebasan": "ngakèkahakēn",
+        "english": "confirm"
+    },
+    {
+        "bahasa": "akil baligh",
+        "bebasan": "akil baligh",
+        "english": "puberty"
+    },
+    {
+        "bahasa": "aku/saya",
+        "bebasan": "kulé",
+        "english": "I and me"
+    },
+    {
+        "bahasa": "akur",
+        "bebasan": "akur/sami",
+        "english": "get along"
+    },
+    {
+        "bahasa": "akurkan",
+        "bebasan": "akurakēn/nyamèkakēn",
+        "english": "get along"
+    },
+    {
+        "bahasa": "diakurkan",
+        "bebasan": "diakurakēn/ disamèkakēn",
+        "english": "adjusted"
+    },
+    {
+        "bahasa": "mengakurkan",
+        "bebasan": "ngakurakēn/ nyamèkakēn",
+        "english": "reconcile"
+    },
+    {
+        "bahasa": "akrab",
+        "bebasan": "akrab/intim",
+        "english": "familiar"
+    },
+    {
+        "bahasa": "diakrabi",
+        "bebasan": "diakrabi/diintimi",
+        "english": "familiar"
+    },
+    {
+        "bahasa": "keakrabannya",
+        "bebasan": "keakrabananè/keintimananè",
+        "english": "his familiarity"
+    },
+    {
+        "bahasa": "mengakrabi",
+        "bebasan": "ngakrabi/ngintimi",
+        "english": "familiar"
+    },
+    {
+        "bahasa": "aksara",
+        "bebasan": "aksaré",
+        "english": "script"
+    },
+    {
+        "bahasa": "aktif",
+        "bebasan": "aktif",
+        "english": "active"
+    },
+    {
+        "bahasa": "diaktifkan",
+        "bebasan": "diaktifakēn",
+        "english": "activated"
+    },
+    {
+        "bahasa": "mengaktifkan",
+        "bebasan": "ngaktifakēn",
+        "english": "activate"
+    },
+    {
+        "bahasa": "teraktif",
+        "bebasan": "keaktifēn",
+        "english": "most active"
+    },
+    {
+        "bahasa": "alam",
+        "bebasan": "alam",
+        "english": "natural"
+    },
+    {
+        "bahasa": "alamat",
+        "bebasan": "alamat",
+        "english": "address"
+    },
+    {
+        "bahasa": "alamatnya",
+        "bebasan": "alamatè",
+        "english": "the address"
+    },
+    {
+        "bahasa": "beralamat",
+        "bebasan": "alamatè",
+        "english": "address"
+    },
+    {
+        "bahasa": "dialamatkan",
+        "bebasan": "dialamatakēn",
+        "english": "addressed"
+    },
+    {
+        "bahasa": "mengalamatkan",
+        "bebasan": "ngalamatakēn",
+        "english": "address"
+    },
+    {
+        "bahasa": "alas",
+        "bebasan": "lèmèk",
+        "english": "pedestal"
+    },
+    {
+        "bahasa": "alasi",
+        "bebasan": "lèmèki",
+        "english": "excuse"
+    },
+    {
+        "bahasa": "alaskan",
+        "bebasan": "lèmèkakēn",
+        "english": "alas"
+    },
+    {
+        "bahasa": "alasan",
+        "bebasan": "alesan",
+        "english": "reason"
+    },
+    {
+        "bahasa": "alat",
+        "bebasan": "alat",
+        "english": "tool"
+    },
+    {
+        "bahasa": "alergi",
+        "bebasan": "alèrgi",
+        "english": "allergy"
+    },
+    {
+        "bahasa": "album",
+        "bebasan": "album",
+        "english": "album"
+    },
+    {
+        "bahasa": "algojo",
+        "bebasan": "algojo",
+        "english": "executioner"
+    },
+    {
+        "bahasa": "alias",
+        "bebasan": "alias",
+        "english": "alias"
+    },
+    {
+        "bahasa": "alir",
+        "bebasan": "mili/ilèni",
+        "english": "flow"
+    },
+    {
+        "bahasa": "aliri",
+        "bebasan": "milèkakēn/ilèni",
+        "english": "flow"
+    },
+    {
+        "bahasa": "aliran",
+        "bebasan": "memilian/ilènan",
+        "english": "Genre"
+    },
+    {
+        "bahasa": "alirkan",
+        "bebasan": "milèkakēn /ilèkakēn",
+        "english": "stream"
+    },
+    {
+        "bahasa": "dialiri",
+        "bebasan": "diilèni",
+        "english": "flowed"
+    },
+    {
+        "bahasa": "dialirkan",
+        "bebasan": "diilèkakēn",
+        "english": "streamed"
+    },
+    {
+        "bahasa": "kealiran",
+        "bebasan": "keilènan",
+        "english": "flow"
+    },
+    {
+        "bahasa": "mengalir",
+        "bebasan": "mili/mèlèr",
+        "english": "flow"
+    },
+    {
+        "bahasa": "mengaliri",
+        "bebasan": "ngilèni",
+        "english": "flow"
+    },
+    {
+        "bahasa": "mengalirkan",
+        "bebasan": "milèkakēn/ilènakēn/ngilèkakēn",
+        "english": "stream"
+    },
+    {
+        "bahasa": "teraliri",
+        "bebasan": "keilèn",
+        "english": "flowing"
+    },
+    {
+        "bahasa": "alis",
+        "bebasan": "alis",
+        "english": "eyebrow"
+    },
+    {
+        "bahasa": "alun-alun",
+        "bebasan": "alun-alun",
+        "english": "the square"
+    },
+    {
+        "bahasa": "alkisah",
+        "bebasan": "al-kisah",
+        "english": "once upon a time"
+    },
+    {
+        "bahasa": "alkohol",
+        "bebasan": "alkohol",
+        "english": "alcohol"
+    },
+    {
+        "bahasa": "almarhum",
+        "bebasan": "almarhum",
+        "english": "late"
+    },
+    {
+        "bahasa": "almarhumah",
+        "bebasan": "almarhumah",
+        "english": "deceased"
+    },
+    {
+        "bahasa": "almanak",
+        "bebasan": "almenak",
+        "english": "almanac"
+    },
+    {
+        "bahasa": "alot",
+        "bebasan": "alot /gatos",
+        "english": "tough"
+    },
+    {
+        "bahasa": "alpa",
+        "bebasan": "malēs",
+        "english": "miss"
+    },
+    {
+        "bahasa": "amal",
+        "bebasan": "amal",
+        "english": "charity"
+    },
+    {
+        "bahasa": "amalan",
+        "bebasan": "amalan",
+        "english": "practice"
+    },
+    {
+        "bahasa": "amalkan",
+        "bebasan": "amalakēn",
+        "english": "practice"
+    },
+    {
+        "bahasa": "beramal",
+        "bebasan": "ngamal",
+        "english": "charity"
+    },
+    {
+        "bahasa": "diamalkan",
+        "bebasan": "diamalakēn",
+        "english": "practiced"
+    },
+    {
+        "bahasa": "mengamalkan",
+        "bebasan": "ngamalakēn",
+        "english": "practice"
+    },
+    {
+        "bahasa": "aman",
+        "bebasan": "aman",
+        "english": "safe"
+    },
+    {
+        "bahasa": "amankan",
+        "bebasan": "amanakēn",
+        "english": "keep safe"
+    },
+    {
+        "bahasa": "diamankan",
+        "bebasan": "diamanakēn",
+        "english": "secured"
+    },
+    {
+        "bahasa": "keamanan",
+        "bebasan": "keamanan",
+        "english": "security"
+    },
+    {
+        "bahasa": "mengamankan",
+        "bebasan": "ngamanakēn",
+        "english": "secure"
+    },
+    {
+        "bahasa": "teraman",
+        "bebasan": "paling aman",
+        "english": "safest"
+    },
+    {
+        "bahasa": "amanah/amanat",
+        "bebasan": "amanah/amanat",
+        "english": "trust / mandate"
+    },
+    {
+        "bahasa": "amanahkan",
+        "bebasan": "ngamanahakēn/amanatakēn",
+        "english": "trust"
+    },
+    {
+        "bahasa": "diamanahi",
+        "bebasan": "diamanahi/diamanati",
+        "english": "trusted"
+    },
+    {
+        "bahasa": "diamanahkan",
+        "bebasan": "diamanahakēn/diamanatakēn",
+        "english": "entrusted"
+    },
+    {
+        "bahasa": "mengamanahi",
+        "bebasan": "ngamanahi",
+        "english": "trust"
+    },
+    {
+        "bahasa": "mengamanahkan",
+        "bebasan": "ngamanahakēn",
+        "english": "entrust"
+    },
+    {
+        "bahasa": "amat",
+        "bebasan": "paling",
+        "english": "very"
+    },
+    {
+        "bahasa": "amati",
+        "bebasan": "amati/telitèni",
+        "english": "observe"
+    },
+    {
+        "bahasa": "diamati",
+        "bebasan": "diamati/ditelitèni",
+        "english": "observed"
+    },
+    {
+        "bahasa": "mengamati",
+        "bebasan": "ngamati/nelitèni",
+        "english": "observe"
+    },
+    {
+        "bahasa": "mengamat-amatii",
+        "bebasan": "ngamat-amati/nenelitèni",
+        "english": "watching"
+    },
+    {
+        "bahasa": "amandel",
+        "bebasan": "amandēl",
+        "english": "tonsils"
+    },
+    {
+        "bahasa": "amarah (marah)",
+        "bebasan": "marah",
+        "english": "anger (angry)"
+    },
+    {
+        "bahasa": "amblas",
+        "bebasan": "amblēs",
+        "english": "collapse"
+    },
+    {
+        "bahasa": "ambil",
+        "bebasan": "pēndēt/rogoh/perètèl/raud",
+        "english": "take"
+    },
+    {
+        "bahasa": "ambilkan",
+        "bebasan": "pēndētakēn/rogohakēn/ perètèlakēn/raudakēn",
+        "english": "take it"
+    },
+    {
+        "bahasa": "diambil",
+        "bebasan": "dipēndēt/dirogoh/ diperètèl",
+        "english": "taken"
+    },
+    {
+        "bahasa": "diambili",
+        "bebasan": "dipēndeti/dirogohi/diperètèli",
+        "english": "taken"
+    },
+    {
+        "bahasa": "diambilkan",
+        "bebasan": "dipēndētakēn/dirogohakēn/ diperètèlakēn/diraudakēn",
+        "english": "taken"
+    },
+    {
+        "bahasa": "keambil",
+        "bebasan": "kepēndēt/kerogoh/ kecolèt/ keperètèl",
+        "english": "take"
+    },
+    {
+        "bahasa": "mengambil",
+        "bebasan": "mēndēt/ngerogoh// merètèl",
+        "english": "take"
+    },
+    {
+        "bahasa": "mengambilkan",
+        "bebasan": "mēndetakēn/ngero-gohakēn/ merètèlakēn",
+        "english": "get"
+    },
+    {
+        "bahasa": "ambisi",
+        "bebasan": "ambisi",
+        "english": "ambition"
+    },
+    {
+        "bahasa": "berambisi",
+        "bebasan": "ambisinēn",
+        "english": "ambitious"
+    },
+    {
+        "bahasa": "ambruk",
+        "bebasan": "ambruk",
+        "english": "collapse"
+    },
+    {
+        "bahasa": "ambrukkan",
+        "bebasan": "ambrukakēn",
+        "english": "crash"
+    },
+    {
+        "bahasa": "diambrukaken",
+        "bebasan": "diambrukakēn",
+        "english": "crushed"
+    },
+    {
+        "bahasa": "keambrukan",
+        "bebasan": "keambrukakēn",
+        "english": "collapse"
+    },
+    {
+        "bahasa": "mengambruk-kan",
+        "bebasan": "ngambrukakēn",
+        "english": "collapse"
+    },
+    {
+        "bahasa": "amit-amit",
+        "bebasan": "tingbating",
+        "english": "God forbid"
+    },
+    {
+        "bahasa": "amis",
+        "bebasan": "amis",
+        "english": "fishy"
+    },
+    {
+        "bahasa": "amil",
+        "bebasan": "amil",
+        "english": "amyl"
+    },
+    {
+        "bahasa": "amili",
+        "bebasan": "amili",
+        "english": "amyl"
+    },
+    {
+        "bahasa": "amilkan",
+        "bebasan": "amilakēn",
+        "english": "make it happen"
+    },
+    {
+        "bahasa": "ampelas",
+        "bebasan": "ampelas",
+        "english": "sandpaper"
+    },
+    {
+        "bahasa": "amplop",
+        "bebasan": "amplop",
+        "english": "envelope"
+    },
+    {
+        "bahasa": "ampuh",
+        "bebasan": "ampuh",
+        "english": "powerful"
+    },
+    {
+        "bahasa": "ampun",
+        "bebasan": "ampun",
+        "english": "sorry"
+    },
+    {
+        "bahasa": "ampunan",
+        "bebasan": "ampunan",
+        "english": "forgiveness"
+    },
+    {
+        "bahasa": "diampuni",
+        "bebasan": "diampuni",
+        "english": "forgiven"
+    },
+    {
+        "bahasa": "mengampuni",
+        "bebasan": "ngampuni",
+        "english": "forgive"
+    },
+    {
+        "bahasa": "amuk",
+        "bebasan": "ngamuk",
+        "english": "rage"
+    },
+    {
+        "bahasa": "diamuk",
+        "bebasan": "diamuk",
+        "english": "rage"
+    },
+    {
+        "bahasa": "mengamuk",
+        "bebasan": "ngamuk",
+        "english": "rampage"
+    },
+    {
+        "bahasa": "anak",
+        "bebasan": "pecil",
+        "english": "child"
+    },
+    {
+        "bahasa": "anak-anak",
+        "bebasan": "bocah",
+        "english": "children"
+    },
+    {
+        "bahasa": "anak asuh",
+        "bebasan": "anak asuh",
+        "english": "Foster child"
+    },
+    {
+        "bahasa": "anak asuhan",
+        "bebasan": "anak momongan",
+        "english": "foster child"
+    },
+    {
+        "bahasa": "anak cucu",
+        "bebasan": "anak putu",
+        "english": "grandchild"
+    },
+    {
+        "bahasa": "anak diasuh",
+        "bebasan": "bocah diemong",
+        "english": "foster child"
+    },
+    {
+        "bahasa": "anak kecil",
+        "bebasan": "bocah alit",
+        "english": "small child"
+    },
+    {
+        "bahasa": "anak kecil laki-laki",
+        "bebasan": "seteng/setong",
+        "english": "little boy"
+    },
+    {
+        "bahasa": "anak kecil perempuan",
+        "bebasan": "senong",
+        "english": "little girl"
+    },
+    {
+        "bahasa": "anak pungut",
+        "bebasan": "anak pupon",
+        "english": "adopted child"
+    },
+    {
+        "bahasa": "anak tiri",
+        "bebasan": "anak kuwalon",
+        "english": "step child"
+    },
+    {
+        "bahasa": "beranak",
+        "bebasan": "nganak/nganaki",
+        "english": "give birth"
+    },
+    {
+        "bahasa": "kanak-kanak",
+        "bebasan": "bocah",
+        "english": "child"
+    },
+    {
+        "bahasa": "kekanak-kanakan",
+        "bebasan": "kebocaēn",
+        "english": "childish"
+    },
+    {
+        "bahasa": "anak anjing",
+        "bebasan": "cemèrèk/kekèrèk",
+        "english": "puppy"
+    },
+    {
+        "bahasa": "anak ayam",
+        "bebasan": "pètèk",
+        "english": "chicks"
+    },
+    {
+        "bahasa": "anak bebek",
+        "bebasan": "memeri",
+        "english": "duckling"
+    },
+    {
+        "bahasa": "anak kambing",
+        "bebasan": "cèmèk",
+        "english": "Lamb"
+    },
+    {
+        "bahasa": "anak kerbau",
+        "bebasan": "jagir",
+        "english": "buffalo"
+    },
+    {
+        "bahasa": "anak kuda",
+        "bebasan": "kèpèl",
+        "english": "foal"
+    },
+    {
+        "bahasa": "analisa",
+        "bebasan": "analisé",
+        "english": "analysis"
+    },
+    {
+        "bahasa": "menganalisa",
+        "bebasan": "nganalisé",
+        "english": "analyze"
+    },
+    {
+        "bahasa": "anarkis/semaunya",
+        "bebasan": "sekarepè",
+        "english": "anarchist/at will"
+    },
+    {
+        "bahasa": "ancam",
+        "bebasan": "ancam",
+        "english": "threaten"
+    },
+    {
+        "bahasa": "ancaman",
+        "bebasan": "ancaman",
+        "english": "threat"
+    },
+    {
+        "bahasa": "diancam",
+        "bebasan": "diancam",
+        "english": "threatened"
+    },
+    {
+        "bahasa": "terancam",
+        "bebasan": "keancam",
+        "english": "threatened"
+    },
+    {
+        "bahasa": "mengancam",
+        "bebasan": "ngancam",
+        "english": "threaten"
+    },
+    {
+        "bahasa": "ancang-ancang",
+        "bebasan": "ancang-ancang/lelanjé",
+        "english": "get ready"
+    },
+    {
+        "bahasa": "anda/kamu",
+        "bebasan": "sampèan/andiké",
+        "english": "you you"
+    },
+    {
+        "bahasa": "andai",
+        "bebasan": "lamun/andènè",
+        "english": "if"
+    },
+    {
+        "bahasa": "andaikan",
+        "bebasan": "mandanè",
+        "english": "suppose"
+    },
+    {
+        "bahasa": "berandai-andai",
+        "bebasan": "berandai-andai",
+        "english": "wish"
+    },
+    {
+        "bahasa": "seandainya",
+        "bebasan": "lamunmah/seandènè",
+        "english": "if"
+    },
+    {
+        "bahasa": "andil",
+        "bebasan": "andil",
+        "english": "share"
+    },
+    {
+        "bahasa": "andong/dokar/ delman",
+        "bebasan": "sado/dèlman",
+        "english": "carriage/wagon"
+    },
+    {
+        "bahasa": "aneh",
+        "bebasan": "anèh",
+        "english": "strange"
+    },
+    {
+        "bahasa": "aneka",
+        "bebasan": "macēm-macēm",
+        "english": "miscellaneous"
+    },
+    {
+        "bahasa": "angan-angan",
+        "bebasan": "angan-angan",
+        "english": "wishful thinking"
+    },
+    {
+        "bahasa": "angin/udara",
+        "bebasan": "angin",
+        "english": "wind/air"
+    },
+    {
+        "bahasa": "dianginkan",
+        "bebasan": "dianginakēn",
+        "english": "aerated"
+    },
+    {
+        "bahasa": "keanginan",
+        "bebasan": "keanginan",
+        "english": "windswept"
+    },
+    {
+        "bahasa": "semerbak",
+        "bebasan": "semērbak",
+        "english": "fragrant"
+    },
+    {
+        "bahasa": "sepoi-sepoi",
+        "bebasan": "semerèwèng/semeriwing",
+        "english": "breeze"
+    },
+    {
+        "bahasa": "badai",
+        "bebasan": "angin gedè",
+        "english": "storm"
+    },
+    {
+        "bahasa": "anggap",
+        "bebasan": "anggēp",
+        "english": "consider"
+    },
+    {
+        "bahasa": "anggapan",
+        "bebasan": "anggepanè",
+        "english": "assumption"
+    },
+    {
+        "bahasa": "dianggap",
+        "bebasan": "dianggēp",
+        "english": "considered"
+    },
+    {
+        "bahasa": "menganggap",
+        "bebasan": "nganggēp",
+        "english": "consider"
+    },
+    {
+        "bahasa": "anggaran",
+        "bebasan": "anggaran",
+        "english": "budget"
+    },
+    {
+        "bahasa": "dianggarkan",
+        "bebasan": "dianggarakēn",
+        "english": "budgeted"
+    },
+    {
+        "bahasa": "mengangga-rakan",
+        "bebasan": "nganggaarkēn",
+        "english": "guessing"
+    },
+    {
+        "bahasa": "anggota",
+        "bebasan": "anggoté",
+        "english": "member"
+    },
+    {
+        "bahasa": "anggotanya",
+        "bebasan": "anggotanè",
+        "english": "members"
+    },
+    {
+        "bahasa": "beranggotakan",
+        "bebasan": "anggotanè",
+        "english": "consists of"
+    },
+    {
+        "bahasa": "angguk",
+        "bebasan": "ngangguk/mantuk",
+        "english": "nod"
+    },
+    {
+        "bahasa": "mengangguk",
+        "bebasan": "ngangguk/mantuk",
+        "english": "nod"
+    },
+    {
+        "bahasa": "mengangguk-ngangguk",
+        "bebasan": "ngangguk-ngangguk/mantuk-mantuk",
+        "english": "nodding"
+    },
+    {
+        "bahasa": "anggun",
+        "bebasan": "anggun",
+        "english": "graceful"
+    },
+    {
+        "bahasa": "dianggunkan",
+        "bebasan": "dianggunakēn",
+        "english": "glorified"
+    },
+    {
+        "bahasa": "keanggunan",
+        "bebasan": "keanggunēn",
+        "english": "elegance"
+    },
+    {
+        "bahasa": "menganggun-kan",
+        "bebasan": "nganggunakēn",
+        "english": "nod"
+    },
+    {
+        "bahasa": "angka",
+        "bebasan": "angké",
+        "english": "number"
+    },
+    {
+        "bahasa": "angkara murka",
+        "bebasan": "angkaré murké",
+        "english": "anger"
+    },
+    {
+        "bahasa": "angkasa",
+        "bebasan": "angkasé /langit",
+        "english": "space"
+    },
+    {
+        "bahasa": "angkat",
+        "bebasan": "angkat/junjung",
+        "english": "lift"
+    },
+    {
+        "bahasa": "diangkat",
+        "bebasan": "diangkat/dijunjung",
+        "english": "lifted"
+    },
+    {
+        "bahasa": "diangkati",
+        "bebasan": "diangkati/dijunjungi",
+        "english": "lifted"
+    },
+    {
+        "bahasa": "keangkat",
+        "bebasan": "keangkat/kejunjung",
+        "english": "lift up"
+    },
+    {
+        "bahasa": "mengangkat",
+        "bebasan": "ngangkat/ngejunjung",
+        "english": "lift"
+    },
+    {
+        "bahasa": "mengangkati",
+        "bebasan": "ngangkati/ngejunjungi",
+        "english": "lift"
+    },
+    {
+        "bahasa": "angker",
+        "bebasan": "angkēr",
+        "english": "haunted"
+    },
+    {
+        "bahasa": "angkuh",
+        "bebasan": "angkuh",
+        "english": "arrogant"
+    },
+    {
+        "bahasa": "keangkuhan",
+        "bebasan": "keangkuhēn",
+        "english": "arrogance"
+    },
+    {
+        "bahasa": "angkut",
+        "bebasan": "unjal",
+        "english": "transport"
+    },
+    {
+        "bahasa": "angkut-angkut",
+        "bebasan": "unjal-unjal",
+        "english": "transport"
+    },
+    {
+        "bahasa": "dianggkut",
+        "bebasan": "diunjal",
+        "english": "transported"
+    },
+    {
+        "bahasa": "dianggkuti",
+        "bebasan": "diunjali",
+        "english": "transported"
+    },
+    {
+        "bahasa": "keangkut",
+        "bebasan": "keunjali",
+        "english": "transported"
+    },
+    {
+        "bahasa": "mengangkut",
+        "bebasan": "ngunjal",
+        "english": "transport"
+    },
+    {
+        "bahasa": "mengangkuti",
+        "bebasan": "ngunjali",
+        "english": "transport"
+    },
+    {
+        "bahasa": "angsa",
+        "bebasan": "soang",
+        "english": "Swan"
+    },
+    {
+        "bahasa": "angsur",
+        "bebasan": "angsur",
+        "english": "installment"
+    },
+    {
+        "bahasa": "berangsur-angsur",
+        "bebasan": "ngangsur",
+        "english": "gradually"
+    },
+    {
+        "bahasa": "diangsur",
+        "bebasan": "diangsur",
+        "english": "in installments"
+    },
+    {
+        "bahasa": "diangsuri",
+        "bebasan": "diangsuri",
+        "english": "paid in installments"
+    },
+    {
+        "bahasa": "keangsur",
+        "bebasan": "keangsur",
+        "english": "in installments"
+    },
+    {
+        "bahasa": "mengangsur",
+        "bebasan": "ngangsur",
+        "english": "in installments"
+    },
+    {
+        "bahasa": "mengangsuri",
+        "bebasan": "ngangsuri",
+        "english": "pay by"
+    },
+    {
+        "bahasa": "aniaya",
+        "bebasan": "aniayé",
+        "english": "persecution"
+    },
+    {
+        "bahasa": "dianiyaya",
+        "bebasan": "dianiyayé",
+        "english": "persecuted"
+    },
+    {
+        "bahasa": "menganiyaya",
+        "bebasan": "nganiyayé",
+        "english": "molested"
+    },
+    {
+        "bahasa": "teraniyaya",
+        "bebasan": "keaniyayé",
+        "english": "tortured"
+    },
+    {
+        "bahasa": "anjak",
+        "bebasan": "linggar",
+        "english": "factor"
+    },
+    {
+        "bahasa": "beranjak",
+        "bebasan": "linggar",
+        "english": "move"
+    },
+    {
+        "bahasa": "anjangsana",
+        "bebasan": "anjangsané",
+        "english": "anjangsana"
+    },
+    {
+        "bahasa": "anjing",
+        "bebasan": "cemeré",
+        "english": "dog"
+    },
+    {
+        "bahasa": "anjur",
+        "bebasan": "anjur",
+        "english": "suggest"
+    },
+    {
+        "bahasa": "dianjurkan",
+        "bebasan": "dianjurakēn",
+        "english": "recommended"
+    },
+    {
+        "bahasa": "menganjurkan",
+        "bebasan": "nganjurakēn",
+        "english": "recommend"
+    },
+    {
+        "bahasa": "antar",
+        "bebasan": "antēr",
+        "english": "between"
+    },
+    {
+        "bahasa": "antarkan",
+        "bebasan": "anterakēn",
+        "english": "deliver"
+    },
+    {
+        "bahasa": "di antar",
+        "bebasan": "diantēr",
+        "english": "in between"
+    },
+    {
+        "bahasa": "mengantarkan",
+        "bebasan": "ngantērakēn",
+        "english": "deliver"
+    },
+    {
+        "bahasa": "antara",
+        "bebasan": "antaré",
+        "english": "Among"
+    },
+    {
+        "bahasa": "antena",
+        "bebasan": "antèné",
+        "english": "antenna"
+    },
+    {
+        "bahasa": "anti",
+        "bebasan": "anti",
+        "english": "anti"
+    },
+    {
+        "bahasa": "antik",
+        "bebasan": "antik",
+        "english": "antique"
+    },
+    {
+        "bahasa": "anting",
+        "bebasan": "pepelik",
+        "english": "earring"
+    },
+    {
+        "bahasa": "anting-antingan",
+        "bebasan": "pepelikan",
+        "english": "earrings"
+    },
+    {
+        "bahasa": "diantingi",
+        "bebasan": "dipepeliki",
+        "english": "ringed"
+    },
+    {
+        "bahasa": "antri",
+        "bebasan": "antri/gēntosan",
+        "english": "queue"
+    },
+    {
+        "bahasa": "mengantri",
+        "bebasan": "ngantri/gegēntosan",
+        "english": "waiting in line"
+    },
+    {
+        "bahasa": "anugerah",
+        "bebasan": "anugrah",
+        "english": "grace"
+    },
+    {
+        "bahasa": "dianugerahi",
+        "bebasan": "dianugerahi",
+        "english": "awarded awarded"
+    },
+    {
+        "bahasa": "menganugerahi",
+        "bebasan": "nganugerahi",
+        "english": "bestow"
+    },
+    {
+        "bahasa": "anut",
+        "bebasan": "anut",
+        "english": "embrace"
+    },
+    {
+        "bahasa": "dianut",
+        "bebasan": "dianut",
+        "english": "embraced"
+    },
+    {
+        "bahasa": "menganut",
+        "bebasan": "nganut",
+        "english": "adhere to"
+    },
+    {
+        "bahasa": "anyam",
+        "bebasan": "anyam",
+        "english": "woven"
+    },
+    {
+        "bahasa": "anyaman",
+        "bebasan": "anyaman",
+        "english": "webbing"
+    },
+    {
+        "bahasa": "dianyam",
+        "bebasan": "dianyam",
+        "english": "woven"
+    },
+    {
+        "bahasa": "menganyam",
+        "bebasan": "nganyam",
+        "english": "weave"
+    },
+    {
+        "bahasa": "anyang-anyangan",
+        "bebasan": "anyang-anyangēn",
+        "english": "anyang-anyang"
+    },
+    {
+        "bahasa": "anyir",
+        "bebasan": "amis",
+        "english": "rancid"
+    },
+    {
+        "bahasa": "apa",
+        "bebasan": "napé",
+        "english": "what"
+    },
+    {
+        "bahasa": "mengapa",
+        "bebasan": "kelipun",
+        "english": "why"
+    },
+    {
+        "bahasa": "kenapa",
+        "bebasan": "kelipun",
+        "english": "why"
+    },
+    {
+        "bahasa": "apes",
+        "bebasan": "apēs",
+        "english": "sorry"
+    },
+    {
+        "bahasa": "api",
+        "bebasan": "geni",
+        "english": "fire"
+    },
+    {
+        "bahasa": "apit",
+        "bebasan": "apit",
+        "english": "sandwich"
+    },
+    {
+        "bahasa": "diapit",
+        "bebasan": "diapit",
+        "english": "flanked"
+    },
+    {
+        "bahasa": "diapiti",
+        "bebasan": "diapiti",
+        "english": "flanked"
+    },
+    {
+        "bahasa": "keapit",
+        "bebasan": "keapit",
+        "english": "flank"
+    },
+    {
+        "bahasa": "mengapit",
+        "bebasan": "ngapit",
+        "english": "flanking"
+    },
+    {
+        "bahasa": "mengapiti",
+        "bebasan": "ngapiti",
+        "english": "flanking"
+    },
+    {
+        "bahasa": "apkir",
+        "bebasan": "afkir",
+        "english": "reject"
+    },
+    {
+        "bahasa": "diafkir",
+        "bebasan": "diafkir",
+        "english": "rejected"
+    },
+    {
+        "bahasa": "mengafkir",
+        "bebasan": "ngafkir",
+        "english": "reject"
+    },
+    {
+        "bahasa": "apung",
+        "bebasan": "ngambang",
+        "english": "buoyant"
+    },
+    {
+        "bahasa": "diapungkan",
+        "bebasan": "diambangakēn",
+        "english": "floated"
+    },
+    {
+        "bahasa": "mengapung",
+        "bebasan": "ngambang",
+        "english": "float"
+    },
+    {
+        "bahasa": "terapung",
+        "bebasan": "ngambang",
+        "english": "floating"
+    },
+    {
+        "bahasa": "terapung-apung",
+        "bebasan": "keumbang ambing",
+        "english": "floating"
+    },
+    {
+        "bahasa": "arah",
+        "bebasan": "arah",
+        "english": "direction"
+    },
+    {
+        "bahasa": "arahan",
+        "bebasan": "arahan",
+        "english": "instruction"
+    },
+    {
+        "bahasa": "arahnya",
+        "bebasan": "arahè",
+        "english": "the direction"
+    },
+    {
+        "bahasa": "diarahkan",
+        "bebasan": "diarahakēn",
+        "english": "directed"
+    },
+    {
+        "bahasa": "kearah",
+        "bebasan": "kearah",
+        "english": "toward"
+    },
+    {
+        "bahasa": "mengarahkan",
+        "bebasan": "ngarahakēn",
+        "english": "direct"
+    },
+    {
+        "bahasa": "arak",
+        "bebasan": "arak",
+        "english": "wine"
+    },
+    {
+        "bahasa": "arak-arakan",
+        "bebasan": "arak-arakan",
+        "english": "procession"
+    },
+    {
+        "bahasa": "diarak",
+        "bebasan": "diarak",
+        "english": "paraded"
+    },
+    {
+        "bahasa": "mengarak",
+        "bebasan": "ngarak",
+        "english": "parading"
+    },
+    {
+        "bahasa": "mengarakkan",
+        "bebasan": "ngarakakēn",
+        "english": "parading"
+    },
+    {
+        "bahasa": "arang",
+        "bebasan": "arēng",
+        "english": "charcoal"
+    },
+    {
+        "bahasa": "arca",
+        "bebasan": "arcé",
+        "english": "statue"
+    },
+    {
+        "bahasa": "aren",
+        "bebasan": "arèn",
+        "english": "aren"
+    },
+    {
+        "bahasa": "arif",
+        "bebasan": "arif",
+        "english": "wise"
+    },
+    {
+        "bahasa": "arisan",
+        "bebasan": "arisan",
+        "english": "lottery club"
+    },
+    {
+        "bahasa": "arus",
+        "bebasan": "arus",
+        "english": "current"
+    },
+    {
+        "bahasa": "arwah",
+        "bebasan": "arwah",
+        "english": "spirit"
+    },
+    {
+        "bahasa": "asah",
+        "bebasan": "asah",
+        "english": "sharpen"
+    },
+    {
+        "bahasa": "diasah",
+        "bebasan": "diasah",
+        "english": "sharpened"
+    },
+    {
+        "bahasa": "diasahi",
+        "bebasan": "diasahi",
+        "english": "sharpened"
+    },
+    {
+        "bahasa": "mengasah",
+        "bebasan": "ngasah",
+        "english": "hone"
+    },
+    {
+        "bahasa": "mengasahi",
+        "bebasan": "ngasahi",
+        "english": "sharpen"
+    },
+    {
+        "bahasa": "mengasahkan",
+        "bebasan": "ngasahakēn",
+        "english": "sharpen"
+    },
+    {
+        "bahasa": "asahan",
+        "bebasan": "asahan",
+        "english": "grind"
+    },
+    {
+        "bahasa": "asal",
+        "bebasan": "asal",
+        "english": "origin"
+    },
+    {
+        "bahasa": "asam",
+        "bebasan": "asēm",
+        "english": "sour"
+    },
+    {
+        "bahasa": "asap",
+        "bebasan": "kebul/unun",
+        "english": "smoke"
+    },
+    {
+        "bahasa": "diasapi",
+        "bebasan": "dikebuli",
+        "english": "smoked"
+    },
+    {
+        "bahasa": "keasapan",
+        "bebasan": "kekebulan",
+        "english": "smoke"
+    },
+    {
+        "bahasa": "mengasapi",
+        "bebasan": "ngebuli",
+        "english": "bloat"
+    },
+    {
+        "bahasa": "bau asap",
+        "bebasan": "mambu kebul/mambu unun",
+        "english": "smell of smoke"
+    },
+    {
+        "bahasa": "asar",
+        "bebasan": "asar",
+        "english": "asar"
+    },
+    {
+        "bahasa": "asas/azas",
+        "bebasan": "asas/azas",
+        "english": "principle/principle"
+    },
+    {
+        "bahasa": "asbak",
+        "bebasan": "asbak",
+        "english": "ashtray"
+    },
+    {
+        "bahasa": "asik/asyik",
+        "bebasan": "asyik",
+        "english": "cool / fun"
+    },
+    {
+        "bahasa": "asin",
+        "bebasan": "asin",
+        "english": "salty"
+    },
+    {
+        "bahasa": "diasinkan",
+        "bebasan": "diasinakēn",
+        "english": "salted"
+    },
+    {
+        "bahasa": "keasinan",
+        "bebasan": "keasinēn",
+        "english": "saltiness"
+    },
+    {
+        "bahasa": "mengasinkan",
+        "bebasan": "ngasinakēn",
+        "english": "marinate"
+    },
+    {
+        "bahasa": "asing",
+        "bebasan": "asing",
+        "english": "foreign"
+    },
+    {
+        "bahasa": "asingkan",
+        "bebasan": "asingakēn",
+        "english": "alienate"
+    },
+    {
+        "bahasa": "diasingkan",
+        "bebasan": "diasingakēn",
+        "english": "exiled"
+    },
+    {
+        "bahasa": "mengasingkan",
+        "bebasan": "ngasingakēn",
+        "english": "alienate"
+    },
+    {
+        "bahasa": "terasing",
+        "bebasan": "keasingēn",
+        "english": "isolated"
+    },
+    {
+        "bahasa": "asisten",
+        "bebasan": "asistèn",
+        "english": "assistant"
+    },
+    {
+        "bahasa": "asli",
+        "bebasan": "asli",
+        "english": "original"
+    },
+    {
+        "bahasa": "asmara",
+        "bebasan": "asmara",
+        "english": "romance"
+    },
+    {
+        "bahasa": "aspal",
+        "bebasan": "aspal",
+        "english": "asphalt"
+    },
+    {
+        "bahasa": "asrama",
+        "bebasan": "asrama",
+        "english": "hostel"
+    },
+    {
+        "bahasa": "diasramakan",
+        "bebasan": "diasramakakēn",
+        "english": "boarding"
+    },
+    {
+        "bahasa": "mengasramakan",
+        "bebasan": "ngasramakakēn",
+        "english": "garrison"
+    },
+    {
+        "bahasa": "asuh",
+        "bebasan": "ēmong",
+        "english": "foster"
+    },
+    {
+        "bahasa": "diasuh",
+        "bebasan": "diemong",
+        "english": "raised"
+    },
+    {
+        "bahasa": "mengasuh",
+        "bebasan": "ngemong",
+        "english": "nurturing"
+    },
+    {
+        "bahasa": "mengasuhkan",
+        "bebasan": "ngemongakēn",
+        "english": "nurturing"
+    },
+    {
+        "bahasa": "pengasuh",
+        "bebasan": "pemongmong",
+        "english": "nanny"
+    },
+    {
+        "bahasa": "atap",
+        "bebasan": "pepayon",
+        "english": "roof"
+    },
+    {
+        "bahasa": "diatap",
+        "bebasan": "ning pepayon",
+        "english": "on the roof"
+    },
+    {
+        "bahasa": "diatapi",
+        "bebasan": "dipepayoni",
+        "english": "topped"
+    },
+    {
+        "bahasa": "keatap",
+        "bebasan": "ning pepayon",
+        "english": "roof"
+    },
+    {
+        "bahasa": "mengatapi",
+        "bebasan": "memayoni",
+        "english": "topped"
+    },
+    {
+        "bahasa": "di keatapkan",
+        "bebasan": "dideken ning pepayon",
+        "english": "on the roof"
+    },
+    {
+        "bahasa": "atas",
+        "bebasan": "duhur",
+        "english": "on"
+    },
+    {
+        "bahasa": "atasan",
+        "bebasan": "atasan/duhuran",
+        "english": "superior"
+    },
+    {
+        "bahasa": "ataskan",
+        "bebasan": "duhurakēn",
+        "english": "top"
+    },
+    {
+        "bahasa": "keatas",
+        "bebasan": "ning duhur",
+        "english": "to the top"
+    },
+    {
+        "bahasa": "keataskan",
+        "bebasan": "duhurakēn",
+        "english": "raise it"
+    },
+    {
+        "bahasa": "atau",
+        "bebasan": "atawé",
+        "english": "or"
+    },
+    {
+        "bahasa": "atob",
+        "bebasan": "atob",
+        "english": "atob"
+    },
+    {
+        "bahasa": "atur",
+        "bebasan": "atur",
+        "english": "set"
+    },
+    {
+        "bahasa": "diatur",
+        "bebasan": "diatur",
+        "english": "set"
+    },
+    {
+        "bahasa": "keatur",
+        "bebasan": "keatur",
+        "english": "arrange"
+    },
+    {
+        "bahasa": "mengatur",
+        "bebasan": "ngatur",
+        "english": "arrange"
+    },
+    {
+        "bahasa": "aturan",
+        "bebasan": "aturan",
+        "english": "rule"
+    },
+    {
+        "bahasa": "ayam",
+        "bebasan": "ayam",
+        "english": "chicken"
+    },
+    {
+        "bahasa": "ayam betina",
+        "bebasan": "biang",
+        "english": "hen"
+    },
+    {
+        "bahasa": "ayam jantan",
+        "bebasan": "jago",
+        "english": "Rooster"
+    },
+    {
+        "bahasa": "ayam induk",
+        "bebasan": "babon (bibitan)",
+        "english": "hen"
+    },
+    {
+        "bahasa": "awan",
+        "bebasan": "mègé",
+        "english": "cloud"
+    },
+    {
+        "bahasa": "awas",
+        "bebasan": "awas",
+        "english": "watch out"
+    },
+    {
+        "bahasa": "diawasi",
+        "bebasan": "diawasi",
+        "english": "supervised"
+    },
+    {
+        "bahasa": "mengawasi",
+        "bebasan": "ngawasi",
+        "english": "supervise"
+    },
+    {
+        "bahasa": "ayan",
+        "bebasan": "ayan",
+        "english": "epilepsy"
+    },
+    {
+        "bahasa": "ayunan",
+        "bebasan": "yunyunan",
+        "english": "swing"
+    },
+    {
+        "bahasa": "azab",
+        "bebasan": "azab",
+        "english": "doom"
+    },
+    {
+        "bahasa": "azan",
+        "bebasan": "azan",
+        "english": "call to prayer"
+    },
+    {
+        "bahasa": "azar",
+        "bebasan": "azar",
+        "english": "azar"
+    },
+    
+        {
+            "bahasa": "babat",
+            "bebasan": "babat",
+            "english": "tripe"
+        },
+        {
+            "bahasa": "babi",
+            "bebasan": "bedul",
+            "english": "pig"
+        },
+        {
+            "bahasa": "baca",
+            "bebasan": "wacé",
+            "english": "read"
+        },
+        {
+            "bahasa": "bacakan",
+            "bebasan": "wacakakēn",
+            "english": "read"
+        },
+        {
+            "bahasa": "membaca",
+            "bebasan": "ngewacé",
+            "english": "read"
+        },
+        {
+            "bahasa": "membacakan",
+            "bebasan": "ngewacakakēn",
+            "english": "read"
+        },
+        {
+            "bahasa": "dibaca",
+            "bebasan": "diwacé",
+            "english": "be read"
+        },
+        {
+            "bahasa": "dibacakan",
+            "bebasan": "diwacakakēn",
+            "english": "read out"
+        },
+        {
+            "bahasa": "terbaca",
+            "bebasan": "kewacé",
+            "english": "read"
+        },
+        {
+            "bahasa": "pembaca",
+            "bebasan": "pewacé/pengwacé",
+            "english": "reader"
+        },
+        {
+            "bahasa": "pembacanya",
+            "bebasan": "pewacanè",
+            "english": "the reader" 
+        },
+        {
+            "bahasa": "bacakan",
+            "bebasan": "bebacakan",
+            "english": "read"
+        },
+        {
+            "bahasa": "bebacakan",
+            "bebasan": "bebacakan",
+            "english": "read" 
+        },
+        {
+            "bahasa": "bacok",
+            "bebasan": "bacok",
+            "english": "slash"
+        },
+        {
+            "bahasa": "bacokan",
+            "bebasan": "bacokan",
+            "english": "stab"
+        },
+        {
+            "bahasa": "dibacok",
+            "bebasan": "dibacok",
+            "english": "slashed"
+        },
+        {
+            "bahasa": "dibacokkan",
+            "bebasan": "dibacokakēn",
+            "english": "slashed"
+        },
+        {
+            "bahasa": "membacok",
+            "bebasan": "ngebacok",
+            "english": "slash"
+        },
+        {
+            "bahasa": "membacokkan",
+            "bebasan": "ngebacokakēn",
+            "english": "slash"
+        },
+        {
+            "bahasa": "pembacok",
+            "bebasan": "sing ngebacok",
+            "english": "slasher"
+        },
+        {
+            "bahasa": "pembacokan",
+            "bebasan": "bacokan",
+            "english": "matching"
+        },
+        {
+            "bahasa": "pembacoknya",
+            "bebasan": "sing ngebacoké",
+            "english": "the slasher"
+        },
+        {
+            "bahasa": "terbacok",
+            "bebasan": "kebacok",
+            "english": "slashed" 
+        },
+        {
+            "bahasa": "badai",
+            "bebasan": "badai",
+            "english": "storm" 
+        },
+        {
+            "bahasa": "badak",
+            "bebasan": "badak",
+            "english": "rhinoceros" 
+        },
+        {
+            "bahasa": "badan",
+            "bebasan": "badan",
+            "english": "body" 
+        },
+        {
+            "bahasa": "badeg",
+            "bebasan": "badēg/bacin",
+            "english": "badeg" 
+        },
+        {
+            "bahasa": "badung",
+            "bebasan": "ngebelasar",
+            "english": "bad boy" 
+        },
+        {
+            "bahasa": "badut",
+            "bebasan": "badut",
+            "english": "clown" 
+        },
+        {
+            "bahasa": "bagai",
+            "bebasan": "sepērtos",
+            "english": "like"
+        },
+        {
+            "bahasa": "bagaikan",
+            "bebasan": "sepērtosè",
+            "english": "like"
+        },
+        {
+            "bahasa": "bagaimana",
+            "bebasan": "keperipun",
+            "english": "how"
+        },
+        {
+            "bahasa": "bagaimanapun",
+            "bebasan": "keperipun gēh",
+            "english": "however"
+        },
+        {
+            "bahasa": "sebagaimana",
+            "bebasan": "sekeperepun",
+            "english": "as" 
+        },
+        {
+            "bahasa": "bagan",
+            "bebasan": "bagan",
+            "english": "chart" 
+        },
+        {
+            "bahasa": "bagi",
+            "bebasan": "bagi",
+            "english": "for"
+        },
+        {
+            "bahasa": "bagi-bagi",
+            "bebasan": "bagi-bagi",
+            "english": "share"
+        },
+        {
+            "bahasa": "bagikan",
+            "bebasan": "bagèkakēn",
+            "english": "share"
+        },
+        {
+            "bahasa": "dibagi",
+            "bebasan": "dibagi",
+            "english": "shared"
+        },
+        {
+            "bahasa": "dibagikan",
+            "bebasan": "dibagèkakēn",
+            "english": "shared"
+        },
+        {
+            "bahasa": "kebagian",
+            "bebasan": "kebagèn",
+            "english": "goto"
+        },
+        {
+            "bahasa": "membagi",
+            "bebasan": "ngebagi",
+            "english": "share"
+        },
+        {
+            "bahasa": "membagikan",
+            "bebasan": "ngebagèkakēn",
+            "english": "share"
+        },
+        {
+            "bahasa": "terbagi",
+            "bebasan": "kebagi",
+            "english": "divided" 
+        },
+        {
+            "bahasa": "bagus",
+            "bebasan": "bagus/tegēr",
+            "english": "good"
+        },
+        {
+            "bahasa": "bagusnya",
+            "bebasan": "bagusè/tegerè",
+            "english": "good"
+        },
+        {
+            "bahasa": "dibaguskan",
+            "bebasan": "dibagusakēn/ditegerakēn",
+            "english": "beautified"
+        },
+        {
+            "bahasa": "kebagusan",
+            "bebasan": "kebagusēn/ketegerēn",
+            "english": "beauty" 
+        },
+        {
+            "bahasa": "bahagia/senang",
+            "bebasan": "senang/suké kedik",
+            "english": "happy/happy" 
+        },
+        {
+            "bahasa": "bahasa",
+            "bebasan": "bahasé",
+            "english": "language" 
+        },
+        {
+            "bahasa": "bahaya",
+            "bebasan": "bahayé",
+            "english": "danger"
+        },
+        {
+            "bahasa": "berbahaya",
+            "bebasan": "bahayé",
+            "english": "dangerous"
+        },
+        {
+            "bahasa": "membahayakan",
+            "bebasan": "ngebahayakakēn",
+            "english": "endanger" 
+        },
+        {
+            "bahasa": "bahu",
+            "bebasan": "bau",
+            "english": "shoulder" 
+        },
+        {
+            "bahasa": "baja",
+            "bebasan": "bajé",
+            "english": "steel" 
+        },
+        {
+            "bahasa": "baju/gaun",
+            "bebasan": "kelambi",
+            "english": "dress/dress" 
+        },
+        {
+            "bahasa": "bak",
+            "bebasan": "bak",
+            "english": "tub"
+        },
+        {
+            "bahasa": "bak mandi",
+            "bebasan": "kolēm",
+            "english": "bathtub" 
+        },
+        {
+            "bahasa": "bakiak",
+            "bebasan": "selop",
+            "english": "clogs" 
+        },
+        {
+            "bahasa": "bakar",
+            "bebasan": "obong/tunu/duruk",
+            "english": "burn"
+        },
+        {
+            "bahasa": "bakarkan",
+            "bebasan": "obongakēn/tunokakēn/durukakēn",
+            "english": "burn"
+        },
+        {
+            "bahasa": "bakar-bakaran",
+            "bebasan": "obong-obongan/tetunon/ dedurukan",
+            "english": "burnt"
+        },
+        {
+            "bahasa": "membakar",
+            "bebasan": "ngobong/nunu/ngeduruk",
+            "english": "burn"
+        },
+        {
+            "bahasa": "dibakar",
+            "bebasan": "diobong/ditunu/diduruk",
+            "english": "burned"
+        },
+        {
+            "bahasa": "terbakar",
+            "bebasan": "keobong/ketunu/keduruk",
+            "english": "burnt" 
+        },
+        {
+            "bahasa": "bakat",
+            "bebasan": "bakat/kebisan",
+            "english": "talent"
+        },
+        {
+            "bahasa": "berbakat",
+            "bebasan": "wèntēn bakatè/bakatēn",
+            "english": "talented" 
+        },
+        {
+            "bahasa": "bakul",
+            "bebasan": "wakul",
+            "english": "basket" 
+        },
+        {
+            "bahasa": "bakti",
+            "bebasan": "bakti",
+            "english": "devotion"
+        },
+        {
+            "bahasa": "berbakti",
+            "bebasan": "bērbakti",
+            "english": "devoted"
+        },
+        {
+            "bahasa": "membaktikan",
+            "bebasan": "ngebakti",
+            "english": "dedicate" 
+        },
+        {
+            "bahasa": "balap",
+            "bebasan": "balap",
+            "english": "racing"
+        },
+        {
+            "bahasa": "balapan",
+            "bebasan": "balapan",
+            "english": "race"
+        },
+        {
+            "bahasa": "dibalapi",
+            "bebasan": "dibalapi",
+            "english": "raced"
+        },
+        {
+            "bahasa": "kebalap",
+            "bebasan": "kebalap",
+            "english": "racing"
+        },
+        {
+            "bahasa": "membalapi",
+            "bebasan": "ngebalapi",
+            "english": "race" 
+        },
+        {
+            "bahasa": "balas",
+            "bebasan": "balēs",
+            "english": "reply"
+        },
+        {
+            "bahasa": "dibalas",
+            "bebasan": "dibalēs",
+            "english": "replied"
+        },
+        {
+            "bahasa": "kebalas",
+            "bebasan": "kebalēs",
+            "english": "reply"
+        },
+        {
+            "bahasa": "membalas",
+            "bebasan": "ngebalēs",
+            "english": "repay"
+        },
+        {
+            "bahasa": "terbalaskan",
+            "bebasan": "kebalēs",
+            "english": "avenged" 
+        },
+        {
+            "bahasa": "bale-bale",
+            "bebasan": "balè-balè",
+            "english": "bale-bale" 
+        },
+        {
+            "bahasa": "balig",
+            "bebasan": "balèg",
+            "english": "puberty" 
+        },
+        {
+            "bahasa": "balik",
+            "bebasan": "balik",
+            "english": "come back"
+        },
+        {
+            "bahasa": "balikkan",
+            "bebasan": "balikakēn",
+            "english": "turn it over"
+        },
+        {
+            "bahasa": "berbalik",
+            "bebasan": "bebalik/peputēr",
+            "english": "turn around"
+        },
+        {
+            "bahasa": "dibalik",
+            "bebasan": "dibalik/diputēr",
+            "english": "behind"
+        },
+        {
+            "bahasa": "dibalikkan",
+            "bebasan": "dibalikakēn/diputērakēn",
+            "english": "reversed"
+        },
+        {
+            "bahasa": "kebalik",
+            "bebasan": "kebalik",
+            "english": "reverse"
+        },
+        {
+            "bahasa": "membalik",
+            "bebasan": "ngebalik",
+            "english": "flip"
+        },
+        {
+            "bahasa": "membalikkan",
+            "bebasan": "ngebalikakēn",
+            "english": "reverse"
+        },
+        {
+            "bahasa": "bolak-balik",
+            "bebasan": "bolak-balik",
+            "english": "back and forth" 
+        },
+        {
+            "bahasa": "balkon",
+            "bebasan": "duhur tingkat",
+            "english": "balcony" 
+        },
+        {
+            "bahasa": "balok",
+            "bebasan": "balok",
+            "english": "beam" 
+        },
+        {
+            "bahasa": "balon",
+            "bebasan": "pelēmbungan/pelēmbotan",
+            "english": "balloon" 
+        },
+        {
+            "bahasa": "balpoin",
+            "bebasan": "pulpèn",
+            "english": "ballpoint pen" 
+        },
+        {
+            "bahasa": "baluk",
+            "bebasan": "baluk",
+            "english": "baluk" 
+        },
+        {
+            "bahasa": "banci",
+            "bebasan": "bèncong",
+            "english": "sissy" 
+        },
+        {
+            "bahasa": "bandar",
+            "bebasan": "bandar",
+            "english": "city" 
+        },
+        {
+            "bahasa": "bandit",
+            "bebasan": "bandit",
+            "english": "bandits" 
+        },
+        {
+            "bahasa": "bandrek",
+            "bebasan": "bandrèk",
+            "english": "bandrek" 
+        },
+        {
+            "bahasa": "banjir",
+            "bebasan": "banjir",
+            "english": "flood"
+        },
+        {
+            "bahasa": "kebanjiran",
+            "bebasan": "kebanjiran",
+            "english": "flooded" 
+        },
+        {
+            "bahasa": "bangau",
+            "bebasan": "bango",
+            "english": "stork" 
+        },
+        {
+            "bahasa": "bangga",
+            "bebasan": "senang/bèrag",
+            "english": "proud"
+        },
+        {
+            "bahasa": "dibanggakan",
+            "bebasan": "disenangi",
+            "english": "proud"
+        },
+        {
+            "bahasa": "kebanggaan",
+            "bebasan": "kesenangananè",
+            "english": "pride"
+        },
+        {
+            "bahasa": "membanggakan",
+            "bebasan": "nyenangakēn",
+            "english": "proud" 
+        },
+        {
+            "bahasa": "bangir",
+            "bebasan": "bangir",
+            "english": "bangir" 
+        },
+        {
+            "bahasa": "bangkrut",
+            "bebasan": "bangkrut",
+            "english": "bankrupt" 
+        },
+        {
+            "bahasa": "bangun",
+            "bebasan": "tangi",
+            "english": "get up"
+        },
+        {
+            "bahasa": "bangunkan",
+            "bebasan": "tangèkakēn",
+            "english": "wake"
+        },
+        {
+            "bahasa": "dibangunkan",
+            "bebasan": "ditangèkakēn",
+            "english": "wake up"
+        },
+        {
+            "bahasa": "membangunkan",
+            "bebasan": "nangèkakēn",
+            "english": "wake"
+        },
+        {
+            "bahasa": "terbangun",
+            "bebasan": "ngelilir",
+            "english": "awakened" 
+        },
+        {
+            "bahasa": "bangun (buat/bikin)",
+            "bebasan": "damél",
+            "english": "wake up (make/make)"
+        },
+        {
+            "bahasa": "bangunan",
+            "bebasan": "bangunan",
+            "english": "building"
+        },
+        {
+            "bahasa": "bangunannya",
+            "bebasan": "bangunanè",
+            "english": "the building"
+        },
+        {
+            "bahasa": "bangunkan",
+            "bebasan": "damélakēn",
+            "english": "wake"
+        },
+        {
+            "bahasa": "dibangunkan",
+            "bebasan": "didamélakēn",
+            "english": "wake up"
+        },
+        {
+            "bahasa": "membangun",
+            "bebasan": "ngebangun",
+            "english": "build"
+        },
+        {
+            "bahasa": "membangunkan",
+            "bebasan": "ngedamélakēn",
+            "english": "wake"
+        },
+        {
+            "bahasa": "terbangun",
+            "bebasan": "kedamél",
+            "english": "awakened" 
+        },
+        {
+            "bahasa": "bangkotan",
+            "bebasan": "bangkotēn",
+            "english": "bangkotan" 
+        },
+        {
+            "bahasa": "bangsa",
+            "bebasan": "bangsé",
+            "english": "nation" 
+        },
+        {
+            "bahasa": "bangsat",
+            "bebasan": "tetinggi",
+            "english": "bastard" 
+        },
+        {
+            "bahasa": "banjir",
+            "bebasan": "banjir/derēs",
+            "english": "flood"
+        },
+        {
+            "bahasa": "dibanjiri",
+            "bebasan": "dibanjiri",
+            "english": "flooded"
+        },
+        {
+            "bahasa": "kebanjiran",
+            "bebasan": "kebanjiran/ngoyor",
+            "english": "flooded"
+        },
+        {
+            "bahasa": "membanjiri",
+            "bebasan": "ngebanjiri",
+            "english": "flood" 
+        },
+        {
+            "bahasa": "bantah",
+            "bebasan": "bantah",
+            "english": "deny"
+        },
+        {
+            "bahasa": "dibantah",
+            "bebasan": "dibantah",
+            "english": "denied"
+        },
+        {
+            "bahasa": "membantah",
+            "bebasan": "ngebantah",
+            "english": "argue" 
+        },
+        {
+            "bahasa": "bantal",
+            "bebasan": "kengulu/kērngulu/kampēs",
+            "english": "pillow" 
+        },
+        {
+            "bahasa": "bantat",
+            "bebasan": "bantat",
+            "english": "sodden" 
+        },
+        {
+            "bahasa": "bantalan stempel",
+            "bebasan": "bantalan setēmpēl",
+            "english": "stamp bearing" 
+        },
+        {
+            "bahasa": "banteng",
+            "bebasan": "bantèng",
+            "english": "bull" 
+        },
+        {
+            "bahasa": "bantu",
+            "bebasan": "bantu",
+            "english": "help"
+        },
+        {
+            "bahasa": "bantuan",
+            "bebasan": "bantuan",
+            "english": "help"
+        },
+        {
+            "bahasa": "dibantu",
+            "bebasan": "dibantoni",
+            "english": "helped"
+        },
+        {
+            "bahasa": "diperbantukan",
+            "bebasan": "dibantokakēn",
+            "english": "seconded"
+        },
+        {
+            "bahasa": "membantu",
+            "bebasan": "ngebantu",
+            "english": "help"
+        },
+        {
+            "bahasa": "pembantu",
+            "bebasan": "sing ngebantu/sing ngebaturi",
+            "english": "servant"
+        },
+        {
+            "bahasa": "terbantu",
+            "bebasan": "kebantu",
+            "english": "helped" 
+        },
+        {
+            "bahasa": "banyak",
+            "bebasan": "katah",
+            "english": "many"
+        },
+        {
+            "bahasa": "diperbanyak",
+            "bebasan": "dikatahi/dikatahakēn",
+            "english": "reproduced"
+        },
+        {
+            "bahasa": "kebanyakan",
+            "bebasan": "kekatahēn",
+            "english": "most"
+        },
+        {
+            "bahasa": "memperbanyak",
+            "bebasan": "ngatahakēn",
+            "english": "multiply" 
+        },
+        {
+            "bahasa": "bapa/ayah/tuan",
+            "bebasan": "abah/mamé/bapé",
+            "english": "father/father/sir"
+        },
+        {
+            "bahasa": "bapanya kakek/nenek",
+            "bebasan": "buyut",
+            "english": "grandpa/grandmother's father" 
+        },
+        {
+            "bahasa": "bara",
+            "bebasan": "wangwé",
+            "english": "coal"
+        },
+        {
+            "bahasa": "membara",
+            "bebasan": "mērngangah",
+            "english": "smoldering" 
+        },
+        {
+            "bahasa": "barang",
+            "bebasan": "barang",
+            "english": "goods" 
+        },
+        {
+            "bahasa": "baris",
+            "bebasan": "baris",
+            "english": "line"
+        },
+        {
+            "bahasa": "barisannya",
+            "bebasan": "barisanè",
+            "english": "the line"
+        },
+        {
+            "bahasa": "berbaris",
+            "bebasan": "ngebaris",
+            "english": "line up"
+        },
+        {
+            "bahasa": "dibariskan",
+            "bebasan": "dibarisakēn",
+            "english": "lined up"
+        },
+        {
+            "bahasa": "membariskan",
+            "bebasan": "ngebarisakēn",
+            "english": "line up" 
+        },
+        {
+            "bahasa": "baru",
+            "bebasan": "baru",
+            "english": "new"
+        },
+        {
+            "bahasa": "terbaru",
+            "bebasan": "paling baru",
+            "english": "latest" 
+        },
+        {
+            "bahasa": "basa basi",
+            "bebasan": "memanès lambè",
+            "english": "Chit Chat" 
+        },
+        {
+            "bahasa": "basah",
+            "bebasan": "telēs",
+            "english": "wet"
+        },
+        {
+            "bahasa": "basah-basahan",
+            "bebasan": "tetelesan",
+            "english": "get wet"
+        },
+        {
+            "bahasa": "basah kunyup",
+            "bebasan": "kekucut",
+            "english": "soaking wet"
+        },
+        {
+            "bahasa": "dibasahi",
+            "bebasan": "ditelesi",
+            "english": "wetted"
+        },
+        {
+            "bahasa": "kain untuk mandi",
+            "bebasan": "petelesan",
+            "english": "bath cloth"
+        },
+        {
+            "bahasa": "kebasahan",
+            "bebasan": "ketelesan",
+            "english": "wetness",
+            "undefined": " "
+        },
+        {
+            "bahasa": "kecipratan",
+            "bebasan": "kecipratan/kepuncratan/ kepeletikan",
+            "english": "splashed"
+        },
+        {
+            "bahasa": "membasahi",
+            "bebasan": "nelesi",
+            "english": "wet"
+        },
+        {
+            "bahasa": "lembab",
+            "bebasan": "anyēb",
+            "english": "moist" 
+        },
+        {
+            "bahasa": "basi/bau",
+            "bebasan": "mambu",
+            "english": "stale/smelly"
+        },
+        {
+            "bahasa": "membasikan",
+            "bebasan": "ngemambokakēn",
+            "english": "spoil" 
+        },
+        {
+            "bahasa": "baskom",
+            "bebasan": "baskom/ekong",
+            "english": "basin" 
+        },
+        {
+            "bahasa": "batang",
+            "bebasan": "epang",
+            "english": "stem" 
+        },
+        {
+            "bahasa": "batas",
+            "bebasan": "batēs/watēs/galēng",
+            "english": "limit"
+        },
+        {
+            "bahasa": "batasan",
+            "bebasan": "batesè/watesè/gegalēng",
+            "english": "limitation"
+        },
+        {
+            "bahasa": "dibatasi",
+            "bebasan": "dibatesi/diwatesi/digalēng",
+            "english": "restricted"
+        },
+        {
+            "bahasa": "membatasi",
+            "bebasan": "ngebatesi/ngegalengi",
+            "english": "limit" 
+        },
+        {
+            "bahasa": "batal",
+            "bebasan": "batal",
+            "english": "cancelled"
+        },
+        {
+            "bahasa": "batalkan",
+            "bebasan": "batalakēn",
+            "english": "cancel"
+        },
+        {
+            "bahasa": "dibatalkan",
+            "bebasan": "dibatalakēn",
+            "english": "canceled"
+        },
+        {
+            "bahasa": "membatalkan",
+            "bebasan": "ngebatalakēn",
+            "english": "cancel" 
+        },
+        {
+            "bahasa": "batin",
+            "bebasan": "batin",
+            "english": "inner"
+        },
+        {
+            "bahasa": "membatin",
+            "bebasan": "ngebatin",
+            "english": "thought" 
+        },
+        {
+            "bahasa": "batu",
+            "bebasan": "watu",
+            "english": "stone"
+        },
+        {
+            "bahasa": "batu apung",
+            "bebasan": "karang bandos",
+            "english": "pumice"
+        },
+        {
+            "bahasa": "batu bara",
+            "bebasan": "batu bara",
+            "english": "coal"
+        },
+        {
+            "bahasa": "batu bata",
+            "bebasan": "batè",
+            "english": "brick"
+        },
+        {
+            "bahasa": "batu batrai",
+            "bebasan": "baterè",
+            "english": "battery stone"
+        },
+        {
+            "bahasa": "batu marmar",
+            "bebasan": "marmēr",
+            "english": "marble"
+        },
+        {
+            "bahasa": "batako",
+            "bebasan": "batako",
+            "english": "Concrete brick"
+        },
+        {
+            "bahasa": "membatu",
+            "bebasan": "ngewatu",
+            "english": "petrified" 
+        },
+        {
+            "bahasa": "batuk",
+            "bebasan": "watuk",
+            "english": "cough" 
+        },
+        {
+            "bahasa": "bau",
+            "bebasan": "mambu/badēg/bacin",
+            "english": "smell" 
+        },
+        {
+            "bahasa": "bawa",
+            "bebasan": "bakté",
+            "english": "bring"
+        },
+        {
+            "bahasa": "bawaan",
+            "bebasan": "bebaktan",
+            "english": "default"
+        },
+        {
+            "bahasa": "bawaannya",
+            "bebasan": "bebaktanè",
+            "english": "innate"
+        },
+        {
+            "bahasa": "dibawa",
+            "bebasan": "dibakté",
+            "english": "brought"
+        },
+        {
+            "bahasa": "dibawakan",
+            "bebasan": "dibaktakakēn",
+            "english": "brought"
+        },
+        {
+            "bahasa": "pembawa",
+            "bebasan": "sing ngebakté",
+            "english": "carrier"
+        },
+        {
+            "bahasa": "membawa",
+            "bebasan": "ngebakté",
+            "english": "bring"
+        },
+        {
+            "bahasa": "membawakan",
+            "bebasan": "ngebaktakakēn",
+            "english": "bring"
+        },
+        {
+            "bahasa": "terbawa",
+            "bebasan": "kebakté",
+            "english": "carried away" 
+        },
+        {
+            "bahasa": "bawah",
+            "bebasan": "esor",
+            "english": "lower"
+        },
+        {
+            "bahasa": "dibawah",
+            "bebasan": "ning esor",
+            "english": "under"
+        },
+        {
+            "bahasa": "dibawahi",
+            "bebasan": "ning esorè",
+            "english": "under"
+        },
+        {
+            "bahasa": "kebawah",
+            "bebasan": "ning esor",
+            "english": "down"
+        },
+        {
+            "bahasa": "kebawahan",
+            "bebasan": "ke esorēn",
+            "english": "subordinate"
+        },
+        {
+            "bahasa": "terbawah",
+            "bebasan": "paling esor",
+            "english": "bottom" 
+        },
+        {
+            "bahasa": "bayang",
+            "bebasan": "wayang",
+            "english": "shadow"
+        },
+        {
+            "bahasa": "bayangan",
+            "bebasan": "wewayangan",
+            "english": "shadow"
+        },
+        {
+            "bahasa": "bayangkan",
+            "bebasan": "ngebayangakēn",
+            "english": "imagine"
+        },
+        {
+            "bahasa": "dibayangkan",
+            "bebasan": "dibayangakēn",
+            "english": "imagine"
+        },
+        {
+            "bahasa": "membayangkan",
+            "bebasan": "ngebayangakēn",
+            "english": "imagine"
+        },
+        {
+            "bahasa": "terbayang-bayang",
+            "bebasan": "kematé-maté",
+            "english": "shadowed" 
+        },
+        {
+            "bahasa": "bayar",
+            "bebasan": "bayar",
+            "english": "pay"
+        },
+        {
+            "bahasa": "bayaran",
+            "bebasan": "bayaran",
+            "english": "payment"
+        },
+        {
+            "bahasa": "berbayar",
+            "bebasan": "berbayar",
+            "english": "paid"
+        },
+        {
+            "bahasa": "dibayar",
+            "bebasan": "dibayar",
+            "english": "paid"
+        },
+        {
+            "bahasa": "dibayarkan",
+            "bebasan": "dibayarakēn",
+            "english": "paid"
+        },
+        {
+            "bahasa": "terbayar",
+            "bebasan": "kebayar",
+            "english": "paid off"
+        },
+        {
+            "bahasa": "terbayarkan",
+            "bebasan": "kebayarakēn",
+            "english": "paid off"
+        },
+        {
+            "bahasa": "membayar",
+            "bebasan": "ngebayar",
+            "english": "pay"
+        },
+        {
+            "bahasa": "membayarkan",
+            "bebasan": "ngebayarakēn",
+            "english": "pay"
+        },
+        {
+            "bahasa": "pembayar",
+            "bebasan": "sing ngebayari/sing ngebayarakēn",
+            "english": "payer"
+        },
+        {
+            "bahasa": "pembayaran",
+            "bebasan": "pembayaran",
+            "english": "payment" 
+        },
+        {
+            "bahasa": "bayam",
+            "bebasan": "bayēm",
+            "english": "spinach" 
+        },
+        {
+            "bahasa": "bayi",
+            "bebasan": "bayi / bebayi",
+            "english": "baby" 
+        },
+        {
+            "bahasa": "bazar",
+            "bebasan": "bazar",
+            "english": "bazaar" 
+        },
+        {
+            "bahasa": "bebek",
+            "bebasan": "bèbèk",
+            "english": "duck" 
+        },
+        {
+            "bahasa": "bebodor",
+            "bebasan": "bebodor",
+            "english": "bebodor" 
+        },
+        {
+            "bahasa": "bebongkong",
+            "bebasan": "bebongkong",
+            "english": "buttocks" 
+        },
+        {
+            "bahasa": "becak",
+            "bebasan": "bèca",
+            "english": "pedicab" 
+        },
+        {
+            "bahasa": "becek",
+            "bebasan": "bècèk",
+            "english": "muddy" 
+        },
+        {
+            "bahasa": "beda",
+            "bebasan": "bèdé",
+            "english": "different"
+        },
+        {
+            "bahasa": "bedakan",
+            "bebasan": "bèdakakēn",
+            "english": "differentiate"
+        },
+        {
+            "bahasa": "bedanya",
+            "bebasan": "bedanya",
+            "english": "the difference"
+        },
+        {
+            "bahasa": "beda-beda",
+            "bebasan": "bèdé-bèdé",
+            "english": "different"
+        },
+        {
+            "bahasa": "dibedakan",
+            "bebasan": "dibèdakakēn",
+            "english": "distinguished"
+        },
+        {
+            "bahasa": "membedakan",
+            "bebasan": "ngebèdakakēn",
+            "english": "differentiate" 
+        },
+        {
+            "bahasa": "bedah",
+            "bebasan": "bedah",
+            "english": "surgery"
+        },
+        {
+            "bahasa": "bedahkan",
+            "bebasan": "bedahakēn",
+            "english": "operate"
+        },
+        {
+            "bahasa": "dibedah",
+            "bebasan": "dibedah",
+            "english": "dissected"
+        },
+        {
+            "bahasa": "dibedahkan",
+            "bebasan": "dibedahakēn",
+            "english": "dissected"
+        },
+        {
+            "bahasa": "kebedah",
+            "bebasan": "kebedah",
+            "english": "surgery"
+        },
+        {
+            "bahasa": "membedah",
+            "bebasan": "ngebedah",
+            "english": "dissect"
+        },
+        {
+            "bahasa": "membedahkan",
+            "bebasan": "ngebedahakēn",
+            "english": "dissect" 
+        },
+        {
+            "bahasa": "bedak",
+            "bebasan": "wedak/pupur",
+            "english": "powder"
+        },
+        {
+            "bahasa": "bedakan",
+            "bebasan": "wewedakan/pupuran",
+            "english": "differentiate"
+        },
+        {
+            "bahasa": "dibedaki",
+            "bebasan": "diwedaki/dipupuri",
+            "english": "powdered"
+        },
+        {
+            "bahasa": "membedaki",
+            "bebasan": "ngewedaki/mupuri",
+            "english": "powder" 
+        },
+        {
+            "bahasa": "bedug",
+            "bebasan": "bedug",
+            "english": "drum"
+        },
+        {
+            "bahasa": "bebedugan",
+            "bebasan": "bebedugan",
+            "english": "fuck" 
+        },
+        {
+            "bahasa": "bedong",
+            "bebasan": "bedong",
+            "english": "swaddle"
+        },
+        {
+            "bahasa": "bedongan",
+            "bebasan": "bedongan",
+            "english": "swaddle"
+        },
+        {
+            "bahasa": "dibedong",
+            "bebasan": "dibedong",
+            "english": "swaddled"
+        },
+        {
+            "bahasa": "membedong",
+            "bebasan": "ngebedong",
+            "english": "swaddle" 
+        },
+        {
+            "bahasa": "begal",
+            "bebasan": "bègal",
+            "english": "robber"
+        },
+        {
+            "bahasa": "begalan",
+            "bebasan": "begalan",
+            "english": "thug"
+        },
+        {
+            "bahasa": "dibegal",
+            "bebasan": "dibègal",
+            "english": "robbed"
+        },
+        {
+            "bahasa": "kebegal",
+            "bebasan": "kebègal",
+            "english": "fool"
+        },
+        {
+            "bahasa": "membegal",
+            "bebasan": "ngebègal",
+            "english": "rob" 
+        },
+        {
+            "bahasa": "begini",
+            "bebasan": "mengketēn",
+            "english": "this way" 
+        },
+        {
+            "bahasa": "begitu",
+            "bebasan": "mengkonon",
+            "english": "so" 
+        },
+        {
+            "bahasa": "bego",
+            "bebasan": "radé kirang jelinger",
+            "english": "stupid" 
+        },
+        {
+            "bahasa": "beha",
+            "bebasan": "kutang",
+            "english": "bra" 
+        },
+        {
+            "bahasa": "bekal",
+            "bebasan": "sangu",
+            "english": "supplies"
+        },
+        {
+            "bahasa": "bekalnya",
+            "bebasan": "sangunè",
+            "english": "supplies"
+        },
+        {
+            "bahasa": "dibekali",
+            "bebasan": "disangoni",
+            "english": "equipped"
+        },
+        {
+            "bahasa": "membekali",
+            "bebasan": "nyangoni",
+            "english": "equip" 
+        },
+        {
+            "bahasa": "bekam",
+            "bebasan": "bekam",
+            "english": "cupping"
+        },
+        {
+            "bahasa": "dibekam",
+            "bebasan": "dibekam",
+            "english": "smothered"
+        },
+        {
+            "bahasa": "membekam",
+            "bebasan": "ngebekam",
+            "english": "cupping" 
+        },
+        {
+            "bahasa": "bekas",
+            "bebasan": "bekas/pecak/tabēk",
+            "english": "used"
+        },
+        {
+            "bahasa": "bekasnya",
+            "bebasan": "bekasè/pecakè//tabēkè",
+            "english": "the former"
+        },
+        {
+            "bahasa": "membekas",
+            "bebasan": "ngebēkas/pitak/tabēkkēn",
+            "english": "imprint" 
+        },
+        {
+            "bahasa": "bekicot",
+            "bebasan": "kiong darat",
+            "english": "Snail" 
+        },
+        {
+            "bahasa": "beku",
+            "bebasan": "merongkol/ngebenggol",
+            "english": "frozen"
+        },
+        {
+            "bahasa": "membeku",
+            "bebasan": "merongkol/ngebenggol",
+            "english": "freeze" 
+        },
+        {
+            "bahasa": "bel",
+            "bebasan": "bèl",
+            "english": "bell" 
+        },
+        {
+            "bahasa": "belajar",
+            "bebasan": "giginau",
+            "english": "study" 
+        },
+        {
+            "bahasa": "belah",
+            "bebasan": "sigar",
+            "english": "split"
+        },
+        {
+            "bahasa": "belahan",
+            "bebasan": "sigaran",
+            "english": "cleavage"
+        },
+        {
+            "bahasa": "belahkan",
+            "bebasan": "sigarakēn",
+            "english": "split"
+        },
+        {
+            "bahasa": "belahannya",
+            "bebasan": "sigaranè",
+            "english": "the cleavage"
+        },
+        {
+            "bahasa": "dibelah",
+            "bebasan": "disigar",
+            "english": "split"
+        },
+        {
+            "bahasa": "dibelahkan",
+            "bebasan": "disigarakēn",
+            "english": "split apart"
+        },
+        {
+            "bahasa": "membelah",
+            "bebasan": "nyigar",
+            "english": "split"
+        },
+        {
+            "bahasa": "membelahkan",
+            "bebasan": "nyigarakēn",
+            "english": "split"
+        },
+        {
+            "bahasa": "sebelah",
+            "bebasan": "sesigar",
+            "english": "adjacent"
+        },
+        {
+            "bahasa": "terbelah",
+            "bebasan": "kesigar",
+            "english": "split" 
+        },
+        {
+            "bahasa": "belakang",
+            "bebasan": "buri",
+            "english": "behind"
+        },
+        {
+            "bahasa": "belakangnya",
+            "bebasan": "burinè",
+            "english": "behind"
+        },
+        {
+            "bahasa": "di belakang",
+            "bebasan": "ning buri",
+            "english": "behind"
+        },
+        {
+            "bahasa": "di belakangi",
+            "bebasan": "di burèni/di pungkuri",
+            "english": "behind"
+        },
+        {
+            "bahasa": "di belakangnya",
+            "bebasan": "ning burinè",
+            "english": "behind"
+        },
+        {
+            "bahasa": "di kebelakangkan",
+            "bebasan": "di burèkakēn/dipungkurakēn",
+            "english": "behind"
+        },
+        {
+            "bahasa": "kebelakang",
+            "bebasan": "ngeburi",
+            "english": "to the back"
+        },
+        {
+            "bahasa": "kebelakangkan",
+            "bebasan": "burèkakēn",
+            "english": "backwards"
+        },
+        {
+            "bahasa": "membelakangi",
+            "bebasan": "ngeburèni/mungkuri",
+            "english": "back"
+        },
+        {
+            "bahasa": "terbelakang",
+            "bebasan": "paling buri/terakhir/idiot",
+            "english": "backward" 
+        },
+        {
+            "bahasa": "belalang",
+            "bebasan": "walang",
+            "english": "grasshopper" 
+        },
+        {
+            "bahasa": "belatung",
+            "bebasan": "belatung",
+            "english": "maggots" 
+        },
+        {
+            "bahasa": "belek",
+            "bebasan": "bèlèk",
+            "english": "belek"
+        },
+        {
+            "bahasa": "belekan",
+            "bebasan": "bèlèkēn",
+            "english": "bekan" 
+        },
+        {
+            "bahasa": "belencong",
+            "bebasan": "belèncong",
+            "english": "squiggle" 
+        },
+        {
+            "bahasa": "beli",
+            "bebasan": "tumbas",
+            "english": "buy"
+        },
+        {
+            "bahasa": "belikan",
+            "bebasan": "tumbasakēn",
+            "english": "buy it"
+        },
+        {
+            "bahasa": "dibeli",
+            "bebasan": "ditumbas",
+            "english": "bought"
+        },
+        {
+            "bahasa": "dibelikan",
+            "bebasan": "ditumbasakēn",
+            "english": "bought"
+        },
+        {
+            "bahasa": "membeli",
+            "bebasan": "numbas",
+            "english": "buy"
+        },
+        {
+            "bahasa": "membelikan",
+            "bebasan": "numbasakēn",
+            "english": "buy"
+        },
+        {
+            "bahasa": "terbeli",
+            "bebasan": "ketumbas",
+            "english": "bought" 
+        },
+        {
+            "bahasa": "beliau/dia",
+            "bebasan": "andike",
+            "english": "he/she" 
+        },
+        {
+            "bahasa": "belikat",
+            "bebasan": "welikat",
+            "english": "shoulder blade" 
+        },
+        {
+            "bahasa": "belok",
+            "bebasan": "biluk/putēr",
+            "english": "turn"
+        },
+        {
+            "bahasa": "belokan",
+            "bebasan": "tikungan",
+            "english": "turn"
+        },
+        {
+            "bahasa": "belok lagi",
+            "bebasan": "bebiluk/bebèluk/peputēr",
+            "english": "turn again"
+        },
+        {
+            "bahasa": "dibelokkan",
+            "bebasan": "dibilukakēn/diputerakēn",
+            "english": "deflected"
+        },
+        {
+            "bahasa": "membelokkan",
+            "bebasan": "ngebilukakēn/muterakēn",
+            "english": "deflect" 
+        },
+        {
+            "bahasa": "belum",
+            "bebasan": "dèrèng",
+            "english": "not yet"
+        },
+        {
+            "bahasa": "sebelumnya",
+            "bebasan": "sedèrèngè",
+            "english": "previously" 
+        },
+        {
+            "bahasa": "banci",
+            "bebasan": "komèl",
+            "english": "sissy" 
+        },
+        {
+            "bahasa": "benar",
+            "bebasan": "lerēs",
+            "english": "Correct"
+        },
+        {
+            "bahasa": "benarkan",
+            "bebasan": "leresakēn",
+            "english": "allow it"
+        },
+        {
+            "bahasa": "dibenarkan",
+            "bebasan": "dileresakēn",
+            "english": "allowed"
+        },
+        {
+            "bahasa": "sebenarnya",
+            "bebasan": "seleresè",
+            "english": "actually"
+        },
+        {
+            "bahasa": "membenarkan",
+            "bebasan": "ngeleresakēn",
+            "english": "justify" 
+        },
+        {
+            "bahasa": "benci",
+            "bebasan": "kirang suké",
+            "english": "hate"
+        },
+        {
+            "bahasa": "dibenci",
+            "bebasan": "disengiit",
+            "english": "hated"
+        },
+        {
+            "bahasa": "membenci",
+            "bebasan": "nyengiti",
+            "english": "hate"
+        },
+        {
+            "bahasa": "membencikan",
+            "bebasan": "nyengitakēn/ngegetingakēn",
+            "english": "hate" 
+        },
+        {
+            "bahasa": "benda",
+            "bebasan": "barang",
+            "english": "object" 
+        },
+        {
+            "bahasa": "benjol",
+            "bebasan": "mēnjelut",
+            "english": "bump" 
+        },
+        {
+            "bahasa": "bengal",
+            "bebasan": "tamblēg",
+            "english": "bengal" 
+        },
+        {
+            "bahasa": "bengkak",
+            "bebasan": "abuh/mērmumuh",
+            "english": "swollen"
+        },
+        {
+            "bahasa": "membengkak",
+            "bebasan": "ngabuhi",
+            "english": "swell" 
+        },
+        {
+            "bahasa": "bengkel",
+            "bebasan": "bèngkèl",
+            "english": "workshop" 
+        },
+        {
+            "bahasa": "bengkok",
+            "bebasan": "melēngkung",
+            "english": "bent"
+        },
+        {
+            "bahasa": "bengkokkan",
+            "bebasan": "pelēngkungakēn",
+            "english": "bend it"
+        },
+        {
+            "bahasa": "dibengkokkan",
+            "bebasan": "dipelēngkungakēn",
+            "english": "bent"
+        },
+        {
+            "bahasa": "kebengkok",
+            "bebasan": "kepelēngkungakēn",
+            "english": "crooked"
+        },
+        {
+            "bahasa": "membengkokkan",
+            "bebasan": "melēngkungakēn",
+            "english": "bend" 
+        },
+        {
+            "bahasa": "bentak",
+            "bebasan": "sēntak",
+            "english": "snapped"
+        },
+        {
+            "bahasa": "bentakannya",
+            "bebasan": "sēntakananè",
+            "english": "his shout"
+        },
+        {
+            "bahasa": "dibentak",
+            "bebasan": "disēntak",
+            "english": "yelled at"
+        },
+        {
+            "bahasa": "kebentak",
+            "bebasan": "kesēntak",
+            "english": "snapped"
+        },
+        {
+            "bahasa": "membentak",
+            "bebasan": "nyēntak",
+            "english": "snapped" 
+        },
+        {
+            "bahasa": "bentang",
+            "bebasan": "jèjèr",
+            "english": "span"
+        },
+        {
+            "bahasa": "bentangkan",
+            "bebasan": "jèjèrakēn",
+            "english": "spread"
+        },
+        {
+            "bahasa": "dibentangkan",
+            "bebasan": "dijèjèrakēn",
+            "english": "unfold"
+        },
+        {
+            "bahasa": "membentangkan",
+            "bebasan": "ngejèjèrakēn",
+            "english": "spread out" 
+        },
+        {
+            "bahasa": "bentengan",
+            "bebasan": "bebèntèngan",
+            "english": "fortress" 
+        },
+        {
+            "bahasa": "bentol",
+            "bebasan": "bèntol",
+            "english": "bump"
+        },
+        {
+            "bahasa": "bèntol-bèntol",
+            "bebasan": "bèntol-bèntol",
+            "english": "bulbs"
+        },
+        {
+            "bahasa": "bubuhan",
+            "bebasan": "bubuhēn",
+            "english": "affix" 
+        },
+        {
+            "bahasa": "bentrok",
+            "bebasan": "bèntrok",
+            "english": "clash" 
+        },
+        {
+            "bahasa": "berak",
+            "bebasan": "bebuang",
+            "english": "defecate" 
+        },
+        {
+            "bahasa": "berat",
+            "bebasan": "abot",
+            "english": "heavy"
+        },
+        {
+            "bahasa": "diberatan",
+            "bebasan": "diabotakēn",
+            "english": "weighted"
+        },
+        {
+            "bahasa": "keberatatan",
+            "bebasan": "keabotēn",
+            "english": "objection"
+        },
+        {
+            "bahasa": "memberatkan",
+            "bebasan": "ngabotakēn",
+            "english": "burdensome" 
+        },
+        {
+            "bahasa": "beras",
+            "bebasan": "beras",
+            "english": "rice" 
+        },
+        {
+            "bahasa": "berani",
+            "bebasan": "wantèn/wani",
+            "english": "brave"
+        },
+        {
+            "bahasa": "beranikan",
+            "bebasan": "wantènakēn/wanèkakēn",
+            "english": "be brave"
+        },
+        {
+            "bahasa": "diberanikan",
+            "bebasan": "diwantènakēn/diwanèkakēn",
+            "english": "be brave"
+        },
+        {
+            "bahasa": "memberanikan",
+            "bebasan": "ngewantènakēn/ngewanèkakēn",
+            "english": "dare" 
+        },
+        {
+            "bahasa": "berangkat",
+            "bebasan": "berangkat/linggar/medal",
+            "english": "leave"
+        },
+        {
+            "bahasa": "berangkatkan",
+            "bebasan": "berangkatakēn/ngelinggarakēn/ medalakēn",
+            "english": "leave"
+        },
+        {
+            "bahasa": "diberangkakan",
+            "bebasan": "diberangkatakēn/dilinggarakēn/ diedalakēn",
+            "english": "dispatched"
+        },
+        {
+            "bahasa": "keberangkatannya",
+            "bebasan": "keberangkatananè",
+            "english": "his departure"
+        },
+        {
+            "bahasa": "memberangkatkan",
+            "bebasan": "ngeberangkatakēn/ngelinggarakēn/medalakēn",
+            "english": "dispatch" 
+        },
+        {
+            "bahasa": "berantakan",
+            "bebasan": "acak-acakan",
+            "english": "untidy"
+        },
+        {
+            "bahasa": "diberantakkan",
+            "bebasan": "diacak-acak",
+            "english": "messed up"
+        },
+        {
+            "bahasa": "memberantakkan",
+            "bebasan": "ngacak-acak",
+            "english": "messy" 
+        },
+        {
+            "bahasa": "berantem/berkelahi",
+            "bebasan": "gulēt",
+            "english": "fight/fight"
+        },
+        {
+            "bahasa": "berantem-beranteman",
+            "bebasan": "geguletan",
+            "english": "fight with friends" 
+        },
+        {
+            "bahasa": "berdiri",
+            "bebasan": "ngadēg/jenēng/jumenēng",
+            "english": "stand up" 
+        },
+        {
+            "bahasa": "berenang",
+            "bebasan": "ngojai",
+            "english": "swimming" 
+        },
+        {
+            "bahasa": "beres",
+            "bebasan": "bèrès",
+            "english": "okay"
+        },
+        {
+            "bahasa": "beres-beres",
+            "bebasan": "bebèrès",
+            "english": "cleaning up"
+        },
+        {
+            "bahasa": "bereskan",
+            "bebasan": "bèrèsakēn",
+            "english": "clean up"
+        },
+        {
+            "bahasa": "dibereskan",
+            "bebasan": "bèrèsakēn",
+            "english": "cleared"
+        },
+        {
+            "bahasa": "membereskan",
+            "bebasan": "ngèbèresakēn",
+            "english": "clean up" 
+        },
+        {
+            "bahasa": "beri",
+            "bebasan": "isungi",
+            "english": "give"
+        },
+        {
+            "bahasa": "berikan",
+            "bebasan": "isungakēn",
+            "english": "give"
+        },
+        {
+            "bahasa": "diberi",
+            "bebasan": "diisungi",
+            "english": "given"
+        },
+        {
+            "bahasa": "diberikan",
+            "bebasan": "diisungakēn",
+            "english": "given"
+        },
+        {
+            "bahasa": "memberi",
+            "bebasan": "ngisungi",
+            "english": "give"
+        },
+        {
+            "bahasa": "memberikan",
+            "bebasan": "ngisungakēn",
+            "english": "give" 
+        },
+        {
+            "bahasa": "berisik",
+            "bebasan": "beribin",
+            "english": "noisy" 
+        },
+        {
+            "bahasa": "bergidig/merinding",
+            "bebasan": "bergidig/merinding",
+            "english": "shudder/goosebumps" 
+        },
+        {
+            "bahasa": "berikutnya",
+            "bebasan": "seterasè",
+            "english": "next" 
+        },
+        {
+            "bahasa": "berkat",
+            "bebasan": "berkat",
+            "english": "blessing" 
+        },
+        {
+            "bahasa": "berlian",
+            "bebasan": "berlian",
+            "english": "Diamond" 
+        },
+        {
+            "bahasa": "bersih",
+            "bebasan": "bērsih",
+            "english": "clean"
+        },
+        {
+            "bahasa": "bersihkan",
+            "bebasan": "bersihakēn",
+            "english": "clean up"
+        },
+        {
+            "bahasa": "bebersih",
+            "bebasan": "bebērsih",
+            "english": "clean up"
+        },
+        {
+            "bahasa": "dibersihkan",
+            "bebasan": "dibērsihakēn",
+            "english": "cleaned"
+        },
+        {
+            "bahasa": "kebersihan",
+            "bebasan": "kebērsihēn",
+            "english": "cleanliness"
+        },
+        {
+            "bahasa": "terbersih/paling bersih",
+            "bebasan": "paling bērsih",
+            "english": "the cleanest/cleanest"
+        },
+        {
+            "bahasa": "membersihkan",
+            "bebasan": "ngebērsihakēn",
+            "english": "clean" 
+        },
+        {
+            "bahasa": "bersin",
+            "bebasan": "wahin",
+            "english": "sneeze" 
+        },
+        {
+            "bahasa": "bersolek",
+            "bebasan": "dandan",
+            "english": "preening" 
+        },
+        {
+            "bahasa": "berat",
+            "bebasan": "abot",
+            "english": "heavy"
+        },
+        {
+            "bahasa": "diberatkan",
+            "bebasan": "ngabotakēn",
+            "english": "weighed down"
+        },
+        {
+            "bahasa": "keberatan",
+            "bebasan": "keabotēn",
+            "english": "object"
+        },
+        {
+            "bahasa": "memberatkan",
+            "bebasan": "ngabotakēn",
+            "english": "burdensome" 
+        },
+        {
+            "bahasa": "beras",
+            "bebasan": "beras",
+            "english": "rice" 
+        },
+        {
+            "bahasa": "berani",
+            "bebasan": "wani/wantèn",
+            "english": "brave"
+        },
+        {
+            "bahasa": "diberanikan",
+            "bebasan": "diwanèkakēn/diwantènakēn",
+            "english": "be brave"
+        },
+        {
+            "bahasa": "keberaniannya",
+            "bebasan": "kewaninēn/kewantènēn",
+            "english": "her courage"
+        },
+        {
+            "bahasa": "memberanikan",
+            "bebasan": "ngewanèkakēn/ngewantènakēn",
+            "english": "dare" 
+        },
+        {
+            "bahasa": "berangkat",
+            "bebasan": "linggar/medal",
+            "english": "leave"
+        },
+        {
+            "bahasa": "diberangkatkan",
+            "bebasan": "dilinggarakēn/diedalakēn",
+            "english": "depart"
+        },
+        {
+            "bahasa": "keberangkatannya",
+            "bebasan": "kelinggarananè",
+            "english": "his/her departure"
+        },
+        {
+            "bahasa": "memberangkatkan",
+            "bebasan": "ngélinggarakēn",
+            "english": "dispatch" 
+        },
+        {
+            "bahasa": "berantakan",
+            "bebasan": "acak-acakan",
+            "english": "untidy"
+        },
+        {
+            "bahasa": "diberantakkan",
+            "bebasan": "diacak-acak",
+            "english": "messed up"
+        },
+        {
+            "bahasa": "memberantak-kan",
+            "bebasan": "ngacak-ngacak",
+            "english": "mess up" 
+        },
+        {
+            "bahasa": "berantem/ berkelahi",
+            "bebasan": "gulēt",
+            "english": "fight / fight"
+        },
+        {
+            "bahasa": "berantem-beranteman",
+            "bebasan": "geguletan",
+            "english": "fight with friends" 
+        },
+        {
+            "bahasa": "berdiri",
+            "bebasan": "ngadēg/jumenēng/ jumenēng",
+            "english": "stand up" 
+        },
+        {
+            "bahasa": "berenang",
+            "bebasan": "ngojai",
+            "english": "swimming" 
+        },
+        {
+            "bahasa": "beres",
+            "bebasan": "bèrès",
+            "english": "okay"
+        },
+        {
+            "bahasa": "beres-beres",
+            "bebasan": "bebèrès",
+            "english": "cleaning up"
+        },
+        {
+            "bahasa": "dibereskan",
+            "bebasan": "dibèrèsakēn",
+            "english": "cleared"
+        },
+        {
+            "bahasa": "memberskan",
+            "bebasan": "ngebèrèsakēn",
+            "english": "cleaning" 
+        },
+        {
+            "bahasa": "beri",
+            "bebasan": "isungi",
+            "english": "give"
+        },
+        {
+            "bahasa": "diberi",
+            "bebasan": "diisungi",
+            "english": "given"
+        },
+        {
+            "bahasa": "diberikan",
+            "bebasan": "diisungakēn",
+            "english": "given"
+        },
+        {
+            "bahasa": "memberi",
+            "bebasan": "ngisungi",
+            "english": "give"
+        },
+        {
+            "bahasa": "memberikan",
+            "bebasan": "ngisungakēn",
+            "english": "give"
+        },
+        {
+            "bahasa": "dapat diberi",
+            "bebasan": "pewèwèh",
+            "english": "can be given" 
+        },
+        {
+            "bahasa": "berisik",
+            "bebasan": "beribin",
+            "english": "noisy"
+        },
+        {
+            "bahasa": "berisik sekali",
+            "bebasan": "beribinè",
+            "english": "very noisy"
+        },
+        {
+            "bahasa": "diberisiki",
+            "bebasan": "diberibini",
+            "english": "brushed"
+        },
+        {
+            "bahasa": "memberisikkan",
+            "bebasan": "ngeberibinakēn",
+            "english": "noisy" 
+        },
+        {
+            "bahasa": "bergidig",
+            "bebasan": "bergidig",
+            "english": "shudder"
+        },
+        {
+            "bahasa": "bergidigan",
+            "bebasan": "bergidigēn",
+            "english": "shivering" 
+        },
+        {
+            "bahasa": "berikut",
+            "bebasan": "seterasè",
+            "english": "following" 
+        },
+        {
+            "bahasa": "berkat",
+            "bebasan": "bērkat",
+            "english": "blessing" 
+        },
+        {
+            "bahasa": "berlian",
+            "bebasan": "bērlian",
+            "english": "Diamond" 
+        },
+        {
+            "bahasa": "bersih",
+            "bebasan": "bērsih/korèp",
+            "english": "clean"
+        },
+        {
+            "bahasa": "bebersih",
+            "bebasan": "bebērsih/kekorèp",
+            "english": "clean up"
+        },
+        {
+            "bahasa": "dibersihkan",
+            "bebasan": "dibērsihakēn/dikorèpi",
+            "english": "cleaned"
+        },
+        {
+            "bahasa": "kebersihan",
+            "bebasan": "kebērsihēn",
+            "english": "cleanliness"
+        },
+        {
+            "bahasa": "membersihkan",
+            "bebasan": "ngebersihakēn/ngorèpakēn",
+            "english": "clean"
+        },
+        {
+            "bahasa": "ranting-ranting kecil",
+            "bebasan": "rerèngsèk",
+            "english": "small branches" 
+        },
+        {
+            "bahasa": "bersin",
+            "bebasan": "wahin",
+            "english": "sneeze" 
+        },
+        {
+            "bahasa": "beruang",
+            "bebasan": "beruang",
+            "english": "bear" 
+        },
+        {
+            "bahasa": "besan",
+            "bebasan": "warang",
+            "english": "besan"
+        },
+        {
+            "bahasa": "bebesanan",
+            "bebasan": "wewarangan",
+            "english": "bebesanan" 
+        },
+        {
+            "bahasa": "besar",
+            "bebasan": "gedè",
+            "english": "big"
+        },
+        {
+            "bahasa": "dibesarkan",
+            "bebasan": "digedèkakēn",
+            "english": "raised"
+        },
+        {
+            "bahasa": "dibesar-besarkan",
+            "bebasan": "digedèk-gedèkakēn",
+            "english": "exaggerated"
+        },
+        {
+            "bahasa": "kebesaran",
+            "bebasan": "kegedèn",
+            "english": "greatness"
+        },
+        {
+            "bahasa": "membesarkan",
+            "bebasan": "ngegedèkakēn",
+            "english": "raise"
+        },
+        {
+            "bahasa": "membesar-besarkan",
+            "bebasan": "ngegedèk-gedèkakēn",
+            "english": "exaggerate" 
+        },
+        {
+            "bahasa": "besi",
+            "bebasan": "wesi",
+            "english": "iron" 
+        },
+        {
+            "bahasa": "besok",
+            "bebasan": "banjang isuk",
+            "english": "tomorrow" 
+        },
+        {
+            "bahasa": "besok lusa",
+            "bebasan": "banjang isukè",
+            "english": "day after tomorrow" 
+        },
+        {
+            "bahasa": "betah",
+            "bebasan": "kerasan",
+            "english": "feel at home"
+        },
+        {
+            "bahasa": "dibetahkan",
+            "bebasan": "dikerasanakēn",
+            "english": "vindicated"
+        },
+        {
+            "bahasa": "dibetah-betahkan",
+            "bebasan": "dikerasan-kerasanakēn",
+            "english": "keep it up"
+        },
+        {
+            "bahasa": "membetahkan",
+            "bebasan": "ngerasanakēn",
+            "english": "fix" 
+        },
+        {
+            "bahasa": "betis",
+            "bebasan": "wēntès/wēntis",
+            "english": "calf" 
+        },
+        {
+            "bahasa": "beton",
+            "bebasan": "beton",
+            "english": "concrete"
+        },
+        {
+            "bahasa": "dibeton",
+            "bebasan": "dibeton",
+            "english": "concreted"
+        },
+        {
+            "bahasa": "membeton",
+            "bebasan": "ngebeton",
+            "english": "concrete"
+        },
+        {
+            "bahasa": "kebetonan",
+            "bebasan": "betonan",
+            "english": "concrete" 
+        },
+        {
+            "bahasa": "betul",
+            "bebasan": "lerēs",
+            "english": "right"
+        },
+        {
+            "bahasa": "betul-betul",
+            "bebasan": "benēr-benēr",
+            "english": "true, true"
+        },
+        {
+            "bahasa": "dibetulkan",
+            "bebasan": "dileresakēn",
+            "english": "corrected"
+        },
+        {
+            "bahasa": "kebetulan",
+            "bebasan": "keleresan",
+            "english": "as it happens"
+        },
+        {
+            "bahasa": "membetulkan",
+            "bebasan": "ngelerēsakēn",
+            "english": "fix" 
+        },
+        {
+            "bahasa": "betus",
+            "bebasan": "meledog",
+            "english": "sure" 
+        },
+        {
+            "bahasa": "biar",
+            "bebasan": "dipunè",
+            "english": "let"
+        },
+        {
+            "bahasa": "biarkan",
+            "bebasan": "dipunè/tingalakēn saos",
+            "english": "let"
+        },
+        {
+            "bahasa": "dibiarkan",
+            "bebasan": "dipunè/ditingalakēn saos",
+            "english": "left"
+        },
+        {
+            "bahasa": "membiarkan",
+            "bebasan": "dipunè/ningalakēn saos",
+            "english": "let" 
+        },
+        {
+            "bahasa": "biasa",
+            "bebasan": "biasé/nunggalè",
+            "english": "normal"
+        },
+        {
+            "bahasa": "biasanya",
+            "bebasan": "biasanē",
+            "english": "usually"
+        },
+        {
+            "bahasa": "dibiasakan",
+            "bebasan": "dibiasakakēn",
+            "english": "get used to"
+        },
+        {
+            "bahasa": "kebiasaan",
+            "bebasan": "kebiasaananè/nunggalè",
+            "english": "habit"
+        },
+        {
+            "bahasa": "membiasakan",
+            "bebasan": "ngebiasakakēn",
+            "english": "get used to"
+        },
+        {
+            "bahasa": "biasanya",
+            "bebasan": "biasanè/nunggalè",
+            "english": "usually" 
+        },
+        {
+            "bahasa": "biawak",
+            "bebasan": "menyawak",
+            "english": "monitor lizard" 
+        },
+        {
+            "bahasa": "bibir",
+            "bebasan": "lambè",
+            "english": "lip" 
+        },
+        {
+            "bahasa": "bibit",
+            "bebasan": "bibit",
+            "english": "seeds"
+        },
+        {
+            "bahasa": "dibibitkan",
+            "bebasan": "dibibitakēn",
+            "english": "bred"
+        },
+        {
+            "bahasa": "membibitkan",
+            "bebasan": "ngebibitakēn",
+            "english": "breed" 
+        },
+        {
+            "bahasa": "bicara (bincang)",
+            "bebasan": "ngomong/ngobrol",
+            "english": "talk"
+        },
+        {
+            "bahasa": "bincang-bincang",
+            "bebasan": "ngobrol-ngobrol",
+            "english": "talk"
+        },
+        {
+            "bahasa": "berbicara ( berbincang)",
+            "bebasan": "ngomong",
+            "english": "talk"
+        },
+        {
+            "bahasa": "dibicarakan",
+            "bebasan": "diomongakēn/diobrolakēn",
+            "english": "talked about"
+        },
+        {
+            "bahasa": "membicarakan",
+            "bebasan": "ngomongakēn/ngobrolakēn",
+            "english": "talk about" 
+        },
+        {
+            "bahasa": "bijaksana",
+            "bebasan": "bijaksané",
+            "english": "wise" 
+        },
+        {
+            "bahasa": "biji",
+            "bebasan": "wijil",
+            "english": "seed"
+        },
+        {
+            "bahasa": "biji-bijian",
+            "bebasan": "wewijilan",
+            "english": "grains"
+        },
+        {
+            "bahasa": "bijian",
+            "bebasan": "wijilēn",
+            "english": "grains"
+        },
+        {
+            "bahasa": "biji asem",
+            "bebasan": "kilung",
+            "english": "tamarind seeds"
+        },
+        {
+            "bahasa": "biji duren",
+            "bebasan": "ponggè",
+            "english": "durian seeds"
+        },
+        {
+            "bahasa": "biji kapas",
+            "bebasan": "kelēntēng",
+            "english": "cotton seed"
+        },
+        {
+            "bahasa": "biji mangga",
+            "bebasan": "pelok",
+            "english": "mango seeds"
+        },
+        {
+            "bahasa": "biji nangka",
+            "bebasan": "beton",
+            "english": "jackfruit seeds"
+        },
+        {
+            "bahasa": "biji sawo",
+            "bebasan": "kecik",
+            "english": "sapodilla seeds"
+        },
+        {
+            "bahasa": "sebiji",
+            "bebasan": "sewijil",
+            "english": "a seed" 
+        },
+        {
+            "bahasa": "bikin (buat)",
+            "bebasan": "damēl",
+            "english": "make" 
+        },
+        {
+            "bahasa": "bikinkan",
+            "bebasan": "damelakēn",
+            "english": "make"
+        },
+        {
+            "bahasa": "dibikin (dibuat)",
+            "bebasan": "didamēl",
+            "english": "made"
+        },
+        {
+            "bahasa": "dibikinkan (dibuatkan)",
+            "bebasan": "didamelakēn",
+            "english": "made"
+        },
+        {
+            "bahasa": "kebikin (kebuat)",
+            "bebasan": "kedamēl",
+            "english": "make" 
+        },
+        {
+            "bahasa": "bilang",
+            "bebasan": "pajar",
+            "english": "say"
+        },
+        {
+            "bahasa": "bilang-bilang",
+            "bebasan": "pepajar",
+            "english": "tell me"
+        },
+        {
+            "bahasa": "dibilang",
+            "bebasan": "dipajar",
+            "english": "say"
+        },
+        {
+            "bahasa": "kebilang",
+            "bebasan": "kepajar",
+            "english": "say" 
+        },
+        {
+            "bahasa": "bilangan",
+            "bebasan": "angké",
+            "english": "number"
+        },
+        {
+            "bahasa": "bilangan genap",
+            "bebasan": "angké jangkēp",
+            "english": "even number"
+        },
+        {
+            "bahasa": "bilangan ganjil",
+            "bebasan": "angké ganjil",
+            "english": "odd numbers" 
+        },
+        {
+            "bahasa": "bina",
+            "bebasan": "biné",
+            "english": "build"
+        },
+        {
+            "bahasa": "dibina",
+            "bebasan": "dibiné",
+            "english": "built"
+        },
+        {
+            "bahasa": "membina",
+            "bebasan": "ngebiné",
+            "english": "build" 
+        },
+        {
+            "bahasa": "binasa",
+            "bebasan": "padēm",
+            "english": "perish"
+        },
+        {
+            "bahasa": "dibinasakan",
+            "bebasan": "dipadēmi",
+            "english": "destroyed"
+        },
+        {
+            "bahasa": "membinasakan",
+            "bebasan": "madēmi",
+            "english": "destroy" 
+        },
+        {
+            "bahasa": "binatang (hewan)",
+            "bebasan": "sato",
+            "english": "animal" 
+        },
+        {
+            "bahasa": "bincang",
+            "bebasan": "ngobrol",
+            "english": "talk"
+        },
+        {
+            "bahasa": "bincang-bincang",
+            "bebasan": "ngobrol-ngobrol",
+            "english": "talk"
+        },
+        {
+            "bahasa": "diperbincang-kan",
+            "bebasan": "diobrolakēn",
+            "english": "discussed"
+        },
+        {
+            "bahasa": "memperbin-cangkan",
+            "bebasan": "ngobrolakēn",
+            "english": "discuss" 
+        },
+        {
+            "bahasa": "bintang laut",
+            "bebasan": "lintang laut",
+            "english": "starfish" 
+        },
+        {
+            "bahasa": "bintik-bintik",
+            "bebasan": "beberèntèk/beberintik",
+            "english": "freckles" 
+        },
+        {
+            "bahasa": "bingung",
+            "bebasan": "bingung",
+            "english": "confused" 
+        },
+        {
+            "bahasa": "biru",
+            "bebasan": "biru",
+            "english": "blue"
+        },
+        {
+            "bahasa": "biru muda",
+            "bebasan": "biru ēnom",
+            "english": "light blue"
+        },
+        {
+            "bahasa": "biru tua",
+            "bebasan": "biru tué",
+            "english": "dark blue" 
+        },
+        {
+            "bahasa": "bisa (dapat)",
+            "bebasan": "bangkit",
+            "english": "can (can)" 
+        },
+        {
+            "bahasa": "bisa (racun)",
+            "bebasan": "wisé",
+            "english": "can (poison)" 
+        },
+        {
+            "bahasa": "bisik",
+            "bebasan": "bebisik",
+            "english": "whisper"
+        },
+        {
+            "bahasa": "berbisik",
+            "bebasan": "bebisikan",
+            "english": "whisper"
+        },
+        {
+            "bahasa": "bisik-bisik",
+            "bebasan": "bebisikan",
+            "english": "whisper"
+        },
+        {
+            "bahasa": "dibisiki",
+            "bebasan": "dibisiki",
+            "english": "whispered"
+        },
+        {
+            "bahasa": "membisiki",
+            "bebasan": "ngebisiki",
+            "english": "whisper"
+        },
+        {
+            "bahasa": "membisikkan",
+            "bebasan": "ngebisikakēn",
+            "english": "whisper" 
+        },
+        {
+            "bahasa": "bisu",
+            "bebasan": "bisu",
+            "english": "mute" 
+        },
+        {
+            "bahasa": "bisul",
+            "bebasan": "sesudun",
+            "english": "boil"
+        },
+        {
+            "bahasa": "bisulan",
+            "bebasan": "sesudunēn",
+            "english": "boil"
+        },
+        {
+            "bahasa": "bisul (dimata)",
+            "bebasan": "timbilēn",
+            "english": "boils (eyes)" 
+        },
+        {
+            "bahasa": "blus",
+            "bebasan": "kelambi kurung",
+            "english": "blouse" 
+        },
+        {
+            "bahasa": "bocor",
+            "bebasan": "bocor",
+            "english": "leaking"
+        },
+        {
+            "bahasa": "dibocorkan",
+            "bebasan": "dibocorakēn",
+            "english": "leaked"
+        },
+        {
+            "bahasa": "kebocoran",
+            "bebasan": "kebocoran",
+            "english": "leakage"
+        },
+        {
+            "bahasa": "membocorkan",
+            "bebasan": "ngebocorakēn",
+            "english": "leak" 
+        },
+        {
+            "bahasa": "bodoh",
+            "bebasan": "bodo/bloon//pelongo/ plongoh",
+            "english": "stupid"
+        },
+        {
+            "bahasa": "dibodohi",
+            "bebasan": "dibodohi",
+            "english": "fooled"
+        },
+        {
+            "bahasa": "membodohi",
+            "bebasan": "ngebebodo",
+            "english": "fool"
+        },
+        {
+            "bahasa": "kebodohannya",
+            "bebasan": "kebodoananè",
+            "english": "his stupidity"
+        },
+        {
+            "bahasa": "terbodoh",
+            "bebasan": "paling bodo/kebodonēn",
+            "english": "dumbest" 
+        },
+        {
+            "bahasa": "bohong",
+            "bebasan": "bohong/gerebēg",
+            "english": "lie"
+        },
+        {
+            "bahasa": "berbohong",
+            "bebasan": "ngebohong",
+            "english": "lie"
+        },
+        {
+            "bahasa": "dibohongi",
+            "bebasan": "dibohongi",
+            "english": "lied to"
+        },
+        {
+            "bahasa": "kebohongannya",
+            "bebasan": "kebohonganè",
+            "english": "the lie"
+        },
+        {
+            "bahasa": "membohongi",
+            "bebasan": "ngebohongi",
+            "english": "lie" 
+        },
+        {
+            "bahasa": "bola",
+            "bebasan": "ēbal",
+            "english": "ball"
+        },
+        {
+            "bahasa": "bola mata",
+            "bebasan": "terijilan maté",
+            "english": "eyeball" 
+        },
+        {
+            "bahasa": "boleh",
+            "bebasan": "antuk",
+            "english": "can"
+        },
+        {
+            "bahasa": "dibolehkan",
+            "bebasan": "diantukakēn",
+            "english": "allowed"
+        },
+        {
+            "bahasa": "membolehkan",
+            "bebasan": "ngantukakēn",
+            "english": "allow" 
+        },
+        {
+            "bahasa": "bolong",
+            "bebasan": "bolong",
+            "english": "perforated"
+        },
+        {
+            "bahasa": "dibolongi",
+            "bebasan": "dibolongi",
+            "english": "pierced"
+        },
+        {
+            "bahasa": "membolongi",
+            "bebasan": "ngebolongi",
+            "english": "cheat" 
+        },
+        {
+            "bahasa": "bongsor",
+            "bebasan": "bongsor",
+            "english": "big" 
+        },
+        {
+            "bahasa": "bonyok",
+            "bebasan": "bonyok",
+            "english": "Hurt" 
+        },
+        {
+            "bahasa": "borok",
+            "bebasan": "borok",
+            "english": "ulcers"
+        },
+        {
+            "bahasa": "borokan",
+            "bebasan": "borokēn",
+            "english": "ulcers"
+        },
+        {
+            "bahasa": "memborok",
+            "bebasan": "ngeborok",
+            "english": "ulcerate" 
+        },
+        {
+            "bahasa": "boros",
+            "bebasan": "boros/obrot",
+            "english": "wasteful"
+        },
+        {
+            "bahasa": "keboros",
+            "bebasan": "keboros",
+            "english": "wasteful"
+        },
+        {
+            "bahasa": "keborosan",
+            "bebasan": "keborosēn/keobrotēn",
+            "english": "extravagance"
+        },
+        {
+            "bahasa": "memboroskan",
+            "bebasan": "ngeborosakēn",
+            "english": "waste" 
+        },
+        {
+            "bahasa": "bosan",
+            "bebasan": "bosēn",
+            "english": "bored"
+        },
+        {
+            "bahasa": "bosanan",
+            "bebasan": "bosēnan",
+            "english": "bored"
+        },
+        {
+            "bahasa": "kebosanan",
+            "bebasan": "kebosēnēn",
+            "english": "boredom"
+        },
+        {
+            "bahasa": "membosankan",
+            "bebasan": "ngebosēnakēn",
+            "english": "boring" 
+        },
+        {
+            "bahasa": "botak",
+            "bebasan": "botak",
+            "english": "bald"
+        },
+        {
+            "bahasa": "dibotak",
+            "bebasan": "dibotak",
+            "english": "bald"
+        },
+        {
+            "bahasa": "dibotakkan",
+            "bebasan": "dibotakakēn",
+            "english": "bald"
+        },
+        {
+            "bahasa": "kebotak",
+            "bebasan": "kebotak",
+            "english": "bald"
+        },
+        {
+            "bahasa": "membotakkan",
+            "bebasan": "ngebotakakēn",
+            "english": "bald" 
+        },
+        {
+            "bahasa": "botol",
+            "bebasan": "botol",
+            "english": "bottle" 
+        },
+        {
+            "bahasa": "boyong",
+            "bebasan": "boyong",
+            "english": "boyong"
+        },
+        {
+            "bahasa": "diboyong",
+            "bebasan": "diboyong",
+            "english": "brought in"
+        },
+        {
+            "bahasa": "keboyong",
+            "bebasan": "keboyong",
+            "english": "bogged down"
+        },
+        {
+            "bahasa": "memboyong",
+            "bebasan": "ngeboyong",
+            "english": "bring" 
+        },
+        {
+            "bahasa": "buah",
+            "bebasan": "uwoh",
+            "english": "fruit"
+        },
+        {
+            "bahasa": "buah busuk",
+            "bebasan": "uwoh bosok/uwoh bonyok",
+            "english": "rotten fruit"
+        },
+        {
+            "bahasa": "buah pentil",
+            "bebasan": "uwoh pentil",
+            "english": "nipple fruit"
+        },
+        {
+            "bahasa": "madam",
+            "bebasan": "nyadam",
+            "english": "madam"
+        },
+        {
+            "bahasa": "matang",
+            "bebasan": "matēng",
+            "english": "ripe"
+        },
+        {
+            "bahasa": "ranum",
+            "bebasan": "mēmbat",
+            "english": "ripe" 
+        },
+        {
+            "bahasa": "buah jakar (buah pelir)",
+            "bebasan": "kontol/terijilan",
+            "english": "Jakar fruit (testicles)" 
+        },
+        {
+            "bahasa": "buaya",
+            "bebasan": "bayé",
+            "english": "crocodile" 
+        },
+        {
+            "bahasa": "bujal",
+            "bebasan": "wudēl",
+            "english": "bujal" 
+        },
+        {
+            "bahasa": "buang",
+            "bebasan": "buang",
+            "english": "waste"
+        },
+        {
+            "bahasa": "buang muka",
+            "bebasan": "mèngos/melèngos",
+            "english": "look away"
+        },
+        {
+            "bahasa": "buangkan",
+            "bebasan": "buangakēn",
+            "english": "throw away"
+        },
+        {
+            "bahasa": "buang-buang",
+            "bebasan": "buang-buang",
+            "english": "waste"
+        },
+        {
+            "bahasa": "dibuang",
+            "bebasan": "dibuang",
+            "english": "thrown away"
+        },
+        {
+            "bahasa": "membuang",
+            "bebasan": "ngébuang",
+            "english": "throw away"
+        },
+        {
+            "bahasa": "membuangkan",
+            "bebasan": "ngebuangakēn",
+            "english": "throw away"
+        },
+        {
+            "bahasa": "terbuang",
+            "bebasan": "kebuang",
+            "english": "wasted" 
+        },
+        {
+            "bahasa": "buat",
+            "bebasan": "damēl",
+            "english": "for"
+        },
+        {
+            "bahasa": "buatakan",
+            "bebasan": "damelakēn",
+            "english": "make"
+        },
+        {
+            "bahasa": "buatan",
+            "bebasan": "dedamelan",
+            "english": "artificial"
+        },
+        {
+            "bahasa": "dibuat",
+            "bebasan": "didamēl",
+            "english": "made"
+        },
+        {
+            "bahasa": "dibuat-buat",
+            "bebasan": "didamēl-damēl",
+            "english": "made up"
+        },
+        {
+            "bahasa": "dibuatkan",
+            "bebasan": "didamelakēn",
+            "english": "made"
+        },
+        {
+            "bahasa": "membuat",
+            "bebasan": "ngedamēl",
+            "english": "make"
+        },
+        {
+            "bahasa": "membuatkan",
+            "bebasan": "ngedamēlakēn",
+            "english": "make"
+        },
+        {
+            "bahasa": "perbuatan",
+            "bebasan": "pedamelan",
+            "english": "deed"
+        },
+        {
+            "bahasa": "terbuat",
+            "bebasan": "kedamél",
+            "english": "made"
+        },
+        {
+            "bahasa": "bubur",
+            "bebasan": "bubur",
+            "english": "porridge"
+        },
+        {
+            "bahasa": "buburkan",
+            "bebasan": "buburakēn",
+            "english": "porridge"
+        },
+        {
+            "bahasa": "dibubur",
+            "bebasan": "dibubur",
+            "english": "porridge"
+        },
+        {
+            "bahasa": "dibuburkan",
+            "bebasan": "dibuburakēn",
+            "english": "pulverized"
+        },
+        {
+            "bahasa": "membuburkan",
+            "bebasan": "ngebuburakēn",
+            "english": "disperse" 
+        },
+        {
+            "bahasa": "budi pekerti/akhlak",
+            "bebasan": "budi pekerti/akhlak",
+            "english": "manners/morals" 
+        },
+        {
+            "bahasa": "bujur sangkar",
+            "bebasan": "bujur sangkar",
+            "english": "squares" 
+        },
+        {
+            "bahasa": "buka",
+            "bebasan": "buké/lolos/uculi/coplok/wiyak",
+            "english": "open"
+        },
+        {
+            "bahasa": "bukakan",
+            "bebasan": "bukakakēn/lolosakēn/uculakēn/ coplokakakēn/wiyakakēn",
+            "english": "open it"
+        },
+        {
+            "bahasa": "berbuka",
+            "bebasan": "buké",
+            "english": "breaking fast"
+        },
+        {
+            "bahasa": "dibuka",
+            "bebasan": "dibuké/dilolos/diuculi/ dicoploki/diungkabi/diwiyak",
+            "english": "opened"
+        },
+        {
+            "bahasa": "dibukakan",
+            "bebasan": "dibukakakēn/dilolosakēn/ diuculakēn/dicoplokakakēn/ diwiyakakēn",
+            "english": "opened"
+        },
+        {
+            "bahasa": "kebuka",
+            "bebasan": "kebuké/kelolos/keuculi /kecoplok/kewiyak",
+            "english": "open"
+        },
+        {
+            "bahasa": "membuka",
+            "bebasan": "ngebuké/ngelolos/nguculi/ nyoploki/ngungkabi/ngewiyak",
+            "english": "open"
+        },
+        {
+            "bahasa": "membukakan",
+            "bebasan": "ngebukakakēn/ngelolosakēn/ nguculakēn/nyoplokakēn/ ngewiyakakēn",
+            "english": "open"
+        },
+        {
+            "bahasa": "terbuka",
+            "bebasan": "kebuké/kelolos/keuculi/ kecoplok/kewiyak/ngablak",
+            "english": "open"
+        },
+        {
+            "bahasa": "terbuka lebar",
+            "bebasan": "ngablak-ablak",
+            "english": "wide open" 
+        },
+        {
+            "bahasa": "bukan",
+            "bebasan": "dèdè",
+            "english": "no" 
+        },
+        {
+            "bahasa": "buku",
+            "bebasan": "buku",
+            "english": "book"
+        },
+        {
+            "bahasa": "bukukan",
+            "bebasan": "bukokakēn",
+            "english": "book"
+        },
+        {
+            "bahasa": "dibukukan",
+            "bebasan": "dibukokakēn",
+            "english": "booked"
+        },
+        {
+            "bahasa": "membukukan",
+            "bebasan": "ngebukokakēn",
+            "english": "book"
+        },
+        {
+            "bahasa": "buku catatan",
+            "bebasan": "buku catetan",
+            "english": "notebook"
+        },
+        {
+            "bahasa": "buku harian",
+            "bebasan": "buku sedintēn-dintēn",
+            "english": "diary" 
+        },
+        {
+            "bahasa": "bulan/rembulan",
+            "bebasan": "wulan",
+            "english": "month/moon" 
+        },
+        {
+            "bahasa": "bulat",
+            "bebasan": "bundēr",
+            "english": "round"
+        },
+        {
+            "bahasa": "bulatkan",
+            "bebasan": "bunderakēn",
+            "english": "round up"
+        },
+        {
+            "bahasa": "dibulatkan",
+            "bebasan": "dibunderakēn",
+            "english": "rounded up"
+        },
+        {
+            "bahasa": "membulatkan",
+            "bebasan": "ngebunderakēn",
+            "english": "round up"
+        },
+        {
+            "bahasa": "terlalu bulat",
+            "bebasan": "kebunderēn",
+            "english": "too round" 
+        },
+        {
+            "bahasa": "bule",
+            "bebasan": "bulè",
+            "english": "foreigner" 
+        },
+        {
+            "bahasa": "bulu",
+            "bebasan": "wulu",
+            "english": "hair"
+        },
+        {
+            "bahasa": "buluan",
+            "bebasan": "wulunēn",
+            "english": "fur"
+        },
+        {
+            "bahasa": "bulu di atas mata",
+            "bebasan": "alis",
+            "english": "hair above eyes"
+        },
+        {
+            "bahasa": "bulu di dalam hidung",
+            "bebasan": "sērngongot",
+            "english": "hair inside nose"
+        },
+        {
+            "bahasa": "bulu di kemaluan",
+            "bebasan": "jēmbut",
+            "english": "pubic hair"
+        },
+        {
+            "bahasa": "bulu di kelopak mata",
+            "bebasan": "idēp",
+            "english": "eyelashes on the eyelids"
+        },
+        {
+            "bahasa": "bulu kaki",
+            "bebasan": "wulu sikil",
+            "english": "leg hair"
+        },
+        {
+            "bahasa": "bulu ketek",
+            "bebasan": "wulu kèlèk",
+            "english": "underarm hair"
+        },
+        {
+            "bahasa": "bulu tangan",
+            "bebasan": "wulu tangan",
+            "english": "fur hand" 
+        },
+        {
+            "bahasa": "buluk",
+            "bebasan": "jamurēn",
+            "english": "feather"
+        },
+        {
+            "bahasa": "bulukan (jamuran)",
+            "bebasan": "jejamurēn",
+            "english": "feathers(mildew)" 
+        },
+        {
+            "bahasa": "bumi",
+            "bebasan": "bumi",
+            "english": "Earth" 
+        },
+        {
+            "bahasa": "buncit",
+            "bebasan": "belēndang/muncis",
+            "english": "distended"
+        },
+        {
+            "bahasa": "membuncit",
+            "bebasan": "tambah belendang",
+            "english": "bulge" 
+        },
+        {
+            "bahasa": "bunga",
+            "bebasan": "kēmbang",
+            "english": "flower" 
+        },
+        {
+            "bahasa": "bungkuk",
+            "bebasan": "bungkuk/bongkok/dongkok",
+            "english": "slouch"
+        },
+        {
+            "bahasa": "bungkukkan",
+            "bebasan": "bungkukakēn/bongkokakēn/ dongkokakēn",
+            "english": "bow down"
+        },
+        {
+            "bahasa": "dibungkukkan",
+            "bebasan": "dibungkukakēn/bongkokakēn/ didongkokakēn",
+            "english": "bent down"
+        },
+        {
+            "bahasa": "membungkuk",
+            "bebasan": "ngebungkuk/ngebongkok/ ngedongkok",
+            "english": "bend down"
+        },
+        {
+            "bahasa": "membungkukkan",
+            "bebasan": "ngebungkukakēn/ngebongkokakēn/ngedongkokakēn",
+            "english": "bend down"
+        },
+        {
+            "bahasa": "bungkuknya",
+            "bebasan": "bungkukè",
+            "english": "slouch" 
+        },
+        {
+            "bahasa": "bungkus",
+            "bebasan": "bungkus/buntēl/wèncuk",
+            "english": "wrap"
+        },
+        {
+            "bahasa": "bungkuskan",
+            "bebasan": "bungkusakēn/buntelakēn/wèncuk",
+            "english": "pack"
+        },
+        {
+            "bahasa": "bungkusan",
+            "bebasan": "bungkusan/bebungkusan/buntelan/wewincukan",
+            "english": "package"
+        },
+        {
+            "bahasa": "bungkusane",
+            "bebasan": "bungkusanè/bebungkusanè/buntelanè/wewincukanè",
+            "english": "package"
+        },
+        {
+            "bahasa": "dibungkus",
+            "bebasan": "dibungkus/dibuntél/diwèncuk",
+            "english": "wrapped"
+        },
+        {
+            "bahasa": "dibungkusi",
+            "bebasan": "dibungkusi/dibuntéli/diwèncuki",
+            "english": "wrapped"
+        },
+        {
+            "bahasa": "dibungkuskan",
+            "bebasan": "dibungkusakēn/dibuntelakēn/diwincukakēn",
+            "english": "wrapped"
+        },
+        {
+            "bahasa": "membungkus",
+            "bebasan": "ngebungkus/ngebuntél/diwèncuk",
+            "english": "wrap"
+        },
+        {
+            "bahasa": "membungkusi",
+            "bebasan": "ngebungkusi/ngebunteli/ngewincuki",
+            "english": "wrap up"
+        },
+        {
+            "bahasa": "membungkuskan",
+            "bebasan": "ngebungkusakēn/ngebuntelakēn /ngewincukakēn",
+            "english": "wrap up"
+        },
+        {
+            "bahasa": "terbungkus",
+            "bebasan": "kebungkus/kebuntél/kewèncuk",
+            "english": "wrapped up" 
+        },
+        {
+            "bahasa": "bunglon",
+            "bebasan": "bunglon",
+            "english": "chameleon" 
+        },
+        {
+            "bahasa": "bungsu (bontot)",
+            "bebasan": "bungsu/bontot/pembutil",
+            "english": "youngest / youngest" 
+        },
+        {
+            "bahasa": "bunuh",
+            "bebasan": "pademi",
+            "english": "kill"
+        },
+        {
+            "bahasa": "bunuh-bunuhan",
+            "bebasan": "padēm-pademan",
+            "english": "kills"
+        },
+        {
+            "bahasa": "dibunuh",
+            "bebasan": "dipademi",
+            "english": "killed"
+        },
+        {
+            "bahasa": "membunuh",
+            "bebasan": "mademi",
+            "english": "kill"
+        },
+        {
+            "bahasa": "terbunuh",
+            "bebasan": "kepademi",
+            "english": "killed" 
+        },
+        {
+            "bahasa": "bunyi",
+            "bebasan": "muni/uni",
+            "english": "sound"
+        },
+        {
+            "bahasa": "berbunyi",
+            "bebasan": "muni",
+            "english": "sounds"
+        },
+        {
+            "bahasa": "dibunyikan",
+            "bebasan": "diunèkakēn",
+            "english": "sounded"
+        },
+        {
+            "bahasa": "membunyikan",
+            "bebasan": "ngunèkakēn",
+            "english": "ring" 
+        },
+        {
+            "bahasa": "buram",
+            "bebasan": "kusēm",
+            "english": "blur"
+        },
+        {
+            "bahasa": "diburankan",
+            "bebasan": "diburemakēn",
+            "english": "buried"
+        },
+        {
+            "bahasa": "keburaman",
+            "bebasan": "keburemēn",
+            "english": "blur"
+        },
+        {
+            "bahasa": "memburam",
+            "bebasan": "burēm",
+            "english": "blur"
+        },
+        {
+            "bahasa": "memburamkan",
+            "bebasan": "ngeburemakēn",
+            "english": "blur" 
+        },
+        {
+            "bahasa": "buru",
+            "bebasan": "buru/gancang",
+            "english": "hurry"
+        },
+        {
+            "bahasa": "buruan",
+            "bebasan": "gancang",
+            "english": "prey"
+        },
+        {
+            "bahasa": "buru-buru",
+            "bebasan": "buru-buru",
+            "english": "in a hurry"
+        },
+        {
+            "bahasa": "diburu",
+            "bebasan": "diudag",
+            "english": "hunted"
+        },
+        {
+            "bahasa": "diburu-buru",
+            "bebasan": "diburu-buru/dibebuntrak",
+            "english": "rush"
+        },
+        {
+            "bahasa": "memburu",
+            "bebasan": "ngudag-udag",
+            "english": "hunting"
+        },
+        {
+            "bahasa": "keburu",
+            "bebasan": "keburu",
+            "english": "rush"
+        },
+        {
+            "bahasa": "terburu-buru",
+            "bebasan": "keburu-buru/kebuntrak-buntrak",
+            "english": "in a hurry" 
+        },
+        {
+            "bahasa": "buruk",
+            "bebasan": "alé",
+            "english": "bad"
+        },
+        {
+            "bahasa": "buruk sangka",
+            "bebasan": "nyangké alé",
+            "english": "prejudice"
+        },
+        {
+            "bahasa": "diperburuk",
+            "bebasan": "dialakakēn",
+            "english": "exacerbated"
+        },
+        {
+            "bahasa": "keburukan",
+            "bebasan": "kealahananè",
+            "english": "ugliness"
+        },
+        {
+            "bahasa": "memburuk",
+            "bebasan": "nambah alé/nyangkin",
+            "english": "getting worse"
+        },
+        {
+            "bahasa": "memperburuk",
+            "bebasan": "ngalakakēn",
+            "english": "make it worse" 
+        },
+        {
+            "bahasa": "burung",
+            "bebasan": "manuk",
+            "english": "bird"
+        },
+        {
+            "bahasa": "burung hantu",
+            "bebasan": "kokok beluk",
+            "english": "owl"
+        },
+        {
+            "bahasa": "burung bangau",
+            "bebasan": "manuk bango",
+            "english": "Crane"
+        },
+        {
+            "bahasa": "burung merpati",
+            "bebasan": "manuk daré",
+            "english": "pigeons" 
+        },
+        {
+            "bahasa": "buron",
+            "bebasan": "buron",
+            "english": "fugitive"
+        },
+        {
+            "bahasa": "buronan",
+            "bebasan": "buronan",
+            "english": "fugitive" 
+        },
+        {
+            "bahasa": "busa",
+            "bebasan": "untuk",
+            "english": "foam"
+        },
+        {
+            "bahasa": "berbusa",
+            "bebasan": "untukēn",
+            "english": "foamy" 
+        },
+        {
+            "bahasa": "busik",
+            "bebasan": "kusik",
+            "english": "busy" 
+        },
+        {
+            "bahasa": "busuk",
+            "bebasan": "bosok",
+            "english": "rotten"
+        },
+        {
+            "bahasa": "dibusukkan",
+            "bebasan": "dibosokakēn",
+            "english": "rotted"
+        },
+        {
+            "bahasa": "kebusukan",
+            "bebasan": "kebosokēn",
+            "english": "rotten"
+        },
+        {
+            "bahasa": "membusuk",
+            "bebasan": "ngebosok",
+            "english": "rot"
+        },
+        {
+            "bahasa": "membusukkan",
+            "bebasan": "ngebosokakēn",
+            "english": "rot" 
+        },
+        {
+            "bahasa": "buta",
+            "bebasan": "botēn ningali",
+            "english": "blind"
+        },
+        {
+            "bahasa": "buta-butaan",
+            "bebasan": "bebitongan",
+            "english": "blindly"
+        },
+        {
+            "bahasa": "dibutakan",
+            "bebasan": "dibitongakēn",
+            "english": "blinded"
+        },
+        {
+            "bahasa": "membutakan",
+            "bebasan": "ngebitongakēn",
+            "english": "blind" 
+        },
+        {
+            "bahasa": "butuh",
+            "bebasan": "butuh",
+            "english": "need"
+        },
+        {
+            "bahasa": "dibutuhkan",
+            "bebasan": "dibutuhakēn",
+            "english": "needed"
+        },
+        {
+            "bahasa": "kebutuhan",
+            "bebasan": "kebutuhan",
+            "english": "needs"
+        },
+        {
+            "bahasa": "membutuhkan",
+            "bebasan": "ngebutuhakēn",
+            "english": "need" 
+        },
+        {
+            "bahasa": "buyar",
+            "bebasan": "buyar",
+            "english": "disperse" 
+        },
+        {
+            "bahasa": "buyut",
+            "bebasan": "buyut",
+            "english": "great-grandmother"
+        },
+        {
+            "bahasa": "cabai",
+            "bebasan": "cabè",
+            "english": "chilli"
+        },
+        {
+            "bahasa": "cabai merah",
+            "bebasan": "cabè abang",
+            "english": "Red chili pepper"
+        },
+        {
+            "bahasa": "cabai hijau",
+            "bebasan": "cabè ijo",
+            "english": "green chili"
+        },
+        {
+            "bahasa": "cabai rawit",
+            "bebasan": "cèngèk",
+            "english": "Cayenne pepper"
+        },
+        {
+            "bahasa": "cabang",
+            "bebasan": "cabang/epang/capang",
+            "english": "branch"
+        },
+        {
+            "bahasa": "cabangnya",
+            "bebasan": "cabangè/epangè",
+            "english": "the branch"
+        },
+        {
+            "bahasa": "bercabang",
+            "bebasan": "epangēn",
+            "english": "forked"
+        },
+        {
+            "bahasa": "cabut",
+            "bebasan": "jabut/bedol",
+            "english": "unplug"
+        },
+        {
+            "bahasa": "cabutkan",
+            "bebasan": "jabutakēn/bedolakēn",
+            "english": "unplug"
+        },
+        {
+            "bahasa": "dicabut",
+            "bebasan": "dijabut/dibedol",
+            "english": "revoked"
+        },
+        {
+            "bahasa": "dicabuti",
+            "bebasan": "dijabuti/dibedoli",
+            "english": "plucked out"
+        },
+        {
+            "bahasa": "dicabutkan",
+            "bebasan": "dijabutakēn/dibedolakēn",
+            "english": "revoked"
+        },
+        {
+            "bahasa": "kecabut",
+            "bebasan": "kejabut/kebedol",
+            "english": "unplug"
+        },
+        {
+            "bahasa": "mencabut",
+            "bebasan": "ngejabut/ngebedol",
+            "english": "pull out"
+        },
+        {
+            "bahasa": "mencabuti",
+            "bebasan": "ngejabuti/ngebedoli",
+            "english": "pull out"
+        },
+        {
+            "bahasa": "mencabutkan",
+            "bebasan": "ngejabutakēn/ngebedolakēn",
+            "english": "withdraw"
+        },
+        {
+            "bahasa": "cabul",
+            "bebasan": "cabul",
+            "english": "lewd"
+        },
+        {
+            "bahasa": "dicabuli",
+            "bebasan": "dicabuli",
+            "english": "molested"
+        },
+        {
+            "bahasa": "mencabuli",
+            "bebasan": "nyabuli",
+            "english": "molested"
+        },
+        {
+            "bahasa": "cacah",
+            "bebasan": "cacah",
+            "english": "chopped"
+        },
+        {
+            "bahasa": "cacahan",
+            "bebasan": "cacahan",
+            "english": "chopped"
+        },
+        {
+            "bahasa": "cacahkan",
+            "bebasan": "cacahakēn",
+            "english": "count"
+        },
+        {
+            "bahasa": "dicacah",
+            "bebasan": "dicacah",
+            "english": "chopped"
+        },
+        {
+            "bahasa": "dicacahi",
+            "bebasan": "dicacahi",
+            "english": "chopped"
+        },
+        {
+            "bahasa": "dicacahkan",
+            "bebasan": "dicacahakēn",
+            "english": "counted"
+        },
+        {
+            "bahasa": "menyacah",
+            "bebasan": "nyacah",
+            "english": "chop"
+        },
+        {
+            "bahasa": "menyacahi",
+            "bebasan": "nyacahi",
+            "english": "crush"
+        },
+        {
+            "bahasa": "menyacahkan",
+            "bebasan": "nyacahakēn",
+            "english": "solve"
+        },
+        {
+            "bahasa": "tercacah",
+            "bebasan": "kecacah",
+            "english": "chopped"
+        },
+        {
+            "bahasa": "cacar",
+            "bebasan": "cacar",
+            "english": "smallpox"
+        },
+        {
+            "bahasa": "cacaran",
+            "bebasan": "cacarēn",
+            "english": "smallpox"
+        },
+        {
+            "bahasa": "caci",
+            "bebasan": "madani/èjèk/lèdèk",
+            "english": "badger"
+        },
+        {
+            "bahasa": "caciannya",
+            "bebasan": "wewadananè/ èjèkananè/ lèdèkananè",
+            "english": "the insults"
+        },
+        {
+            "bahasa": "dicaci",
+            "bebasan": "diwadani/dièjèk/dilèdèk",
+            "english": "scorned"
+        },
+        {
+            "bahasa": "mencaci",
+            "bebasan": "ngewewadani/ngèjèk/ngelèdèk",
+            "english": "abuse"
+        },
+        {
+            "bahasa": "mencaci maki",
+            "bebasan": "ngewewadani/ngèjèk/ngelèdèk",
+            "english": "berate"
+        },
+        {
+            "bahasa": "cacing",
+            "bebasan": "cacing",
+            "english": "worm"
+        },
+        {
+            "bahasa": "cacingan",
+            "bebasan": "cacingēn",
+            "english": "worms"
+        },
+        {
+            "bahasa": "cadel",
+            "bebasan": "cadèl/pèlo",
+            "english": "lisp"
+        },
+        {
+            "bahasa": "cagar",
+            "bebasan": "cagar",
+            "english": "reserve"
+        },
+        {
+            "bahasa": "cahaya",
+            "bebasan": "sorot",
+            "english": "light"
+        },
+        {
+            "bahasa": "cahayanya",
+            "bebasan": "sorotè",
+            "english": "the light"
+        },
+        {
+            "bahasa": "bercahaya",
+            "bebasan": "nyorot",
+            "english": "glow"
+        },
+        {
+            "bahasa": "cair",
+            "bebasan": "ngebanyu",
+            "english": "liquid"
+        },
+        {
+            "bahasa": "mencair",
+            "bebasan": "ngebanyu",
+            "english": "melt"
+        },
+        {
+            "bahasa": "cakap (bincang)",
+            "bebasan": "ngobrol",
+            "english": "talk"
+        },
+        {
+            "bahasa": "bercakap-cakap",
+            "bebasan": "ngobrol",
+            "english": "talking"
+        },
+        {
+            "bahasa": "cakar",
+            "bebasan": "geraut",
+            "english": "scratch"
+        },
+        {
+            "bahasa": "cakarannya",
+            "bebasan": "gegerautanè",
+            "english": "his claws"
+        },
+        {
+            "bahasa": "dicakar",
+            "bebasan": "digeraut",
+            "english": "clawed"
+        },
+        {
+            "bahasa": "mencakar",
+            "bebasan": "ngegeraut",
+            "english": "clawing"
+        },
+        {
+            "bahasa": "mencakari",
+            "bebasan": "ngegerauti",
+            "english": "clawing"
+        },
+        {
+            "bahasa": "mencakarkan",
+            "bebasan": "ngegerautakēn",
+            "english": "scratch"
+        },
+        {
+            "bahasa": "cakep",
+            "bebasan": "kasèp",
+            "english": "good looking"
+        },
+        {
+            "bahasa": "calon",
+            "bebasan": "calon",
+            "english": "candidate"
+        },
+        {
+            "bahasa": "calonnya",
+            "bebasan": "calonè",
+            "english": "candidate"
+        },
+        {
+            "bahasa": "dicalonkan",
+            "bebasan": "dicalonakēn",
+            "english": "nominated"
+        },
+        {
+            "bahasa": "mencalonkan",
+            "bebasan": "nyalonakēn",
+            "english": "nominate"
+        },
+        {
+            "bahasa": "cambang",
+            "bebasan": "godèg",
+            "english": "sideburns"
+        },
+        {
+            "bahasa": "cambangan",
+            "bebasan": "godègēn",
+            "english": "sideburns"
+        },
+        {
+            "bahasa": "cambuk",
+            "bebasan": "cambuk",
+            "english": "whip"
+        },
+        {
+            "bahasa": "dicambuk",
+            "bebasan": "dicambuk",
+            "english": "whipped"
+        },
+        {
+            "bahasa": "dicambukkan",
+            "bebasan": "dicambukakēn",
+            "english": "whipped"
+        },
+        {
+            "bahasa": "kecambuk",
+            "bebasan": "kecambuk",
+            "english": "whipping"
+        },
+        {
+            "bahasa": "mencambuk",
+            "bebasan": "nyambuk",
+            "english": "whip"
+        },
+        {
+            "bahasa": "mencambukkan",
+            "bebasan": "nyambukakēn",
+            "english": "whip"
+        },
+        {
+            "bahasa": "campak (penyakit)",
+            "bebasan": "tampēk",
+            "english": "measles (disease)"
+        },
+        {
+            "bahasa": "campakan",
+            "bebasan": "tampekēn",
+            "english": "dump"
+        },
+        {
+            "bahasa": "campak",
+            "bebasan": "singkir",
+            "english": "measles"
+        },
+        {
+            "bahasa": "dicampakkan",
+            "bebasan": "disingkirakēn",
+            "english": "dumped"
+        },
+        {
+            "bahasa": "mencampakkan",
+            "bebasan": "nyingkirakēn",
+            "english": "dump"
+        },
+        {
+            "bahasa": "tercampakkan",
+            "bebasan": "kesingkirakēn",
+            "english": "dumped"
+        },
+        {
+            "bahasa": "campur",
+            "bebasan": "campur",
+            "english": "mix"
+        },
+        {
+            "bahasa": "campuran",
+            "bebasan": "campuran",
+            "english": "mixture"
+        },
+        {
+            "bahasa": "campurkan",
+            "bebasan": "campurakēn",
+            "english": "mix"
+        },
+        {
+            "bahasa": "bercampur",
+            "bebasan": "nyampur",
+            "english": "mixed"
+        },
+        {
+            "bahasa": "dicampur",
+            "bebasan": "dicampur",
+            "english": "mixed"
+        },
+        {
+            "bahasa": "dicampuri",
+            "bebasan": "dicampuri",
+            "english": "mixed up"
+        },
+        {
+            "bahasa": "dicampurkan",
+            "bebasan": "dicampurakēn",
+            "english": "mixed"
+        },
+        {
+            "bahasa": "mencampur",
+            "bebasan": "nyampur",
+            "english": "mix"
+        },
+        {
+            "bahasa": "mencampuri",
+            "bebasan": "nyampuri",
+            "english": "interfere"
+        },
+        {
+            "bahasa": "mencampurkan",
+            "bebasan": "nyampurakēn",
+            "english": "mix"
+        },
+        {
+            "bahasa": "tercampur",
+            "bebasan": "kecampur",
+            "english": "mixed"
+        },
+        {
+            "bahasa": "cangkok",
+            "bebasan": "cangkok",
+            "english": "graft"
+        },
+        {
+            "bahasa": "cangkokan",
+            "bebasan": "cangkokan",
+            "english": "graft"
+        },
+        {
+            "bahasa": "dicangkok",
+            "bebasan": "dicangkok",
+            "english": "grafted"
+        },
+        {
+            "bahasa": "dicangkokan",
+            "bebasan": "dicangkokakēn",
+            "english": "grafted"
+        },
+        {
+            "bahasa": "mencangkok",
+            "bebasan": "nyangkok",
+            "english": "grafting"
+        },
+        {
+            "bahasa": "mencangkokkan",
+            "bebasan": "nyangkokakēn",
+            "english": "grafting"
+        },
+        {
+            "bahasa": "cangkul",
+            "bebasan": "pacul",
+            "english": "hoe"
+        },
+        {
+            "bahasa": "cangkulkan",
+            "bebasan": "paculakēn",
+            "english": "hoe"
+        },
+        {
+            "bahasa": "cangkulannya",
+            "bebasan": "paculananè",
+            "english": "the hoe"
+        },
+        {
+            "bahasa": "dicangkul",
+            "bebasan": "dipacul",
+            "english": "hoe"
+        },
+        {
+            "bahasa": "dicangkuli",
+            "bebasan": "dipaculi",
+            "english": "hoe"
+        },
+        {
+            "bahasa": "dicangkulkan",
+            "bebasan": "dipaculakēn",
+            "english": "hoeed"
+        },
+        {
+            "bahasa": "mencangkul",
+            "bebasan": "memacul",
+            "english": "hoe"
+        },
+        {
+            "bahasa": "mencangkuli",
+            "bebasan": "memaculi",
+            "english": "dig"
+        },
+        {
+            "bahasa": "mencangkulkan",
+            "bebasan": "memaculakēn",
+            "english": "hoe"
+        },
+        {
+            "bahasa": "tercangkul",
+            "bebasan": "kepacul",
+            "english": "hoe"
+        },
+        {
+            "bahasa": "cantengan",
+            "bebasan": "cecantengēn",
+            "english": "cutesy"
+        },
+        {
+            "bahasa": "cantik",
+            "bebasan": "ayu/perigēl",
+            "english": "beautiful"
+        },
+        {
+            "bahasa": "cantiknya",
+            "bebasan": "ayunè/perigēlè",
+            "english": "beautiful"
+        },
+        {
+            "bahasa": "dipercantik",
+            "bebasan": "diayokakēn/diperigelakēn",
+            "english": "beautify"
+        },
+        {
+            "bahasa": "kecantikan",
+            "bebasan": "keayunēn/keperigélēn",
+            "english": "beauty"
+        },
+        {
+            "bahasa": "kecantikannya",
+            "bebasan": "keayuananè/keperigélananè",
+            "english": "her beauty"
+        },
+        {
+            "bahasa": "mempercantik",
+            "bebasan": "ngayokakēn/merigelakēn",
+            "english": "beautify"
+        },
+        {
+            "bahasa": "capai",
+            "bebasan": "laksané",
+            "english": "achieved"
+        },
+        {
+            "bahasa": "dicapai",
+            "bebasan": "kelaksané",
+            "english": "achieved"
+        },
+        {
+            "bahasa": "tercapai",
+            "bebasan": "kelaksané",
+            "english": "achieved"
+        },
+        {
+            "bahasa": "mencapai",
+            "bebasan": "kelaksané",
+            "english": "reach"
+        },
+        {
+            "bahasa": "capai/lelah/letih",
+            "bebasan": "pegēl",
+            "english": "tired/tired/tired"
+        },
+        {
+            "bahasa": "kecapaian",
+            "bebasan": "kepegēlēn",
+            "english": "tired"
+        },
+        {
+            "bahasa": "terlalu capai",
+            "bebasan": "kelongsè",
+            "english": "too tired"
+        },
+        {
+            "bahasa": "capung",
+            "bebasan": "kinjēng",
+            "english": "Dragonfly"
+        },
+        {
+            "bahasa": "cap/stempel",
+            "bebasan": "cēplokan",
+            "english": "stamp"
+        },
+        {
+            "bahasa": "cara",
+            "bebasan": "caré",
+            "english": "method"
+        },
+        {
+            "bahasa": "cari",
+            "bebasan": "ilari",
+            "english": "search"
+        },
+        {
+            "bahasa": "carikan",
+            "bebasan": "ilarakēn",
+            "english": "swatch"
+        },
+        {
+            "bahasa": "dicari",
+            "bebasan": "diilari",
+            "english": "searching for"
+        },
+        {
+            "bahasa": "dicarikan",
+            "bebasan": "diilarakēn",
+            "english": "looking for"
+        },
+        {
+            "bahasa": "mencari",
+            "bebasan": "ngilari",
+            "english": "look for"
+        },
+        {
+            "bahasa": "mencarikan",
+            "bebasan": "ngilarakēn",
+            "english": "look for"
+        },
+        {
+            "bahasa": "cat",
+            "bebasan": "cèt",
+            "english": "paint"
+        },
+        {
+            "bahasa": "dicat",
+            "bebasan": "dicèt",
+            "english": "painted"
+        },
+        {
+            "bahasa": "kecat",
+            "bebasan": "kecèt",
+            "english": "paint"
+        },
+        {
+            "bahasa": "mengecat",
+            "bebasan": "ngecèt",
+            "english": "paint"
+        },
+        {
+            "bahasa": "catat",
+            "bebasan": "catēt",
+            "english": "note"
+        },
+        {
+            "bahasa": "catatannya",
+            "bebasan": "catetanè",
+            "english": "the note"
+        },
+        {
+            "bahasa": "catatkan",
+            "bebasan": "catetakēn",
+            "english": "write down"
+        },
+        {
+            "bahasa": "dicatat",
+            "bebasan": "dicatēt",
+            "english": "noted"
+        },
+        {
+            "bahasa": "mencatat",
+            "bebasan": "nyatēt",
+            "english": "take notes"
+        },
+        {
+            "bahasa": "tercatat",
+            "bebasan": "kecatēt",
+            "english": "recorded"
+        },
+        {
+            "bahasa": "cebok",
+            "bebasan": "cecèwok",
+            "english": "wipe"
+        },
+        {
+            "bahasa": "diceboki",
+            "bebasan": "dicèwoki",
+            "english": "beaten"
+        },
+        {
+            "bahasa": "menceboki",
+            "bebasan": "nyèwoki",
+            "english": "smack"
+        },
+        {
+            "bahasa": "cebol",
+            "bebasan": "kelowor/boncèl",
+            "english": "midget"
+        },
+        {
+            "bahasa": "cecodot",
+            "bebasan": "cecodot",
+            "english": "cecodot"
+        },
+        {
+            "bahasa": "cecurut",
+            "bebasan": "cecurut",
+            "english": "shrew"
+        },
+        {
+            "bahasa": "cegah",
+            "bebasan": "nyegah",
+            "english": "prevent"
+        },
+        {
+            "bahasa": "dicegah",
+            "bebasan": "dicegah",
+            "english": "prevented"
+        },
+        {
+            "bahasa": "kecegah",
+            "bebasan": "kecegah",
+            "english": "prevent"
+        },
+        {
+            "bahasa": "mencegah",
+            "bebasan": "nyegah",
+            "english": "prevent"
+        },
+        {
+            "bahasa": "cegat",
+            "bebasan": "cegat",
+            "english": "intercept"
+        },
+        {
+            "bahasa": "dicegat",
+            "bebasan": "dicegat",
+            "english": "intercepted"
+        },
+        {
+            "bahasa": "dicegati",
+            "bebasan": "dicegati",
+            "english": "intercepted"
+        },
+        {
+            "bahasa": "mencegat",
+            "bebasan": "nyegat",
+            "english": "intercept"
+        },
+        {
+            "bahasa": "mencegati",
+            "bebasan": "nyegati",
+            "english": "intercept"
+        },
+        {
+            "bahasa": "cegik",
+            "bebasan": "cegik",
+            "english": "suffocate"
+        },
+        {
+            "bahasa": "dicegik",
+            "bebasan": "dicegik",
+            "english": "strangled"
+        },
+        {
+            "bahasa": "dicegikkan",
+            "bebasan": "dicegikakēn",
+            "english": "strangled"
+        },
+        {
+            "bahasa": "mencegik",
+            "bebasan": "nyegik",
+            "english": "suffocate"
+        },
+        {
+            "bahasa": "cekatan",
+            "bebasan": "cēngki",
+            "english": "nimble"
+        },
+        {
+            "bahasa": "cekik",
+            "bebasan": "cekik/cekèk",
+            "english": "choke"
+        },
+        {
+            "bahasa": "dicekik",
+            "bebasan": "dicekik/dicekèk",
+            "english": "strangled"
+        },
+        {
+            "bahasa": "dicekeki",
+            "bebasan": "dicekiki/dicekèki",
+            "english": "strangled"
+        },
+        {
+            "bahasa": "kecekik",
+            "bebasan": "kecekik/kecèkèk",
+            "english": "suffocate"
+        },
+        {
+            "bahasa": "mencekik",
+            "bebasan": "nyekik/nyekèk",
+            "english": "suffocate"
+        },
+        {
+            "bahasa": "cekokan",
+            "bebasan": "cekokan",
+            "english": "fuck"
+        },
+        {
+            "bahasa": "dicekoki",
+            "bebasan": "dicekoki",
+            "english": "force-fed"
+        },
+        {
+            "bahasa": "mencekoki",
+            "bebasan": "nyekoki",
+            "english": "force-feed"
+        },
+        {
+            "bahasa": "cekung",
+            "bebasan": "cekung",
+            "english": "sunken"
+        },
+        {
+            "bahasa": "celaka",
+            "bebasan": "celaké",
+            "english": "woe"
+        },
+        {
+            "bahasa": "dicelakai",
+            "bebasan": "dicelakani",
+            "english": "harm"
+        },
+        {
+            "bahasa": "kecelakaan",
+            "bebasan": "kecelakaan",
+            "english": "accident"
+        },
+        {
+            "bahasa": "mencelakai",
+            "bebasan": "nyelakani",
+            "english": "harm"
+        },
+        {
+            "bahasa": "mencelakakan",
+            "bebasan": "nyelakakakēn",
+            "english": "harm"
+        },
+        {
+            "bahasa": "celana",
+            "bebasan": "celané/seroal",
+            "english": "trousers"
+        },
+        {
+            "bahasa": "celana pendek",
+            "bebasan": "celané cēndēk/pokek",
+            "english": "shorts"
+        },
+        {
+            "bahasa": "celengan",
+            "bebasan": "cèlèngan",
+            "english": "piggy bank"
+        },
+        {
+            "bahasa": "cemberut",
+            "bebasan": "merengut/melēmbung",
+            "english": "frown"
+        },
+        {
+            "bahasa": "cengeng",
+            "bebasan": "cèngèng",
+            "english": "whining"
+        },
+        {
+            "bahasa": "centil",
+            "bebasan": "lèdēg",
+            "english": "coquettish"
+        },
+        {
+            "bahasa": "kecentilan",
+            "bebasan": "kelèdégēn",
+            "english": "cockiness"
+        },
+        {
+            "bahasa": "cepat",
+            "bebasan": "gancang/gelis",
+            "english": "fast"
+        },
+        {
+            "bahasa": "cepetan",
+            "bebasan": "gancangsih",
+            "english": "hurry"
+        },
+        {
+            "bahasa": "dipercepat",
+            "bebasan": "digancangakēn/digeliskēn",
+            "english": "accelerated"
+        },
+        {
+            "bahasa": "kecepatan",
+            "bebasan": "kegancangēn/kegelisēn",
+            "english": "speed"
+        },
+        {
+            "bahasa": "mempercepat",
+            "bebasan": "ngegancangakēn/ngegeliskēn",
+            "english": "speed up"
+        },
+        {
+            "bahasa": "ceper",
+            "bebasan": "cèpèr",
+            "english": "flat"
+        },
+        {
+            "bahasa": "cerca",
+            "bebasan": "ngalé-alé",
+            "english": "scorn"
+        },
+        {
+            "bahasa": "dicerca",
+            "bebasan": "dialé-alé",
+            "english": "reviled"
+        },
+        {
+            "bahasa": "mencerca",
+            "bebasan": "ngalé-alé",
+            "english": "scorn"
+        },
+        {
+            "bahasa": "cerdas",
+            "bebasan": "calakan/pintēr/jelingēr",
+            "english": "intelligent"
+        },
+        {
+            "bahasa": "dicerdaskan",
+            "bebasan": "dicērdasakēn",
+            "english": "be smart"
+        },
+        {
+            "bahasa": "kecerdasan",
+            "bebasan": "kecērdasēn",
+            "english": "intelligence"
+        },
+        {
+            "bahasa": "kecerdasannya",
+            "bebasan": "kepinterananè",
+            "english": "his intelligence"
+        },
+        {
+            "bahasa": "mencerdaskan",
+            "bebasan": "mintērakēn",
+            "english": "educate"
+        },
+        {
+            "bahasa": "cerewet",
+            "bebasan": "cerèwèd",
+            "english": "talkative"
+        },
+        {
+            "bahasa": "dicereweti",
+            "bebasan": "dicerèwèdi",
+            "english": "nagging"
+        },
+        {
+            "bahasa": "kacerewetan",
+            "bebasan": "kecerèwèdēn",
+            "english": "talkative"
+        },
+        {
+            "bahasa": "ceriwis",
+            "bebasan": "ceriwis",
+            "english": "sweet"
+        },
+        {
+            "bahasa": "cermin",
+            "bebasan": "kacé",
+            "english": "mirror"
+        },
+        {
+            "bahasa": "ceroboh",
+            "bebasan": "cerobo",
+            "english": "careless"
+        },
+        {
+            "bahasa": "kecerobohan",
+            "bebasan": "kecerobonēn",
+            "english": "carelessness"
+        },
+        {
+            "bahasa": "cibir",
+            "bebasan": "ngelelèwè",
+            "english": "pout"
+        },
+        {
+            "bahasa": "dicibiri",
+            "bebasan": "dilelèwè",
+            "english": "ridiculed"
+        },
+        {
+            "bahasa": "mencibiri",
+            "bebasan": "ngelelèwè",
+            "english": "sneering"
+        },
+        {
+            "bahasa": "cicak",
+            "bebasan": "cecēk",
+            "english": "House lizard"
+        },
+        {
+            "bahasa": "cicip",
+            "bebasan": "icip",
+            "english": "taste"
+        },
+        {
+            "bahasa": "cicipi",
+            "bebasan": "icipi",
+            "english": "taste"
+        },
+        {
+            "bahasa": "dicicipi",
+            "bebasan": "diicipi",
+            "english": "tasted"
+        },
+        {
+            "bahasa": "mencicipi",
+            "bebasan": "ngicipi",
+            "english": "tasting"
+        },
+        {
+            "bahasa": "cincau",
+            "bebasan": "camcau",
+            "english": "grass jelly"
+        },
+        {
+            "bahasa": "cina",
+            "bebasan": "ciné",
+            "english": "China"
+        },
+        {
+            "bahasa": "cincang",
+            "bebasan": "cacah/bacok-bacok",
+            "english": "chopped"
+        },
+        {
+            "bahasa": "dicincang",
+            "bebasan": "dicacah/dibacok-bacok",
+            "english": "chopped"
+        },
+        {
+            "bahasa": "kecincang",
+            "bebasan": "kecacah/ kebacok-bacok",
+            "english": "chopped"
+        },
+        {
+            "bahasa": "mencincang",
+            "bebasan": "nyacah/ngebacok-bacok",
+            "english": "chop up"
+        },
+        {
+            "bahasa": "cincin",
+            "bebasan": "ali-ali",
+            "english": "ring"
+        },
+        {
+            "bahasa": "cincin-cincinan",
+            "bebasan": "ali-alian",
+            "english": "rings"
+        },
+        {
+            "bahasa": "cinta",
+            "bebasan": "demēn",
+            "english": "love"
+        },
+        {
+            "bahasa": "cinta buta",
+            "bebasan": "kedemēn-demēn",
+            "english": "blind love"
+        },
+        {
+            "bahasa": "dicintai",
+            "bebasan": "didemeni",
+            "english": "loved"
+        },
+        {
+            "bahasa": "mencintai",
+            "bebasan": "ngedemeni",
+            "english": "love"
+        },
+        {
+            "bahasa": "tercinta",
+            "bebasan": "kedemēn-demēn",
+            "english": "beloved"
+        },
+        {
+            "bahasa": "cipta",
+            "bebasan": "damēl",
+            "english": "create"
+        },
+        {
+            "bahasa": "diciptakan",
+            "bebasan": "didamēlakēn",
+            "english": "created"
+        },
+        {
+            "bahasa": "menciptakan",
+            "bebasan": "ngedamēlakēn",
+            "english": "create"
+        },
+        {
+            "bahasa": "tercipta",
+            "bebasan": "kedamēl",
+            "english": "created"
+        },
+        {
+            "bahasa": "cium",
+            "bebasan": "ambung",
+            "english": "kiss"
+        },
+        {
+            "bahasa": "ciuman",
+            "bebasan": "ambung-ambungan",
+            "english": "kiss"
+        },
+        {
+            "bahasa": "berciuman",
+            "bebasan": "ambung-ambungan",
+            "english": "kissing"
+        },
+        {
+            "bahasa": "dicium",
+            "bebasan": "diambung",
+            "english": "kissed"
+        },
+        {
+            "bahasa": "diciumi",
+            "bebasan": "diambungi",
+            "english": "kissed"
+        },
+        {
+            "bahasa": "kecium",
+            "bebasan": "keambung",
+            "english": "kiss"
+        },
+        {
+            "bahasa": "mencium",
+            "bebasan": "ngambung",
+            "english": "kiss"
+        },
+        {
+            "bahasa": "menciumi",
+            "bebasan": "ngambungi",
+            "english": "kiss"
+        },
+        {
+            "bahasa": "menciumkan",
+            "bebasan": "ngambungakēn",
+            "english": "kiss"
+        },
+        {
+            "bahasa": "pencium",
+            "bebasan": "pengambung",
+            "english": "olfactory"
+        },
+        {
+            "bahasa": "penciuman",
+            "bebasan": "pengambungan",
+            "english": "smell"
+        },
+        {
+            "bahasa": "tercium",
+            "bebasan": "keambung",
+            "english": "smell"
+        },
+        {
+            "bahasa": "coba",
+            "bebasan": "cubi",
+            "english": "try"
+        },
+        {
+            "bahasa": "coba-coba",
+            "bebasan": "cubi-cubi",
+            "english": "try try"
+        },
+        {
+            "bahasa": "dicoba",
+            "bebasan": "dicubi",
+            "english": "try"
+        },
+        {
+            "bahasa": "dicobakan",
+            "bebasan": "dicubikakēn",
+            "english": "try"
+        },
+        {
+            "bahasa": "mencoba",
+            "bebasan": "nyubi",
+            "english": "try"
+        },
+        {
+            "bahasa": "cocok",
+            "bebasan": "cocok/akur",
+            "english": "suitable"
+        },
+        {
+            "bahasa": "dicocokkan",
+            "bebasan": "dicocokakēn/diakurakēn",
+            "english": "matched"
+        },
+        {
+            "bahasa": "mencocokkan",
+            "bebasan": "nyocokakēn/ngakurakēn",
+            "english": "match"
+        },
+        {
+            "bahasa": "coklat",
+            "bebasan": "soklat",
+            "english": "chocolate"
+        },
+        {
+            "bahasa": "coklat muda",
+            "bebasan": "soklat enom",
+            "english": "light brown"
+        },
+        {
+            "bahasa": "coklat tua",
+            "bebasan": "soklat tué",
+            "english": "dark brown"
+        },
+        {
+            "bahasa": "colek",
+            "bebasan": "colet/duil/dulit",
+            "english": "poke"
+        },
+        {
+            "bahasa": "colek-colekan",
+            "bebasan": "deduilan/dedulitan",
+            "english": "poke"
+        },
+        {
+            "bahasa": "dicolek",
+            "bebasan": "diduil/didulit",
+            "english": "poked"
+        },
+        {
+            "bahasa": "menyolek",
+            "bebasan": "ngeduil/ngedulit",
+            "english": "poking"
+        },
+        {
+            "bahasa": "tercolek",
+            "bebasan": "keduil/kedulit",
+            "english": "poked"
+        },
+        {
+            "bahasa": "colok",
+            "bebasan": "colok",
+            "english": "plug in"
+        },
+        {
+            "bahasa": "colokkan",
+            "bebasan": "colokakēn",
+            "english": "plug it in"
+        },
+        {
+            "bahasa": "dicolok",
+            "bebasan": "dicolok",
+            "english": "plugged in"
+        },
+        {
+            "bahasa": "dicolokkan",
+            "bebasan": "dicolokakēn",
+            "english": "plugged in"
+        },
+        {
+            "bahasa": "mencolok",
+            "bebasan": "nyolok",
+            "english": "flashy"
+        },
+        {
+            "bahasa": "mencolokkan",
+            "bebasan": "nyolokakēn",
+            "english": "plug in"
+        },
+        {
+            "bahasa": "comot",
+            "bebasan": "pēndēt",
+            "english": "grimy"
+        },
+        {
+            "bahasa": "dicomot",
+            "bebasan": "dipēndēt",
+            "english": "picked"
+        },
+        {
+            "bahasa": "condong",
+            "bebasan": "condong",
+            "english": "leaning"
+        },
+        {
+            "bahasa": "conge",
+            "bebasan": "curēk",
+            "english": "conge"
+        },
+        {
+            "bahasa": "congean",
+            "bebasan": "curekēn",
+            "english": "congean"
+        },
+        {
+            "bahasa": "congkel",
+            "bebasan": "congkèl",
+            "english": "pry"
+        },
+        {
+            "bahasa": "dicongkel",
+            "bebasan": "dicongkèl",
+            "english": "gouged"
+        },
+        {
+            "bahasa": "kecongkel",
+            "bebasan": "kecongkèl",
+            "english": "gouged"
+        },
+        {
+            "bahasa": "mencongkel",
+            "bebasan": "nyongkèl",
+            "english": "gouging"
+        },
+        {
+            "bahasa": "congklak",
+            "bebasan": "daku",
+            "english": "congklak"
+        },
+        {
+            "bahasa": "contoh",
+            "bebasan": "conto/mostēr",
+            "english": "example"
+        },
+        {
+            "bahasa": "contohnya",
+            "bebasan": "contonè/mosterè",
+            "english": "for example"
+        },
+        {
+            "bahasa": "dicontoh",
+            "bebasan": "diconto",
+            "english": "emulated"
+        },
+        {
+            "bahasa": "dicontohkan",
+            "bebasan": "dicontokakēn",
+            "english": "example"
+        },
+        {
+            "bahasa": "mencontohkan",
+            "bebasan": "nyontokakēn",
+            "english": "exemplify"
+        },
+        {
+            "bahasa": "copet",
+            "bebasan": "copèt",
+            "english": "pickpocket"
+        },
+        {
+            "bahasa": "dicopet",
+            "bebasan": "dicopèt",
+            "english": "pickpocketed"
+        },
+        {
+            "bahasa": "kecopetan",
+            "bebasan": "kecopètan",
+            "english": "pickpocket"
+        },
+        {
+            "bahasa": "mencopet",
+            "bebasan": "nyopèt",
+            "english": "pickpocket"
+        },
+        {
+            "bahasa": "copot",
+            "bebasan": "uculi/lolos",
+            "english": "dislodged"
+        },
+        {
+            "bahasa": "copotkan",
+            "bebasan": "uculakēn/lolosakēn",
+            "english": "take it off"
+        },
+        {
+            "bahasa": "dicopot",
+            "bebasan": "diuculi/dilolos",
+            "english": "removed"
+        },
+        {
+            "bahasa": "kecopot",
+            "bebasan": "keuculi /kelolos",
+            "english": "dropped"
+        },
+        {
+            "bahasa": "mencopot",
+            "bebasan": "nguculi /ngelolosi",
+            "english": "uninstall"
+        },
+        {
+            "bahasa": "mencopotkan",
+            "bebasan": "nguculakēn/ngelolosakēn",
+            "english": "remove"
+        },
+        {
+            "bahasa": "cubit",
+            "bebasan": "jiwit/cetot",
+            "english": "pinch"
+        },
+        {
+            "bahasa": "cubitkan",
+            "bebasan": "jiwitakēn/cetotakēn",
+            "english": "pinch"
+        },
+        {
+            "bahasa": "cubit-cubitan",
+            "bebasan": "jejiwitan/cecetotan",
+            "english": "pinch"
+        },
+        {
+            "bahasa": "dicubit",
+            "bebasan": "dijiwit/dicetot",
+            "english": "pinched"
+        },
+        {
+            "bahasa": "dicubiti",
+            "bebasan": "dijiwiti/dicetoti",
+            "english": "pinched"
+        },
+        {
+            "bahasa": "kecubit",
+            "bebasan": "kejiwit/kecetot",
+            "english": "pinch"
+        },
+        {
+            "bahasa": "mencubit",
+            "bebasan": "ngejiwit/nyetot",
+            "english": "pinch"
+        },
+        {
+            "bahasa": "mencubiti",
+            "bebasan": "ngejiwiti/nyetoti",
+            "english": "pinch"
+        },
+        {
+            "bahasa": "mencubitkan",
+            "bebasan": "ngejiwitakēn/nyetotakēn",
+            "english": "pinch"
+        },
+        {
+            "bahasa": "kelupas kulitnya",
+            "bebasan": "cowak",
+            "english": "peel off the skin"
+        },
+        {
+            "bahasa": "cuci",
+            "bebasan": "kumbah/kupcak /kopcok",
+            "english": "wash"
+        },
+        {
+            "bahasa": "cucikan",
+            "bebasan": "kumbahakēn/kupcakakēn/ kopcokakēn",
+            "english": "wash"
+        },
+        {
+            "bahasa": "dicuci",
+            "bebasan": "dikumbah/dikupcak/dikopcok",
+            "english": "washed"
+        },
+        {
+            "bahasa": "kecuci",
+            "bebasan": "kekumbah/kekupcak /kekopcok",
+            "english": "wash"
+        },
+        {
+            "bahasa": "mencuci",
+            "bebasan": "ngengumbah/ngupcaki /ngopcoki",
+            "english": "wash"
+        },
+        {
+            "bahasa": "mencucikan",
+            "bebasan": "ngumbahakēn/ngupcakakēn/ ngopcokakēn",
+            "english": "wash"
+        },
+        {
+            "bahasa": "mencuci (terakhir)",
+            "bebasan": "dibilasi",
+            "english": "wash (last)"
+        },
+        {
+            "bahasa": "cuci baju",
+            "bebasan": "ngengumbah",
+            "english": "washing clothes"
+        },
+        {
+            "bahasa": "cuci beras",
+            "bebasan": "mususi",
+            "english": "wash rice"
+        },
+        {
+            "bahasa": "cuci kaki",
+            "bebasan": "wewisuh",
+            "english": "wash feet"
+        },
+        {
+            "bahasa": "cuci mata",
+            "bebasan": "dedolan",
+            "english": "eye wash"
+        },
+        {
+            "bahasa": "cuci muka",
+            "bebasan": "reraup",
+            "english": "washing face"
+        },
+        {
+            "bahasa": "cuci mulut",
+            "bebasan": "bebilas",
+            "english": "wash your mouth"
+        },
+        {
+            "bahasa": "cuci rambut",
+            "bebasan": "keramas",
+            "english": "hair washing"
+        },
+        {
+            "bahasa": "cuci tangan",
+            "bebasan": "wewisuh",
+            "english": "washing hands"
+        },
+        {
+            "bahasa": "cucu",
+            "bebasan": "putu",
+            "english": "grandchild"
+        },
+        {
+            "bahasa": "cucur",
+            "bebasan": "cucur",
+            "english": "bowsprit"
+        },
+        {
+            "bahasa": "cuka",
+            "bebasan": "cuké",
+            "english": "vinegar"
+        },
+        {
+            "bahasa": "dicukai",
+            "bebasan": "dicukani",
+            "english": "taxed"
+        },
+        {
+            "bahasa": "mencukai",
+            "bebasan": "nyukani",
+            "english": "tax"
+        },
+        {
+            "bahasa": "cukup",
+            "bebasan": "cekap",
+            "english": "enough"
+        },
+        {
+            "bahasa": "cukupkan",
+            "bebasan": "nyekapakēn",
+            "english": "enough"
+        },
+        {
+            "bahasa": "dicukupi",
+            "bebasan": "dicekapi",
+            "english": "enough"
+        },
+        {
+            "bahasa": "dicukupkan",
+            "bebasan": "dicekapakēn",
+            "english": "enough"
+        },
+        {
+            "bahasa": "kecukupan",
+            "bebasan": "kecekapan",
+            "english": "adequacy"
+        },
+        {
+            "bahasa": "mencukupi",
+            "bebasan": "nyekapi",
+            "english": "sufficient"
+        },
+        {
+            "bahasa": "mencukupkan",
+            "bebasan": "nyekapakēn",
+            "english": "enough"
+        },
+        {
+            "bahasa": "cukur",
+            "bebasan": "cukur",
+            "english": "shaving"
+        },
+        {
+            "bahasa": "cukuran",
+            "bebasan": "cecukuran",
+            "english": "shaving"
+        },
+        {
+            "bahasa": "dicukur",
+            "bebasan": "dicukur",
+            "english": "shaved"
+        },
+        {
+            "bahasa": "kecukur",
+            "bebasan": "kecukur",
+            "english": "shave"
+        },
+        {
+            "bahasa": "mencukur",
+            "bebasan": "nyukur",
+            "english": "shave"
+        },
+        {
+            "bahasa": "culik",
+            "bebasan": "culik",
+            "english": "kidnap"
+        },
+        {
+            "bahasa": "diculik",
+            "bebasan": "diculik",
+            "english": "kidnapped"
+        },
+        {
+            "bahasa": "menculik",
+            "bebasan": "nyulik",
+            "english": "kidnap"
+        },
+        {
+            "bahasa": "cumi",
+            "bebasan": "corak",
+            "english": "squid"
+        },
+        {
+            "bahasa": "curah",
+            "bebasan": "bekasan",
+            "english": "bulk"
+        },
+        {
+            "bahasa": "curam",
+            "bebasan": "jungklang",
+            "english": "steep"
+        },
+        {
+            "bahasa": "curang",
+            "bebasan": "ngicon",
+            "english": "cheat"
+        },
+        {
+            "bahasa": "dicurangi",
+            "bebasan": "dikiconi",
+            "english": "cheated"
+        },
+        {
+            "bahasa": "mencurangi",
+            "bebasan": "ngiconi",
+            "english": "cheat"
+        },
+        {
+            "bahasa": "curhat",
+            "bebasan": "curhat",
+            "english": "confide"
+        },
+        {
+            "bahasa": "curi",
+            "bebasan": "nyolong/ngēntèt/paling",
+            "english": "steal"
+        },
+        {
+            "bahasa": "curiannya",
+            "bebasan": "colongananè/kuntitanè/pepalinganè",
+            "english": "the stolen"
+        },
+        {
+            "bahasa": "dicuri",
+            "bebasan": "dicolong/dikuntit/dipaling",
+            "english": "stolen"
+        },
+        {
+            "bahasa": "kecurian",
+            "bebasan": "kecolongan/kekuntit/kepaling",
+            "english": "theft"
+        },
+        {
+            "bahasa": "mencuri",
+            "bebasan": "nyolong/nguntit/maling",
+            "english": "steal"
+        },
+        {
+            "bahasa": "pencuri",
+            "bebasan": "maling",
+            "english": "thief"
+        },
+        {
+            "bahasa": "curiga",
+            "bebasan": "curigé",
+            "english": "suspect"
+        },
+        {
+            "bahasa": "cuti",
+            "bebasan": "cuti",
+            "english": "paid leave"
+        }
+    
+]
