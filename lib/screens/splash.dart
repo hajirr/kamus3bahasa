@@ -23,7 +23,7 @@ class _SplashState extends State<Splash> {
     return Scaffold(
       body: Container(
         padding: const EdgeInsets.all(8),
-        color: Colors.orange[300],
+        color: Colors.orange,
         width: Get.width,
         height: Get.height,
         child: Column(
