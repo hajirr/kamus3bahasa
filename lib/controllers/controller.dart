@@ -8,15 +8,25 @@ import 'package:kamus3bahasa/models/kamus.dart';
 
 class MyController extends GetxController {
   TextEditingController cSearch = TextEditingController();
-
+  var data = [];
+  List<Kamus> results = [];
   searchWord() {
     Get.snackbar("Sukses", "Anda mencari $cSearch");
   }
 
-  Future<List<Kamus>> readJsonData() async {
+  Future<List<Kamus>> readJsonData(String? query) async {
     final jsondata = await rootBundle.loadString('assets/json/kamus.json');
     final list = json.decode(jsondata) as List<dynamic>;
 
-    return list.map((e) => Kamus.fromJson(e)).toList();
+    results = list.map((e) => Kamus.fromJson(e)).toList();
+    if (query != null) {
+      results = results
+          .where((element) =>
+              element.bahasa!.toLowerCase().contains(query.toLowerCase()))
+          .toList();
+    } else {
+      print("Error");
+    }
+    return results;
   }
 }

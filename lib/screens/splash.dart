@@ -37,9 +37,9 @@ class _SplashState extends State<Splash> {
               textAlign: TextAlign.center,
               style: GoogleFonts.roboto(color: Colors.white, fontSize: 18),
             ),
-            Row(
-              children: [],
-            )
+            // Row(
+            //   children: [],
+            // )
           ],
         ),
       ),
