@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:kamus3bahasa/controllers/controller.dart';
 import 'package:kamus3bahasa/models/kamus.dart';
+import 'package:lottie/lottie.dart';
 
 class SearchKamus extends SearchDelegate {
   @override
@@ -11,7 +12,7 @@ class SearchKamus extends SearchDelegate {
           onPressed: () {
             query = "";
           },
-          icon: Icon(Icons.search)),
+          icon: const Icon(Icons.close)),
     ];
   }
 
@@ -21,7 +22,7 @@ class SearchKamus extends SearchDelegate {
         onPressed: () {
           Get.back();
         },
-        icon: Icon(Icons.arrow_back_ios_new));
+        icon: const Icon(Icons.arrow_back_ios_new));
   }
 
   @override
@@ -66,7 +67,7 @@ class SearchKamus extends SearchDelegate {
                                     ? TextAlign.right
                                     : TextAlign.left,
                                 style: const TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 13,
                                   color: Colors.black,
                                 ),
                               ),
@@ -79,7 +80,7 @@ class SearchKamus extends SearchDelegate {
                                       ? TextAlign.right
                                       : TextAlign.left,
                                   style: const TextStyle(
-                                    fontSize: 20,
+                                    fontSize: 13,
                                     color: Colors.pink,
                                   ),
                                 ),
@@ -89,7 +90,7 @@ class SearchKamus extends SearchDelegate {
                                       ? TextAlign.right
                                       : TextAlign.left,
                                   style: const TextStyle(
-                                      fontSize: 20, color: Colors.deepPurple)),
+                                      fontSize: 13, color: Colors.deepPurple)),
                             ],
                           ),
                         ),
@@ -102,7 +103,7 @@ class SearchKamus extends SearchDelegate {
                               Text(
                                 "${items[index].bahasa}",
                                 style: const TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 13,
                                   color: Colors.black,
                                 ),
                               ),
@@ -112,14 +113,14 @@ class SearchKamus extends SearchDelegate {
                                 child: Text(
                                   "${items[index].bebasan}",
                                   style: const TextStyle(
-                                    fontSize: 20,
+                                    fontSize: 13,
                                     color: Colors.pink,
                                   ),
                                 ),
                               ),
                               Text("${items[index].english}",
                                   style: const TextStyle(
-                                      fontSize: 20, color: Colors.deepPurple)),
+                                      fontSize: 13, color: Colors.deepPurple)),
                             ],
                           ),
                         ))
@@ -140,7 +141,7 @@ class SearchKamus extends SearchDelegate {
   @override
   Widget buildSuggestions(BuildContext context) {
     return Center(
-      child: Text("Cari kata"),
+      child: Lottie.asset("assets/json/brain_charge.json"),
     );
   }
 }
