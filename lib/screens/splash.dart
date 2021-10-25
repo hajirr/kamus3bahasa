@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:kamus3bahasa/screens/home.dart';
 
 class Splash extends StatefulWidget {
@@ -15,7 +14,7 @@ class _SplashState extends State<Splash> {
   void initState() {
     super.initState();
     Future.delayed(
-        const Duration(seconds: 3), () => Get.off(() => const Home()));
+        const Duration(seconds: 5), () => Get.off(() => const Home()));
   }
 
   @override
@@ -28,19 +27,23 @@ class _SplashState extends State<Splash> {
         decoration: const BoxDecoration(
             gradient: LinearGradient(colors: [Colors.blue, Colors.lightBlue])),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Spacer(),
             Image.asset("assets/images/logo.png"),
-            const Spacer(),
-            Text(
-              "Penyusun \nAhdi Zukhruf Amri",
-              textAlign: TextAlign.center,
-              style: GoogleFonts.roboto(color: Colors.white, fontSize: 18),
+            const Padding(
+              padding: EdgeInsets.symmetric(vertical: 50.0),
+              child: Text(
+                "\"Utamakan Bahasa Indonesia, Lestarikan Bahasa Daerah Dan Kuasai Bahasa Asing.\"",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 18,
+                    fontStyle: FontStyle.italic,
+                    color: Colors.white),
+              ),
             ),
-            // Row(
-            //   children: [],
-            // )
+            const CircularProgressIndicator(
+              color: Colors.white,
+            ),
           ],
         ),
       ),
