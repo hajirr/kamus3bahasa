@@ -27,9 +27,9 @@ class SearchKamus extends SearchDelegate {
 
   @override
   Widget buildResults(BuildContext context) {
-    MyController myController = Get.find();
+    MyController controller = Get.find();
     return FutureBuilder<List<Kamus>>(
-      future: myController.readJsonData(query),
+      future: controller.readJsonData(query),
       builder: (context, data) {
         if (data.hasError) {
           return Center(child: Text("${data.error}"));
@@ -43,11 +43,7 @@ class SearchKamus extends SearchDelegate {
                       ? Colors.grey[200]
                       : Colors.white,
                   elevation: 5,
-                  margin: EdgeInsets.fromLTRB(
-                      items[index].imbuhan == true ? 25 : 10,
-                      10,
-                      items[index].imbuhan != true ? 25 : 10,
-                      10),
+                  margin: const EdgeInsets.all(10),
                   child: Container(
                     margin: const EdgeInsets.only(left: 10),
                     padding: const EdgeInsets.all(8),
@@ -123,7 +119,34 @@ class SearchKamus extends SearchDelegate {
                                       fontSize: 13, color: Colors.deepPurple)),
                             ],
                           ),
-                        ))
+                        )),
+                        // Column(
+                        //   children: [
+                        //     GetBuilder<MyController>(
+                        //       builder: (_) {
+                        //         return IconButton(
+                        //             onPressed: () {
+                        //               controller
+                        //                   .addBookmark(items[index].bahasa);
+                        //             },
+                        //             icon: Icon(
+                        //               controller.bookmark.read(
+                        //                           "index ${items[index].bahasa}") ==
+                        //                       null
+                        //                   ? Icons.bookmark_outline
+                        //                   : Icons.bookmark,
+                        //               color: Colors.blue,
+                        //             ));
+                        //       },
+                        //     ),
+                        //     IconButton(
+                        //         onPressed: () {
+                        //           controller
+                        //               .openBrowserTab(items[index].bahasa);
+                        //         },
+                        //         icon: const Icon(Icons.search))
+                        //   ],
+                        // )
                       ],
                     ),
                   ),
