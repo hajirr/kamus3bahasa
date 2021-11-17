@@ -3961,12 +3961,12 @@
     },
     {
         "bahasa": "membeli",
-        "bebasan": "mati rasa",
+        "bebasan": "tumbas",
         "english": "buy"
     },
     {
         "bahasa": "membelikan",
-        "bebasan": "mati rasa",
+        "bebasan": "numbasaken",
         "english": "buy"
     },
     {
@@ -5938,11 +5938,6 @@
         "bahasa": "diburu-buru",
         "bebasan": "nambah ale/nyangkin ale",
         "english": "rush"
-    },
-    {
-        "bahasa": "mengejar",
-        "bebasan": "antuk",
-        "english": "hunting"
     },
     {
         "bahasa": "keburu",
@@ -21581,47 +21576,47 @@
     },
     {
         "bahasa": "berleha-leha",
-        "bebasan": "gulu",
+        "bebasan": "ngelehe-lehe",
         "english": "relax"
     },
     {
         "bahasa": "leher",
-        "bebasan": "lejit",
+        "bebasan": "gulu",
         "english": "neck"
     },
     {
         "bahasa": "lejit",
-        "bebasan": "melejit",
+        "bebasan": "lejit",
         "english": "fast"
     },
     {
         "bahasa": "melejit",
-        "bebasan": "gancang",
+        "bebasan": "melejit",
         "english": "skyrocket"
     },
     {
         "bahasa": "lekas",
-        "bebasan": "nempel",
+        "bebasan": "gancang",
         "english": "quick"
     },
     {
         "bahasa": "lekat",
-        "bebasan": "tempelaken/lemaken",
+        "bebasan": "nempel",
         "english": "sticky"
     },
     {
         "bahasa": "lekatkan",
-        "bebasan": "ditempelaken",
+        "bebasan": "tempelaken/lemaken",
         "english": "stick"
     },
     {
         "bahasa": "dilekatkan",
-        "bebasan": "kenempelen",
+        "bebasan": "ditempelaken",
         "english": "attached"
     },
     {
         "bahasa": "kelekatan",
-        "bebasan": "nempel",
+        "bebasan": "kenempelen",
         "english": "attachment"
     },
     {
@@ -21631,368 +21626,373 @@
     },
     {
         "bahasa": "pelekat",
-        "bebasan": "lekuk",
+        "bebasan": "nempel",
         "english": "adhesive"
     },
     {
         "bahasa": "lekuk",
-        "bebasan": "lekukan/lelekukan",
+        "bebasan": "lekuk",
         "english": "curve"
     },
     {
         "bahasa": "lekukan",
-        "bebasan": "pegel",
+        "bebasan": "lekukan/lelekukan",
         "english": "indentation"
     },
     {
         "bahasa": "lelah",
-        "bebasan": "dipegelaken",
+        "bebasan": "pegel",
         "english": "tired"
     },
     {
         "bahasa": "dilelahkan",
-        "bebasan": "kepegelen",
+        "bebasan": "dipegelaken",
         "english": "tired"
     },
     {
         "bahasa": "kelelahan",
-        "bebasan": "megelaken",
+        "bebasan": "kepegelen",
         "english": "fatigue"
     },
     {
         "bahasa": "memelahkan",
-        "bebasan": "kelongse",
+        "bebasan": "megelaken",
         "english": "exhausting"
     },
     {
         "bahasa": "terlalu lelah",
-        "bebasan": "lumer",
+        "bebasan": "kelongse",
         "english": "too tired"
     },
     {
         "bahasa": "leleh",
-        "bebasan": "lumeraken",
+        "bebasan": "lumer",
         "english": "melt"
     },
     {
         "bahasa": "lelehkan",
-        "bebasan": "dilumeraken",
+        "bebasan": "lumeraken",
         "english": "melt it"
     },
     {
         "bahasa": "dilelehkan",
-        "bebasan": "ngelumer/ngeleleh",
+        "bebasan": "dilumeraken",
         "english": "melted"
     },
     {
         "bahasa": "meleleh",
-        "bebasan": "ngelelehaken",
+        "bebasan": "ngelumer/ngeleleh",
         "english": "melt"
     },
     {
         "bahasa": "melelehkan",
-        "bebasan": "leluase",
+        "bebasan": "ngelelehaken",
         "english": "melt"
     },
     {
         "bahasa": "leluasa",
-        "bebasan": "lelucon",
+        "bebasan": "leluase",
         "english": "free"
     },
     {
         "bahasa": "lelucon",
-        "bebasan": "keruhun",
+        "bebasan": "lelucon",
         "english": "joke"
     },
     {
         "bahasa": "leluhur",
-        "bebasan": "pulut",
+        "bebasan": "keruhun",
         "english": "ancestors"
     },
     {
         "bahasa": "lem",
-        "bebasan": "gajih",
+        "bebasan": "pulut",
         "english": "glue"
     },
     {
         "bahasa": "lemak",
-        "bebasan": "anyeb",
+        "bebasan": "gajih",
         "english": "fat"
     },
     {
         "bahasa": "lembap",
-        "bebasan": "keanyeben",
+        "bebasan": "anyeb",
         "english": "damp"
     },
     {
         "bahasa": "kelembaban",
-        "bebasan": "lembek/melempem/umes/benyek",
+        "bebasan": "keanyeben",
         "english": "humidity"
     },
     {
         "bahasa": "lembek",
-        "bebasan": "dilembekaken/diumesaken",
+        "bebasan": "lembek/melempem/umes/benyek",
         "english": "mushy"
     },
     {
         "bahasa": "dilembekkan",
-        "bebasan": "ngelembekaken/ngumesaken",
+        "bebasan": "dilembekaken/diumesaken",
         "english": "softened"
     },
     {
         "bahasa": "melembeskan",
-        "bebasan": "lembur",
+        "bebasan": "ngelembekaken/ngumesaken",
         "english": "loosen up"
     },
     {
         "bahasa": "lembur",
-        "bebasan": "lemburan",
+        "bebasan": "lembur",
         "english": "overtime"
     },
     {
         "bahasa": "lemburan",
-        "bebasan": "dilembur",
+        "bebasan": "lemburan",
         "english": "overtime"
     },
     {
         "bahasa": "dilembur",
-        "bebasan": "ngelembur",
+        "bebasan": "dilembur",
         "english": "overtime"
     },
     {
         "bahasa": "melembur",
-        "bebasan": "timbug/tempug/balang",
+        "bebasan": "ngelembur",
         "english": "overtime"
     },
     {
         "bahasa": "lempar/lontar",
-        "bebasan": "timpuganane/tetimpuge",
+        "bebasan": "timbug/tempug/balang",
         "english": "throw / throw"
     },
     {
         "bahasa": "lemparannya",
-        "bebasan": "timpugi",
+        "bebasan": "timpuganane/tetimpuge",
         "english": "the throw"
     },
     {
         "bahasa": "lempari",
-        "bebasan": "timpugaken/balangaken",
+        "bebasan": "timpugi",
         "english": "throw"
     },
     {
         "bahasa": "lemparkan",
-        "bebasan": "tetimpugan/bebalangan",
+        "bebasan": "timpugaken/balangaken",
         "english": "throw"
     },
     {
         "bahasa": "lempar-lemparan",
-        "bebasan": "ditimpug/dibalangaken",
+        "bebasan": "tetimpugan/bebalangan",
         "english": "throws"
     },
     {
         "bahasa": "dilempar",
-        "bebasan": "ditimpugi/dibalangi",
+        "bebasan": "ditimpug/dibalangaken",
         "english": "thrown"
     },
     {
         "bahasa": "dilempari",
-        "bebasan": "ditimpugaken/dibalangaken",
+        "bebasan": "ditimpugi/dibalangi",
         "english": "pelted"
     },
     {
         "bahasa": "dilemparkan",
-        "bebasan": "nimpug/ngebalangaken",
+        "bebasan": "ditimpugaken/dibalangaken",
         "english": "thrown"
     },
     {
         "bahasa": "melempar",
-        "bebasan": "nenimpugi/ngebalangi",
+        "bebasan": "nimpug/ngebalangaken",
         "english": "throw"
     },
     {
         "bahasa": "melempari",
-        "bebasan": "nimpugaken/ngebalangaken",
+        "bebasan": "nenimpugi/ngebalangi",
         "english": "throw"
     },
     {
         "bahasa": "melemparkan",
-        "bebasan": "sing nimpug/seng nempug/sing ngebalangaken",
+        "bebasan": "nimpugaken/ngebalangaken",
         "english": "throw"
     },
     {
         "bahasa": "pelempar",
-        "bebasan": "ketimpug/ketempug/kebalangaken",
+        "bebasan": "sing nimpug/seng nempug/sing ngebalangaken",
         "english": "thrower"
     },
     {
         "bahasa": "terlempar",
-        "bebasan": "lender/lendir",
+        "bebasan": "ketimpug/ketempug/kebalangaken",
         "english": "thrown"
     },
     {
         "bahasa": "lendir",
-        "bebasan": "ngelender/ngelendir",
+        "bebasan": "lender/lendir",
         "english": "mucus"
     },
     {
         "bahasa": "berlendir",
-        "bebasan": "meleng/nelengteng/ ngedelengdeng",
+        "bebasan": "ngelender/ngelendir",
         "english": "slimy"
     },
     {
         "bahasa": "lengah",
-        "bebasan": "lengen",
+        "bebasan": "meleng/nelengteng/ ngedelengdeng",
         "english": "off guard"
     },
     {
         "bahasa": "lengan",
-        "bebasan": "lengkep/sangkep/jangkep",
+        "bebasan": "lengen",
         "english": "arm"
     },
     {
         "bahasa": "lengkap",
-        "bebasan": "dilengkepi/disangkepi/dijangkepi",
+        "bebasan": "lengkep/sangkep/jangkep",
         "english": "complete"
     },
     {
         "bahasa": "dilengkapi",
-        "bebasan": "pelengkep/sesangkep/jejangkep",
+        "bebasan": "dilengkepi/disangkepi/dijangkepi",
         "english": "be equipped"
     },
     {
         "bahasa": "kelengkapan",
-        "bebasan": "ngelengkepi/nyangkepi",
+        "bebasan": "pelengkep/sesangkep/jejangkep",
         "english": "completeness"
     },
     {
         "bahasa": "melengkapi",
-        "bebasan": "lengkep/terlangkep/terjangkep",
+        "bebasan": "ngelengkepi/nyangkepi",
         "english": "complete"
     },
     {
         "bahasa": "terlengkap",
-        "bebasan": "nempel/cepel",
+        "bebasan": "lengkep/terlangkep/terjangkep",
         "english": "most complete"
     },
     {
         "bahasa": "lengket",
-        "bebasan": "lengking",
+        "bebasan": "nempel/cepel",
         "english": "sticky"
     },
     {
         "bahasa": "lengking",
-        "bebasan": "melengking",
+        "bebasan": "lengking",
         "english": "shrill"
     },
     {
         "bahasa": "melengking",
-        "bebasan": "melengkung",
+        "bebasan": "melengking",
         "english": "squeaky"
     },
     {
         "bahasa": "lengkung",
-        "bebasan": "dipelengkungaken",
+        "bebasan": "melengkung",
         "english": "curve"
     },
     {
         "bahasa": "dilengkungkan",
-        "bebasan": "lenggang",
+        "bebasan": "dipelengkungaken",
         "english": "curved"
     },
     {
         "bahasa": "lenggang",
-        "bebasan": "lenggak-lenggok",
+        "bebasan": "lenggang",
         "english": "walk away"
     },
     {
         "bahasa": "lenggak-lenggok",
-        "bebasan": "lengser",
+        "bebasan": "lenggak-lenggok",
         "english": "swaying"
     },
     {
         "bahasa": "lengser",
-        "bebasan": "lengseraken",
+        "bebasan": "lengser",
         "english": "step down"
     },
     {
         "bahasa": "lengserkan",
-        "bebasan": "nyengkelung",
+        "bebasan": "lengseraken",
         "english": "remove"
     },
     {
         "bahasa": "lentik",
-        "bebasan": "lentur/melur/lemes",
+        "bebasan": "nyengkelung",
         "english": "tapering"
     },
     {
         "bahasa": "lentur",
-        "bebasan": "lenturaken/lemesaken",
+        "bebasan": "lentur/melur/lemes",
         "english": "flexible"
     },
     {
         "bahasa": "lenturkan",
-        "bebasan": "dilenturakan/dilemesaken",
+        "bebasan": "lenturaken/lemesaken",
         "english": "bend"
     },
     {
         "bahasa": "dilenturkan",
-        "bebasan": "kelenturen/kelemesen",
+        "bebasan": "dilenturakan/dilemesaken",
         "english": "flexed"
     },
     {
         "bahasa": "kelenturan",
-        "bebasan": "ngelenturaken/ngelemesaken",
+        "bebasan": "kelenturen/kelemesen",
         "english": "flexibility"
     },
     {
         "bahasa": "melenturkan",
-        "bebasan": "ilang",
+        "bebasan": "ngelenturaken/ngelemesaken",
         "english": "flex"
     },
     {
         "bahasa": "lenyap",
-        "bebasan": "ilangaken",
+        "bebasan": "ilang",
         "english": "disappear"
     },
     {
         "bahasa": "lenyapkan",
-        "bebasan": "diilangaken",
+        "bebasan": "ilangaken",
         "english": "get rid of"
     },
     {
         "bahasa": "dilenyapkan",
-        "bebasan": "ngilangaken",
+        "bebasan": "diilangaken",
         "english": "obliterated"
     },
     {
         "bahasa": "melenyapkan",
-        "bebasan": "ucul/coplok",
+        "bebasan": "ngilangaken",
         "english": "eliminate"
     },
     {
         "bahasa": "lepas",
-        "bebasan": "uculaken/coplokaken",
+        "bebasan": "ucul/coplok",
         "english": "free"
     },
     {
         "bahasa": "lepaskan",
-        "bebasan": "ucul-ucul",
+        "bebasan": "uculaken/coplokaken",
         "english": "let go"
     },
     {
         "bahasa": "lepas-lepas",
-        "bebasan": "diuculi/dicoploki",
+        "bebasan": "ucul-ucul",
         "english": "take off"
     },
     {
         "bahasa": "dilepas",
-        "bebasan": "diuculaken",
+        "bebasan": "diuculi/dicoploki",
         "english": "released"
     },
     {
         "bahasa": "dilepaskan",
-        "bebasan": "nguculaken",
+        "bebasan": "diuculaken",
         "english": "released"
+    },
+    {
+        "bahasa": "melepaskan",
+        "bebasan": "nguculaken",
+        "english": "release"
     },
     {
         "bahasa": "melepaskan",
@@ -22000,208 +22000,203 @@
         "english": "release"
     },
     {
-        "bahasa": "melepaskan",
-        "bebasan": "kecoplok",
-        "english": "release"
-    },
-    {
         "bahasa": "terlepas",
-        "bebasan": "lepuh",
+        "bebasan": "kecoplok",
         "english": "miss"
     },
     {
         "bahasa": "lepuh",
-        "bebasan": "ngelepuh",
+        "bebasan": "lepuh",
         "english": "blisters"
     },
     {
         "bahasa": "melepuh",
-        "bebasan": "lesehan",
+        "bebasan": "ngelepuh",
         "english": "blister"
     },
     {
         "bahasa": "lesehan",
-        "bebasan": "lestari",
+        "bebasan": "lesehan",
         "english": "lesehan"
     },
     {
         "bahasa": "lestari",
-        "bebasan": "lestarekaken",
+        "bebasan": "lestari",
         "english": "sustainable"
     },
     {
         "bahasa": "lestarikan",
-        "bebasan": "dilestarekaken",
+        "bebasan": "lestarekaken",
         "english": "preserve"
     },
     {
         "bahasa": "dilestarikan",
-        "bebasan": "ngelestarekaken",
+        "bebasan": "dilestarekaken",
         "english": "preserved"
     },
     {
         "bahasa": "melestarikan",
-        "bebasan": "pelestarian",
+        "bebasan": "ngelestarekaken",
         "english": "conserve"
     },
     {
         "bahasa": "pelestarian",
-        "bebasan": "lesu/lemes/pegel",
+        "bebasan": "pelestarian",
         "english": "preservation"
     },
     {
         "bahasa": "lesu/letih/pegel",
-        "bebasan": "dilesokaken/dilemesaken/ dipegelaken",
+        "bebasan": "lesu/lemes/pegel",
         "english": "lethargic/tired/tired"
     },
     {
         "bahasa": "dilesukan/ diletihkan",
-        "bebasan": "ngelesokaken/ngelemesaken/ megelaken",
+        "bebasan": "dilesokaken/dilemesaken/ dipegelaken",
         "english": "exhausted / exhausted"
     },
     {
         "bahasa": "melesukan/ meletihkan",
-        "bebasan": "genah/tempat",
+        "bebasan": "ngelesokaken/ngelemesaken/ megelaken",
         "english": "tiring / tiring"
     },
     {
         "bahasa": "letak",
-        "bebasan": "dekenaken",
+        "bebasan": "genah/tempat",
         "english": "location"
     },
     {
         "bahasa": "letakkan",
-        "bebasan": "didekenaken",
+        "bebasan": "dekenaken",
         "english": "put it"
     },
     {
         "bahasa": "diletakkan",
-        "bebasan": "ngedokon/ngedokonaken/ ngesokaken",
+        "bebasan": "didekenaken",
         "english": "placed"
     },
     {
         "bahasa": "meletakkan",
-        "bebasan": "genah/tempat",
+        "bebasan": "ngedokon/ngedokonaken/ ngesokaken",
         "english": "put"
     },
     {
         "bahasa": "terletak",
-        "bebasan": "peletokan",
+        "bebasan": "genah/tempat",
         "english": "located"
     },
     {
         "bahasa": "letup",
-        "bebasan": "pepeletokan",
+        "bebasan": "peletokan",
         "english": "explode"
     },
     {
         "bahasa": "meletup-letup",
-        "bebasan": "ledog",
+        "bebasan": "pepeletokan",
         "english": "booming"
     },
     {
         "bahasa": "letus",
-        "bebasan": "dipeledogaken",
+        "bebasan": "ledog",
         "english": "explode"
     },
     {
         "bahasa": "diletuskan",
-        "bebasan": "meledog",
+        "bebasan": "dipeledogaken",
         "english": "exploded"
     },
     {
         "bahasa": "meletus",
-        "bebasan": "meledogaken",
+        "bebasan": "meledog",
         "english": "erupt"
     },
     {
         "bahasa": "meletuskan",
-        "bebasan": "liwat",
+        "bebasan": "meledogaken",
         "english": "explode"
     },
     {
         "bahasa": "lewat",
-        "bebasan": "diliwat",
+        "bebasan": "liwat",
         "english": "past"
     },
     {
         "bahasa": "dilewat",
-        "bebasan": "diliwati",
+        "bebasan": "diliwat",
         "english": "passed"
     },
     {
         "bahasa": "dilewati",
-        "bebasan": "ngeliwati",
+        "bebasan": "diliwati",
         "english": "skipped"
     },
     {
         "bahasa": "melewati",
-        "bebasan": "ngelewataken",
+        "bebasan": "ngeliwati",
         "english": "pass"
     },
     {
         "bahasa": "melewatkan",
-        "bebasan": "keliwat",
+        "bebasan": "ngelewataken",
         "english": "skip"
     },
     {
         "bahasa": "terlewat",
-        "bebasan": "keliwatan",
+        "bebasan": "keliwat",
         "english": "missed"
     },
     {
         "bahasa": "terlewatkan",
-        "bebasan": "enak",
+        "bebasan": "keliwatan",
         "english": "missed"
     },
     {
         "bahasa": "lezat",
-        "bebasan": "keenakan",
+        "bebasan": "enak",
         "english": "delicious"
     },
     {
         "bahasa": "kelezatan",
-        "bebasan": "ngenakaken",
+        "bebasan": "keenakan",
         "english": "delicacy"
     },
     {
         "bahasa": "melezatkan",
-        "bebasan": "luweng/eleng",
+        "bebasan": "ngenakaken",
         "english": "flavor"
     },
     {
         "bahasa": "liang",
-        "bebasan": "alot",
+        "bebasan": "luweng/eleng",
         "english": "burrow"
     },
     {
         "bahasa": "liat",
-        "bebasan": "libat/milet",
+        "bebasan": "alot",
         "english": "clay"
     },
     {
         "bahasa": "libat",
-        "bebasan": "libataken/miletaken",
+        "bebasan": "libat/milet",
         "english": "get involved"
     },
     {
         "bahasa": "libatkan",
-        "bebasan": "dilibataken/dipiletaken",
+        "bebasan": "libataken/miletaken",
         "english": "involve"
     },
     {
         "bahasa": "dilabatkan",
-        "bebasan": "kebakte-bakte",
+        "bebasan": "dilibataken/dipiletaken",
         "english": "entangled"
     },
     {
         "bahasa": "terlibat",
-        "bebasan": "pepiletan",
+        "bebasan": "kebakte-bakte",
         "english": "involved"
     },
     {
         "bahasa": "melibatkan",
-        "bebasan": "pere",
+        "bebasan": "pepiletan",
         "english": "involve"
     },
     {
@@ -22211,502 +22206,502 @@
     },
     {
         "bahasa": "liburan",
-        "bebasan": "diperekaken",
+        "bebasan": "pere",
         "english": "holiday"
     },
     {
         "bahasa": "diliburkan",
-        "bebasan": "merekaken",
+        "bebasan": "diperekaken",
         "english": "off"
     },
     {
         "bahasa": "meliburkan",
-        "bebasan": "licik",
+        "bebasan": "merekaken",
         "english": "dismiss"
     },
     {
         "bahasa": "licik",
-        "bebasan": "kelicikanane",
+        "bebasan": "licik",
         "english": "cunning"
     },
     {
         "bahasa": "kelicikannya",
-        "bebasan": "lunyu",
+        "bebasan": "kelicikanane",
         "english": "his cunning"
     },
     {
         "bahasa": "licin",
-        "bebasan": "dilunyokaken",
+        "bebasan": "lunyu",
         "english": "slippery"
     },
     {
         "bahasa": "dilicinkan",
-        "bebasan": "kelunyunen",
+        "bebasan": "dilunyokaken",
         "english": "smoothed out"
     },
     {
         "bahasa": "kelicinan",
-        "bebasan": "ngelunyokaken",
+        "bebasan": "kelunyunen",
         "english": "slippery"
     },
     {
         "bahasa": "melicinkan",
-        "bebasan": "ilat",
+        "bebasan": "ngelunyokaken",
         "english": "smooth"
     },
     {
         "bahasa": "lidah",
-        "bebasan": "meled",
+        "bebasan": "ilat",
         "english": "tongue"
     },
     {
         "bahasa": "menjulurkan lidah",
-        "bebasan": "ngeled-eledi/ngelelewe",
+        "bebasan": "meled",
         "english": "sticking her tongue out"
     },
     {
         "bahasa": "menjulurkan-julurkan lidah",
-        "bebasan": "sade",
+        "bebasan": "ngeled-eledi/ngelelewe",
         "english": "stick out tongue"
     },
     {
         "bahasa": "lidi",
-        "bebasan": "tingal",
+        "bebasan": "sade",
         "english": "stick"
     },
     {
         "bahasa": "lihat",
-        "bebasan": "tingalaken",
+        "bebasan": "tingal",
         "english": "see"
     },
     {
         "bahasa": "lihatkan",
-        "bebasan": "ditingali",
+        "bebasan": "tingalaken",
         "english": "see"
     },
     {
         "bahasa": "dilihati",
-        "bebasan": "ditingalaken",
+        "bebasan": "ditingali",
         "english": "seen"
     },
     {
         "bahasa": "dilihatkan",
-        "bebasan": "ketingalan",
+        "bebasan": "ditingalaken",
         "english": "seen"
     },
     {
         "bahasa": "kelihatan",
-        "bebasan": "ningali",
+        "bebasan": "ketingalan",
         "english": "look"
     },
     {
         "bahasa": "melihat",
-        "bebasan": "ningal-ningali",
+        "bebasan": "ningali",
         "english": "see"
     },
     {
         "bahasa": "melihat-lihat",
-        "bebasan": "ningalaken",
+        "bebasan": "ningal-ningali",
         "english": "have a look"
     },
     {
         "bahasa": "melihatkan",
-        "bebasan": "ngedelangak",
+        "bebasan": "ningalaken",
         "english": "see"
     },
     {
         "bahasa": "melihat keatas",
-        "bebasan": "ngelirik",
+        "bebasan": "ngedelangak",
         "english": "look up"
     },
     {
         "bahasa": "melirik",
-        "bebasan": "melotot/mendelik",
+        "bebasan": "ngelirik",
         "english": "glance"
     },
     {
         "bahasa": "melotot",
-        "bebasan": "ningalaken",
+        "bebasan": "melotot/mendelik",
         "english": "glaring"
     },
     {
         "bahasa": "memperlihatkan",
-        "bebasan": "mandeng",
+        "bebasan": "ningalaken",
         "english": "show"
     },
     {
         "bahasa": "melihat terus",
-        "bebasan": "melotot/mendelik/kesime/ terkesime",
+        "bebasan": "mandeng",
         "english": "keep watching"
     },
     {
         "bahasa": "terbelalak",
-        "bebasan": "ketingal/ketingalan",
+        "bebasan": "melotot/mendelik/kesime/ terkesime",
         "english": "wide-eyed"
     },
     {
         "bahasa": "terlihat",
-        "bebasan": "mengkol",
+        "bebasan": "ketingal/ketingalan",
         "english": "seen"
     },
     {
         "bahasa": "liku",
-        "bebasan": "mengkol-mengkol",
+        "bebasan": "mengkol",
         "english": "twist"
     },
     {
         "bahasa": "berliku-liku",
-        "bebasan": "lilin",
+        "bebasan": "mengkol-mengkol",
         "english": "tortuous"
     },
     {
         "bahasa": "lilin",
-        "bebasan": "lilit",
+        "bebasan": "lilin",
         "english": "candle"
     },
     {
         "bahasa": "lilit",
-        "bebasan": "lilitanane",
+        "bebasan": "lilit",
         "english": "convoluted"
     },
     {
         "bahasa": "lilitannya",
-        "bebasan": "lilitaken",
+        "bebasan": "lilitanane",
         "english": "the twist"
     },
     {
         "bahasa": "lilitkan",
-        "bebasan": "dililit",
+        "bebasan": "lilitaken",
         "english": "wrap"
     },
     {
         "bahasa": "dililit",
-        "bebasan": "dililiti",
+        "bebasan": "dililit",
         "english": "tied"
     },
     {
         "bahasa": "dililiti",
-        "bebasan": "dililitaken",
+        "bebasan": "dililiti",
         "english": "wrapped around"
     },
     {
         "bahasa": "dililitkan",
-        "bebasan": "ngelilit",
+        "bebasan": "dililitaken",
         "english": "wrapped up"
     },
     {
         "bahasa": "melilit",
-        "bebasan": "ngeliliti",
+        "bebasan": "ngelilit",
         "english": "wrapped around"
     },
     {
         "bahasa": "meliliti",
-        "bebasan": "kelilit",
+        "bebasan": "ngeliliti",
         "english": "wrapped around"
     },
     {
         "bahasa": "terlilit",
-        "bebasan": "bebuangan",
+        "bebasan": "kelilit",
         "english": "entangled"
     },
     {
         "bahasa": "limbah",
-        "bebasan": "limbung",
+        "bebasan": "bebuangan",
         "english": "waste"
     },
     {
         "bahasa": "limbung",
-        "bebasan": "sangket",
+        "bebasan": "limbung",
         "english": "unsteady"
     },
     {
         "bahasa": "limpa",
-        "bebasan": "limpah",
+        "bebasan": "sangket",
         "english": "spleen"
     },
     {
         "bahasa": "limpah",
-        "bebasan": "limpahaken",
+        "bebasan": "limpah",
         "english": "abundant"
     },
     {
         "bahasa": "limpahkan",
-        "bebasan": "dilimpahaken",
+        "bebasan": "limpahaken",
         "english": "bestow"
     },
     {
         "bahasa": "dilimpahkan",
-        "bebasan": "kelimpahan",
+        "bebasan": "dilimpahaken",
         "english": "bestowed"
     },
     {
         "bahasa": "kelimpahan",
-        "bebasan": "ngelimpahaken",
+        "bebasan": "kelimpahan",
         "english": "abundance"
     },
     {
         "bahasa": "melimpahkan",
-        "bebasan": "lincah/gesit",
+        "bebasan": "ngelimpahaken",
         "english": "bestow"
     },
     {
         "bahasa": "lincah",
-        "bebasan": "lincahaken/gesitaken",
+        "bebasan": "lincah/gesit",
         "english": "agile"
     },
     {
         "bahasa": "lincahkan",
-        "bebasan": "dilincahaken/digesitaken",
+        "bebasan": "lincahaken/gesitaken",
         "english": "live it up"
     },
     {
         "bahasa": "dilincahkan",
-        "bebasan": "ngelincahaken/ngegesitaken",
+        "bebasan": "dilincahaken/digesitaken",
         "english": "liberated"
     },
     {
         "bahasa": "melincahkan",
-        "bebasan": "kegesiten",
+        "bebasan": "ngelincahaken/ngegesitaken",
         "english": "move"
     },
     {
         "bahasa": "terlalu lincah",
-        "bebasan": "lindung/ngayom",
+        "bebasan": "kegesiten",
         "english": "too lively"
     },
     {
         "bahasa": "lindung",
-        "bebasan": "lindungi/ngayomi",
+        "bebasan": "lindung/ngayom",
         "english": "protect"
     },
     {
         "bahasa": "lindungi",
-        "bebasan": "berlindung",
+        "bebasan": "lindungi/ngayomi",
         "english": "protect"
     },
     {
         "bahasa": "berlindung",
-        "bebasan": "dilindungi/diayomi",
+        "bebasan": "berlindung",
         "english": "take cover"
     },
     {
         "bahasa": "dilindungi",
-        "bebasan": "ngelindungi/ngayomi",
+        "bebasan": "dilindungi/diayomi",
         "english": "protected"
     },
     {
         "bahasa": "melindungi",
-        "bebasan": "terlindungi/keayomi",
+        "bebasan": "ngelindungi/ngayomi",
         "english": "protect"
     },
     {
         "bahasa": "terlindungi",
-        "bebasan": "lingkar",
+        "bebasan": "terlindungi/keayomi",
         "english": "protected"
     },
     {
         "bahasa": "lingkar",
-        "bebasan": "lingkaran",
+        "bebasan": "lingkar",
         "english": "circumference"
     },
     {
         "bahasa": "lingkaran",
-        "bebasan": "lingkaraken",
+        "bebasan": "lingkaran",
         "english": "circle"
     },
     {
         "bahasa": "lingkarkan",
-        "bebasan": "dilingkari",
+        "bebasan": "lingkaraken",
         "english": "circle"
     },
     {
         "bahasa": "dilingkari",
-        "bebasan": "ngelingkar",
+        "bebasan": "dilingkari",
         "english": "circled"
     },
     {
         "bahasa": "melingkar",
-        "bebasan": "ngelingkari",
+        "bebasan": "ngelingkar",
         "english": "circle"
     },
     {
         "bahasa": "melingkari",
-        "bebasan": "ngelingkaraken",
+        "bebasan": "ngelingkari",
         "english": "circle"
     },
     {
         "bahasa": "melingkarkan",
-        "bebasan": "lingkup",
+        "bebasan": "ngelingkaraken",
         "english": "circle"
     },
     {
         "bahasa": "lingkup",
-        "bebasan": "ngelingkup",
+        "bebasan": "lingkup",
         "english": "scope"
     },
     {
         "bahasa": "melingkup",
-        "bebasan": "lintah",
+        "bebasan": "ngelingkup",
         "english": "cover"
     },
     {
         "bahasa": "lintah",
-        "bebasan": "lintang",
+        "bebasan": "lintah",
         "english": "leech"
     },
     {
         "bahasa": "lintang",
-        "bebasan": "melintang",
+        "bebasan": "lintang",
         "english": "latitude"
     },
     {
         "bahasa": "melintang",
-        "bebasan": "liwat",
+        "bebasan": "melintang",
         "english": "transverse"
     },
     {
         "bahasa": "lintas",
-        "bebasan": "peranti diliwati",
+        "bebasan": "liwat",
         "english": "cross"
     },
     {
         "bahasa": "lintasan",
-        "bebasan": "diliwati",
+        "bebasan": "peranti diliwati",
         "english": "track"
     },
     {
         "bahasa": "dilintasi",
-        "bebasan": "ngeliwati",
+        "bebasan": "diliwati",
         "english": "crossed"
     },
     {
         "bahasa": "melintasi",
-        "bebasan": "keliwatan",
+        "bebasan": "ngeliwati",
         "english": "cross"
     },
     {
         "bahasa": "kelintasan",
-        "bebasan": "selintasan",
+        "bebasan": "keliwatan",
         "english": "trajectory"
     },
     {
         "bahasa": "selintasan",
-        "bebasan": "sepelerean",
+        "bebasan": "selintasan",
         "english": "pass"
     },
     {
         "bahasa": "selintas",
-        "bebasan": "linglung",
+        "bebasan": "sepelerean",
         "english": "at a glance"
     },
     {
         "bahasa": "linglung",
-        "bebasan": "kelabang",
+        "bebasan": "linglung",
         "english": "dazed"
     },
     {
         "bahasa": "lipan",
-        "bebasan": "lempit/tekuk",
+        "bebasan": "kelabang",
         "english": "centipede"
     },
     {
         "bahasa": "lipat",
-        "bebasan": "lempitan/tekukan",
+        "bebasan": "lempit/tekuk",
         "english": "fold"
     },
     {
         "bahasa": "lipatan",
-        "bebasan": "lempitanane/tekukanane",
+        "bebasan": "lempitan/tekukan",
         "english": "fold"
     },
     {
         "bahasa": "lipatannya",
-        "bebasan": "lempitaken/nekukaken",
+        "bebasan": "lempitanane/tekukanane",
         "english": "the folds"
     },
     {
         "bahasa": "lipatkan",
-        "bebasan": "ngelipet-lipet/tetekukanane",
+        "bebasan": "lempitaken/nekukaken",
         "english": "fold"
     },
     {
         "bahasa": "berlipat-lipat",
-        "bebasan": "dilempit/ditekuk",
+        "bebasan": "ngelipet-lipet/tetekukanane",
         "english": "multiply"
     },
     {
         "bahasa": "dilipat",
-        "bebasan": "dilempiti/ditekuki",
+        "bebasan": "dilempit/ditekuk",
         "english": "folded"
     },
     {
         "bahasa": "dilipati",
-        "bebasan": "dilempitaken/ditekukaken",
+        "bebasan": "dilempiti/ditekuki",
         "english": "folded"
     },
     {
         "bahasa": "dilipatkan",
-        "bebasan": "ngelempit/nekuk",
+        "bebasan": "dilempitaken/ditekukaken",
         "english": "folded"
     },
     {
         "bahasa": "melipat",
-        "bebasan": "ngelempiti/nekuki",
+        "bebasan": "ngelempit/nekuk",
         "english": "fold"
     },
     {
         "bahasa": "melipati",
-        "bebasan": "ngelempitaken/nekukaken",
+        "bebasan": "ngelempiti/nekuki",
         "english": "fold"
     },
     {
         "bahasa": "melipatkan",
-        "bebasan": "kelempit/ketekuk",
+        "bebasan": "ngelempitaken/nekukaken",
         "english": "tuck"
     },
     {
         "bahasa": "terlipat",
-        "bebasan": "gincu",
+        "bebasan": "kelempit/ketekuk",
         "english": "folded"
     },
     {
         "bahasa": "lipstik",
-        "bebasan": "hibur",
+        "bebasan": "gincu",
         "english": "lipstick"
     },
     {
         "bahasa": "lipur",
-        "bebasan": "sing ngehibur/sing ngebebungah",
+        "bebasan": "hibur",
         "english": "consolation"
     },
     {
         "bahasa": "pelipur",
-        "bebasan": "nyangkup",
+        "bebasan": "sing ngehibur/sing ngebebungah",
         "english": "consolation"
     },
     {
         "bahasa": "liput",
-        "bebasan": "lirik",
+        "bebasan": "nyangkup",
         "english": "cover"
     },
     {
         "bahasa": "lirik",
-        "bebasan": "lirikan",
+        "bebasan": "lirik",
         "english": "lyrics"
     },
     {
         "bahasa": "lirikan",
-        "bebasan": "dilirik",
+        "bebasan": "lirikan",
         "english": "lyrics"
     },
     {
         "bahasa": "dilirik",
-        "bebasan": "ngelirik",
+        "bebasan": "dilirik",
         "english": "ogled"
     },
     {
         "bahasa": "melirik",
-        "bebasan": "nukik",
+        "bebasan": "ngelirik",
         "english": "glance"
     },
     {
@@ -22716,482 +22711,482 @@
     },
     {
         "bahasa": "meliuk",
-        "bebasan": "nukik-nukik",
+        "bebasan": "nukik",
         "english": "swerve"
     },
     {
         "bahasa": "meliuk-liuk",
-        "bebasan": "lodeh",
+        "bebasan": "nukik-nukik",
         "english": "snaking"
     },
     {
         "bahasa": "lodeh",
-        "bebasan": "kentring",
+        "bebasan": "lodeh",
         "english": "lodeh"
     },
     {
         "bahasa": "logam",
-        "bebasan": "logat",
+        "bebasan": "kentring",
         "english": "metal"
     },
     {
         "bahasa": "logat",
-        "bebasan": "pantes/wajar",
+        "bebasan": "logat",
         "english": "accent"
     },
     {
         "bahasa": "logis",
-        "bebasan": "lolos/ucul",
+        "bebasan": "pantes/wajar",
         "english": "logical"
     },
     {
         "bahasa": "lolos",
-        "bebasan": "lolosaken/uculaken",
+        "bebasan": "lolos/ucul",
         "english": "get away"
     },
     {
         "bahasa": "loloskan",
-        "bebasan": "dilolosaken/diuculaken",
+        "bebasan": "lolosaken/uculaken",
         "english": "pass"
     },
     {
         "bahasa": "diloloskan",
-        "bebasan": "ngelolosaken/ nguculaken",
+        "bebasan": "dilolosaken/diuculaken",
         "english": "passed"
     },
     {
         "bahasa": "meloloskan",
-        "bebasan": "adu, lombe",
+        "bebasan": "ngelolosaken/ nguculaken",
         "english": "pass"
     },
     {
         "bahasa": "lomba",
-        "bebasan": "adukaken",
+        "bebasan": "adu, lombe",
         "english": "race"
     },
     {
         "bahasa": "lombakan",
-        "bebasan": "ngadu",
+        "bebasan": "adukaken",
         "english": "compete"
     },
     {
         "bahasa": "lomba-lomba",
-        "bebasan": "diadukaken",
+        "bebasan": "ngadu",
         "english": "competitions"
     },
     {
         "bahasa": "dilombakan",
-        "bebasan": "mengadukan",
+        "bebasan": "diadukaken",
         "english": "contested"
     },
     {
         "bahasa": "melombakan",
-        "bebasan": "mencolot/mencelat/meletik/anjlog",
+        "bebasan": "mengadukan",
         "english": "compete"
     },
     {
         "bahasa": "lompat/loncat",
-        "bebasan": "pepencolotan/pepencelatan/ pepeletikan/anjlog-anjlogan",
-        "english": "jump/jump"
-    },
-    {
-        "bahasa": "lompat-lompatan/loncat-loncatan",
-        "bebasan": "dipencoloti/pencelati/dipeletiki/ dianjlogi",
-        "english": "jumping/jumping"
-    },
-    {
-        "bahasa": "dilompati/diloncati",
-        "bebasan": "kepencolotan/pencelatan/ kepeletikan/keanjlogan",
-        "english": "skipped/skipped"
-    },
-    {
-        "bahasa": "kelompat/ keloncatan",
         "bebasan": "mencolot/mencelat/meletik/anjlog",
         "english": "jump/jump"
     },
     {
+        "bahasa": "lompat-lompatan/loncat-loncatan",
+        "bebasan": "pepencolotan/pepencelatan/ pepeletikan/anjlog-anjlogan",
+        "english": "jumping/jumping"
+    },
+    {
+        "bahasa": "dilompati/diloncati",
+        "bebasan": "dipencoloti/pencelati/dipeletiki/ dianjlogi",
+        "english": "skipped/skipped"
+    },
+    {
+        "bahasa": "kelompat/ keloncatan",
+        "bebasan": "kepencolotan/pencelatan/ kepeletikan/keanjlogan",
+        "english": "jump/jump"
+    },
+    {
         "bahasa": "melompat/ meloncat",
-        "bebasan": "mencoloti/mencelati/meletiki/ nganjlogi",
+        "bebasan": "mencolot/mencelat/meletik/anjlog",
         "english": "jump/jump"
     },
     {
         "bahasa": "melompati/ meloncati",
-        "bebasan": "sing mencelat/sing mencolot/sing anjlog",
+        "bebasan": "mencoloti/mencelati/meletiki/ nganjlogi",
         "english": "jump over / jump over"
     },
     {
         "bahasa": "peloncat",
-        "bebasan": "kliningan",
+        "bebasan": "sing mencelat/sing mencolot/sing anjlog",
         "english": "jumper"
     },
     {
         "bahasa": "lonceng",
-        "bebasan": "longgar/lobok/logro/dol/kendor",
+        "bebasan": "kliningan",
         "english": "bell"
     },
     {
         "bahasa": "longgar",
-        "bebasan": "kendoraken",
+        "bebasan": "longgar/lobok/logro/dol/kendor",
         "english": "loose"
     },
     {
         "bahasa": "longgarkan",
-        "bebasan": "dilobokaken/dikendoraken",
+        "bebasan": "kendoraken",
         "english": "loosen up"
     },
     {
         "bahasa": "dilonggarkan",
-        "bebasan": "keloboken/kekendoren",
+        "bebasan": "dilobokaken/dikendoraken",
         "english": "loosened up"
     },
     {
         "bahasa": "kelonggaran",
-        "bebasan": "ngelobokaken/ ngendoraken",
+        "bebasan": "keloboken/kekendoren",
         "english": "leeway"
     },
     {
         "bahasa": "melonggarkan",
-        "bebasan": "rugrug",
+        "bebasan": "ngelobokaken/ ngendoraken",
         "english": "loosen"
     },
     {
         "bahasa": "longsor",
-        "bebasan": "rugrugan",
+        "bebasan": "rugrug",
         "english": "Avalanche"
     },
     {
         "bahasa": "longsoran",
-        "bebasan": "dirugrugaken",
+        "bebasan": "rugrugan",
         "english": "avalanche"
     },
     {
         "bahasa": "dilongsorkan",
-        "bebasan": "kerugrugan",
+        "bebasan": "dirugrugaken",
         "english": "avalanche"
     },
     {
         "bahasa": "kelongsoran",
-        "bebasan": "ngerugrugaken",
+        "bebasan": "kerugrugan",
         "english": "avalanche"
     },
     {
         "bahasa": "melongsorkan",
-        "bebasan": "ronjat",
+        "bebasan": "ngerugrugaken",
         "english": "erode"
     },
     {
         "bahasa": "lonjak",
-        "bebasan": "ngeronjat-ronjat",
+        "bebasan": "ronjat",
         "english": "spike"
     },
     {
         "bahasa": "lonjak-lonjakan",
-        "bebasan": "dironjati",
+        "bebasan": "ngeronjat-ronjat",
         "english": "spikes"
     },
     {
         "bahasa": "dilonjaki",
-        "bebasan": "keronjat",
+        "bebasan": "dironjati",
         "english": "jumped"
     },
     {
         "bahasa": "kelonjak",
-        "bebasan": "ngeronjat",
+        "bebasan": "keronjat",
         "english": "spike"
     },
     {
         "bahasa": "melonjak",
-        "bebasan": "buras",
+        "bebasan": "ngeronjat",
         "english": "soar"
     },
     {
         "bahasa": "lontong",
-        "bebasan": "belang",
+        "bebasan": "buras",
         "english": "rice cake"
     },
     {
         "bahasa": "loreng",
-        "bebasan": "lelurung/gang",
+        "bebasan": "belang",
         "english": "stripes"
     },
     {
         "bahasa": "lorong/gang",
-        "bebasan": "lorod",
+        "bebasan": "lelurung/gang",
         "english": "hallway/alley"
     },
     {
         "bahasa": "lorot",
-        "bebasan": "dilorodaken",
+        "bebasan": "lorod",
         "english": "lorot"
     },
     {
         "bahasa": "dilorotkan",
-        "bebasan": "melorod",
+        "bebasan": "dilorodaken",
         "english": "shed"
     },
     {
         "bahasa": "melorot",
-        "bebasan": "ngelorodaken",
+        "bebasan": "melorod",
         "english": "sag"
     },
     {
         "bahasa": "melorotkan",
-        "bebasan": "los/dipune",
+        "bebasan": "ngelorodaken",
         "english": "sag"
     },
     {
         "bahasa": "los",
-        "bebasan": "dilosaken/diendahaken",
+        "bebasan": "los/dipune",
         "english": "los"
     },
     {
         "bahasa": "diloskan",
-        "bebasan": "ngelosaken/ngendahaken",
+        "bebasan": "dilosaken/diendahaken",
         "english": "cleared"
     },
     {
         "bahasa": "mengeloskan",
-        "bebasan": "lotre",
+        "bebasan": "ngelosaken/ngendahaken",
         "english": "clear"
     },
     {
         "bahasa": "lotre",
-        "bebasan": "lowong",
+        "bebasan": "lotre",
         "english": "lottery"
     },
     {
         "bahasa": "lowong",
-        "bebasan": "lowongan",
+        "bebasan": "lowong",
         "english": "vacant"
     },
     {
         "bahasa": "lowongan",
-        "bebasan": "lowongaken",
+        "bebasan": "lowongan",
         "english": "vacancy"
     },
     {
         "bahasa": "lowongkan",
-        "bebasan": "dilowongken",
+        "bebasan": "lowongaken",
         "english": "vacate"
     },
     {
         "bahasa": "dilowongkan",
-        "bebasan": "ngelowongken",
+        "bebasan": "dilowongken",
         "english": "vacated"
     },
     {
         "bahasa": "melowongkan",
-        "bebasan": "royal",
+        "bebasan": "ngelowongken",
         "english": "vacate"
     },
     {
         "bahasa": "loyal",
-        "bebasan": "loyo",
+        "bebasan": "royal",
         "english": "loyal"
     },
     {
         "bahasa": "loyo",
-        "bebasan": "senggang",
+        "bebasan": "loyo",
         "english": "sluggish"
     },
     {
         "bahasa": "luang",
-        "bebasan": "senggangaken",
+        "bebasan": "senggang",
         "english": "free"
     },
     {
         "bahasa": "luangkan",
-        "bebasan": "disenggangaken",
+        "bebasan": "senggangaken",
         "english": "take it easy"
     },
     {
         "bahasa": "diluangkan",
-        "bebasan": "nyenggangaken",
+        "bebasan": "disenggangaken",
         "english": "be spared"
     },
     {
         "bahasa": "meluangkan",
-        "bebasan": "paling senggang",
+        "bebasan": "nyenggangaken",
         "english": "to spare"
     },
     {
         "bahasa": "terluang",
-        "bebasan": "mudal/leop",
+        "bebasan": "paling senggang",
         "english": "spare"
     },
     {
         "bahasa": "luap",
-        "bebasan": "mudalan/leopan",
+        "bebasan": "mudal/leop",
         "english": "overflow"
     },
     {
         "bahasa": "luapan",
-        "bebasan": "dimudali/dileopi",
+        "bebasan": "mudalan/leopan",
         "english": "overflow"
     },
     {
         "bahasa": "diluapi",
-        "bebasan": "kemudalan/ keleopan",
+        "bebasan": "dimudali/dileopi",
         "english": "overflow"
     },
     {
         "bahasa": "keluapan",
-        "bebasan": "mudal/meleop",
+        "bebasan": "kemudalan/ keleopan",
         "english": "overflow"
     },
     {
         "bahasa": "meluap",
-        "bebasan": "jabe",
+        "bebasan": "mudal/meleop",
         "english": "overflow"
     },
     {
         "bahasa": "luar",
-        "bebasan": "ning jabe",
+        "bebasan": "jabe",
         "english": "outside"
     },
     {
         "bahasa": "diluar",
-        "bebasan": "medal",
+        "bebasan": "ning jabe",
         "english": "outside"
     },
     {
         "bahasa": "keluar",
-        "bebasan": "dalaken",
+        "bebasan": "medal",
         "english": "go out"
     },
     {
         "bahasa": "keluarkan",
-        "bebasan": "ngedalaken",
+        "bebasan": "dalaken",
         "english": "take it out"
     },
     {
         "bahasa": "mengeluarkan",
-        "bebasan": "ambe",
+        "bebasan": "ngedalaken",
         "english": "emit"
     },
     {
         "bahasa": "luas",
-        "bebasan": "diambakaken",
+        "bebasan": "ambe",
         "english": "large"
     },
     {
         "bahasa": "diluaskan/ diperluas",
-        "bebasan": "keamban",
+        "bebasan": "diambakaken",
         "english": "expanded/expanded"
     },
     {
         "bahasa": "keluasan",
-        "bebasan": "ngambani",
+        "bebasan": "keamban",
         "english": "breadth"
     },
     {
         "bahasa": "meluas",
-        "bebasan": "ngambakaken",
+        "bebasan": "ngambani",
         "english": "expand"
     },
     {
         "bahasa": "meluaskan",
-        "bebasan": "ambakaken",
-        "english": "expand"
-    },
-    {
-        "bahasa": "perluas",
         "bebasan": "ngambakaken",
         "english": "expand"
     },
     {
+        "bahasa": "perluas",
+        "bebasan": "ambakaken",
+        "english": "expand"
+    },
+    {
         "bahasa": "memperluas",
-        "bebasan": "bebolongan/luweng/eleng",
+        "bebasan": "ngambakaken",
         "english": "expand"
     },
     {
         "bahasa": "lubang",
-        "bebasan": "pade bolong",
+        "bebasan": "bebolongan/luweng/eleng",
         "english": "hole"
     },
     {
         "bahasa": "berlubang",
-        "bebasan": "dibolongi",
+        "bebasan": "pade bolong",
         "english": "hole"
     },
     {
         "bahasa": "dilubangi",
-        "bebasan": "ngebolongi",
+        "bebasan": "dibolongi",
         "english": "perforated"
     },
     {
         "bahasa": "melubangi",
-        "bebasan": "luber/leber/kebek",
+        "bebasan": "ngebolongi",
         "english": "hollow out"
     },
     {
         "bahasa": "luber",
-        "bebasan": "diluberaken/dileberaken/ dikebekaken",
-        "english": "overflow"
-    },
-    {
-        "bahasa": "diluberkan",
-        "bebasan": "keluberan/keleberen/kekebeken",
-        "english": "spilled"
-    },
-    {
-        "bahasa": "keluberan",
         "bebasan": "luber/leber/kebek",
         "english": "overflow"
     },
     {
+        "bahasa": "diluberkan",
+        "bebasan": "diluberaken/dileberaken/ dikebekaken",
+        "english": "spilled"
+    },
+    {
+        "bahasa": "keluberan",
+        "bebasan": "keluberan/keleberen/kekebeken",
+        "english": "overflow"
+    },
+    {
         "bahasa": "meluber",
-        "bebasan": "ngeluberakan/ngeleberaken/ ngebekaken",
+        "bebasan": "luber/leber/kebek",
         "english": "overflow"
     },
     {
         "bahasa": "meluberkan",
-        "bebasan": "lebet",
+        "bebasan": "ngeluberakan/ngeleberaken/ ngebekaken",
         "english": "spill"
     },
     {
         "bahasa": "lubuk",
-        "bebasan": "teger",
+        "bebasan": "lebet",
         "english": "bottom"
     },
     {
         "bahasa": "lucu",
-        "bebasan": "diteger-tegeraken",
+        "bebasan": "teger",
         "english": "funny"
     },
     {
         "bahasa": "dilucu-lucukan",
-        "bebasan": "negeraken",
+        "bebasan": "diteger-tegeraken",
         "english": "being made fun of"
     },
     {
         "bahasa": "melucu",
-        "bebasan": "paling teger",
+        "bebasan": "negeraken",
         "english": "funny"
     },
     {
         "bahasa": "terlucu",
-        "bebasan": "peretel",
+        "bebasan": "paling teger",
         "english": "funniest"
     },
     {
         "bahasa": "lucut",
-        "bebasan": "pereteli",
+        "bebasan": "peretel",
         "english": "disarm"
     },
     {
         "bahasa": "lucuti",
-        "bebasan": "dipereteli",
+        "bebasan": "pereteli",
         "english": "disarm"
     },
     {
         "bahasa": "dilucuti",
-        "bebasan": "mereteli",
+        "bebasan": "dipereteli",
         "english": "stripped"
     },
     {
         "bahasa": "melucuti",
-        "bebasan": "idu",
+        "bebasan": "mereteli",
         "english": "disarm"
     },
     {
@@ -23201,522 +23196,522 @@
     },
     {
         "bahasa": "berludah",
-        "bebasan": "diidoni",
+        "bebasan": "idu",
         "english": "spit"
     },
     {
         "bahasa": "diludahi",
-        "bebasan": "keidonan",
+        "bebasan": "diidoni",
         "english": "spit on"
     },
     {
         "bahasa": "keludahan",
-        "bebasan": "ngidu",
+        "bebasan": "keidonan",
         "english": "spitting"
     },
     {
         "bahasa": "meludah",
-        "bebasan": "ngidoni",
+        "bebasan": "ngidu",
         "english": "spit"
     },
     {
         "bahasa": "meludahi",
-        "bebasan": "ludes/korep",
+        "bebasan": "ngidoni",
         "english": "spit"
     },
     {
         "bahasa": "ludes",
-        "bebasan": "luwes",
+        "bebasan": "ludes/korep",
         "english": "sold out"
     },
     {
         "bahasa": "lugas",
-        "bebasan": "lugu",
+        "bebasan": "luwes",
         "english": "straightforward"
     },
     {
         "bahasa": "lugu",
-        "bebasan": "mulye",
+        "bebasan": "lugu",
         "english": "innocent"
     },
     {
         "bahasa": "luhur",
-        "bebasan": "nyelekat",
+        "bebasan": "mulye",
         "english": "sublime"
     },
     {
         "bahasa": "luka",
-        "bebasan": "dilarani",
+        "bebasan": "nyelekat",
         "english": "wound"
     },
     {
         "bahasa": "dilukai",
-        "bebasan": "ngelarani",
+        "bebasan": "dilarani",
         "english": "hurt"
     },
     {
         "bahasa": "melukai",
-        "bebasan": "nyelekat",
+        "bebasan": "ngelarani",
         "english": "hurt"
     },
     {
         "bahasa": "terluka",
-        "bebasan": "lukis/gambar",
+        "bebasan": "nyelekat",
         "english": "wounded"
     },
     {
         "bahasa": "lukis",
-        "bebasan": "lukisan/gambaran",
+        "bebasan": "lukis/gambar",
         "english": "painting"
     },
     {
         "bahasa": "lukisan",
-        "bebasan": "dilukis/digambar",
+        "bebasan": "lukisan/gambaran",
         "english": "painting"
     },
     {
         "bahasa": "dilukis",
-        "bebasan": "dilukisaken/digambaraken",
+        "bebasan": "dilukis/digambar",
         "english": "painted"
     },
     {
         "bahasa": "dilukiskan",
-        "bebasan": "ngelukis/ngegambar",
+        "bebasan": "dilukisaken/digambaraken",
         "english": "depicted"
     },
     {
         "bahasa": "melukis",
-        "bebasan": "ngelukisaken/ngegambaraken",
+        "bebasan": "ngelukis/ngegambar",
         "english": "paint"
     },
     {
         "bahasa": "melukiskan",
-        "bebasan": "pelukis/sing ngegambar",
+        "bebasan": "ngelukisaken/ngegambaraken",
         "english": "describe"
     },
     {
         "bahasa": "pelukis",
-        "bebasan": "luluh/lemes",
+        "bebasan": "pelukis/sing ngegambar",
         "english": "painter"
     },
     {
         "bahasa": "luluh",
-        "bebasan": "luluhaken",
+        "bebasan": "luluh/lemes",
         "english": "melted"
     },
     {
         "bahasa": "luluhkan",
-        "bebasan": "ajur beneran",
+        "bebasan": "luluhaken",
         "english": "melt"
     },
     {
         "bahasa": "luluh lantak",
-        "bebasan": "diluluhaken",
+        "bebasan": "ajur beneran",
         "english": "shattered"
     },
     {
         "bahasa": "diluluhkan",
-        "bebasan": "ngeluluhaken",
+        "bebasan": "diluluhaken",
         "english": "melted"
     },
     {
         "bahasa": "meluluhkan",
-        "bebasan": "lemes atine",
+        "bebasan": "ngeluluhaken",
         "english": "melt"
     },
     {
         "bahasa": "keluluhan hatinya",
-        "bebasan": "lulur",
+        "bebasan": "lemes atine",
         "english": "his heart complaints"
     },
     {
         "bahasa": "lulur",
-        "bebasan": "luluran",
+        "bebasan": "lulur",
         "english": "scrub"
     },
     {
         "bahasa": "luluran",
-        "bebasan": "dilulur",
+        "bebasan": "luluran",
         "english": "scrub"
     },
     {
         "bahasa": "dilulur",
-        "bebasan": "ngelulur",
+        "bebasan": "dilulur",
         "english": "scrubbed"
     },
     {
         "bahasa": "melulur",
-        "bebasan": "lulus",
+        "bebasan": "ngelulur",
         "english": "gulp down"
     },
     {
         "bahasa": "lulus",
-        "bebasan": "lulusaken",
+        "bebasan": "lulus",
         "english": "Graduated"
     },
     {
         "bahasa": "luluskan",
-        "bebasan": "dilulusaken",
+        "bebasan": "lulusaken",
         "english": "pass"
     },
     {
         "bahasa": "diluluskan",
-        "bebasan": "lulusan",
+        "bebasan": "dilulusaken",
         "english": "passed"
     },
     {
         "bahasa": "kelulusan",
-        "bebasan": "ngelulusaken",
+        "bebasan": "lulusan",
         "english": "graduation"
     },
     {
         "bahasa": "meluluskan",
-        "bebasan": "lamot",
+        "bebasan": "ngelulusaken",
         "english": "pass"
     },
     {
         "bahasa": "lumat",
-        "bebasan": "lamotaken",
+        "bebasan": "lamot",
         "english": "crushed"
     },
     {
         "bahasa": "lumatkan",
-        "bebasan": "lamot",
+        "bebasan": "lamotaken",
         "english": "mash"
     },
     {
         "bahasa": "dilumat",
-        "bebasan": "lamoti",
+        "bebasan": "lamot",
         "english": "crushed"
     },
     {
         "bahasa": "dilumati",
-        "bebasan": "ngelamot",
+        "bebasan": "lamoti",
         "english": "crushed"
     },
     {
         "bahasa": "melumat",
-        "bebasan": "ngelamoti",
+        "bebasan": "ngelamot",
         "english": "crush"
     },
     {
         "bahasa": "melumati",
-        "bebasan": "ngelamotaken",
+        "bebasan": "ngelamoti",
         "english": "crush"
     },
     {
         "bahasa": "melumatkan",
-        "bebasan": "lumangyan",
+        "bebasan": "ngelamotaken",
         "english": "crush"
     },
     {
         "bahasa": "lumayan",
-        "bebasan": "lumbung",
+        "bebasan": "lumangyan",
         "english": "reasonable"
     },
     {
         "bahasa": "lumbung",
-        "bebasan": "lumer",
+        "bebasan": "lumbung",
         "english": "barn"
     },
     {
         "bahasa": "lumer",
-        "bebasan": "ngelumeraken",
+        "bebasan": "lumer",
         "english": "melted"
     },
     {
         "bahasa": "melumerkan",
-        "bebasan": "lumpang",
+        "bebasan": "ngelumeraken",
         "english": "melt"
     },
     {
         "bahasa": "lumpang",
-        "bebasan": "lumpuh",
+        "bebasan": "lumpang",
         "english": "mortar"
     },
     {
         "bahasa": "lumpuh",
-        "bebasan": "lumpuhaken",
+        "bebasan": "lumpuh",
         "english": "paralysed"
     },
     {
         "bahasa": "lumpuhkan",
-        "bebasan": "dilumpuhaken",
+        "bebasan": "lumpuhaken",
         "english": "disable"
     },
     {
         "bahasa": "dilumpuhkan",
-        "bebasan": "ngelumpuhaken",
+        "bebasan": "dilumpuhaken",
         "english": "disabled"
     },
     {
         "bahasa": "melumpuhkan",
-        "bebasan": "endut",
+        "bebasan": "ngelumpuhaken",
         "english": "disable"
     },
     {
         "bahasa": "lumpur",
-        "bebasan": "lumur",
+        "bebasan": "endut",
         "english": "mud"
     },
     {
         "bahasa": "lumur",
-        "bebasan": "kelumuran",
+        "bebasan": "lumur",
         "english": "smeared"
     },
     {
         "bahasa": "berlumuran",
-        "bebasan": "dilumuri",
+        "bebasan": "kelumuran",
         "english": "covered"
     },
     {
         "bahasa": "dilumuri",
-        "bebasan": "ngelumuri",
+        "bebasan": "dilumuri",
         "english": "greased"
     },
     {
         "bahasa": "melumuri",
-        "bebasan": "ngelumuraken",
+        "bebasan": "ngelumuri",
         "english": "smear"
     },
     {
         "bahasa": "melumurkan",
-        "bebasan": "lelumut",
+        "bebasan": "ngelumuraken",
         "english": "smear"
     },
     {
         "bahasa": "lumut",
-        "bebasan": "empuk/luluh",
+        "bebasan": "lelumut",
         "english": "moss"
     },
     {
         "bahasa": "lunak",
-        "bebasan": "empukaken/luluhaken",
+        "bebasan": "empuk/luluh",
         "english": "soft"
     },
     {
         "bahasa": "lunakkan",
-        "bebasan": "diempukaken/diluluhaken",
+        "bebasan": "empukaken/luluhaken",
         "english": "soften"
     },
     {
         "bahasa": "dilunakkan",
-        "bebasan": "ngempukaken/ngeluluhaken",
+        "bebasan": "diempukaken/diluluhaken",
         "english": "softened"
     },
     {
         "bahasa": "melunakkan",
-        "bebasan": "paling empuk",
+        "bebasan": "ngempukaken/ngeluluhaken",
         "english": "soften"
     },
     {
         "bahasa": "terlunak",
-        "bebasan": "luncur",
+        "bebasan": "paling empuk",
         "english": "soften"
     },
     {
         "bahasa": "luncur",
-        "bebasan": "luncuraken",
+        "bebasan": "luncur",
         "english": "slide"
     },
     {
         "bahasa": "luncurkan",
-        "bebasan": "diluncuraken",
+        "bebasan": "luncuraken",
         "english": "launch"
     },
     {
         "bahasa": "diluncurkan",
-        "bebasan": "ngeluncuraken",
+        "bebasan": "diluncuraken",
         "english": "launched"
     },
     {
         "bahasa": "meluncurkan",
-        "bebasan": "ngedalaken buku",
+        "bebasan": "ngeluncuraken",
         "english": "launch"
     },
     {
         "bahasa": "meluncurkan buku",
-        "bebasan": "ngejalanaken mobil",
+        "bebasan": "ngedalaken buku",
         "english": "launch book"
     },
     {
         "bahasa": "meluncurkan mobil",
-        "bebasan": "seseluncuran",
+        "bebasan": "ngejalanaken mobil",
         "english": "launch car"
     },
     {
         "bahasa": "seluncuran",
-        "bebasan": "lemes/limbung",
+        "bebasan": "seseluncuran",
         "english": "skating"
     },
     {
         "bahasa": "lunglai",
-        "bebasan": "kelungse/kelungse-lungse",
+        "bebasan": "lemes/limbung",
         "english": "limp"
     },
     {
         "bahasa": "lemah lunglai",
-        "bebasan": "lungsur",
+        "bebasan": "kelungse/kelungse-lungse",
         "english": "weak"
     },
     {
         "bahasa": "lungsur",
-        "bebasan": "dilungsuraken",
+        "bebasan": "lungsur",
         "english": "cave in"
     },
     {
         "bahasa": "dilungsurkan",
-        "bebasan": "ngelungsuraken",
+        "bebasan": "dilungsuraken",
         "english": "launched"
     },
     {
         "bahasa": "melungsurkan",
-        "bebasan": "kelungsuran",
+        "bebasan": "ngelungsuraken",
         "english": "hand down"
     },
     {
         "bahasa": "kelungsuran",
-        "bebasan": "pepelungsuran",
+        "bebasan": "kelungsuran",
         "english": "avalanche"
     },
     {
         "bahasa": "pepelungsuran",
-        "bebasan": "luntur/pupul",
+        "bebasan": "pepelungsuran",
         "english": "tracing"
     },
     {
         "bahasa": "luntur",
-        "bebasan": "dilunturi",
+        "bebasan": "luntur/pupul",
         "english": "fade"
     },
     {
         "bahasa": "dilunturi",
-        "bebasan": "kelunturan",
+        "bebasan": "dilunturi",
         "english": "stripped"
     },
     {
         "bahasa": "kelunturan",
-        "bebasan": "ngeunturi",
+        "bebasan": "kelunturan",
         "english": "fading"
     },
     {
         "bahasa": "melunturi",
-        "bebasan": "ngelunturaken",
+        "bebasan": "ngeunturi",
         "english": "disperse"
     },
     {
         "bahasa": "melunturkan",
-        "bebasan": "kelalen/lali",
+        "bebasan": "ngelunturaken",
         "english": "fade"
     },
     {
         "bahasa": "lupa",
-        "bebasan": "ilangaken",
+        "bebasan": "kelalen/lali",
         "english": "forget"
     },
     {
         "bahasa": "lupakan",
-        "bebasan": "dikelalenaken/dilalekaken",
+        "bebasan": "ilangaken",
         "english": "forget it"
     },
     {
         "bahasa": "dilupakan",
-        "bebasan": "boten keingetan",
+        "bebasan": "dikelalenaken/dilalekaken",
         "english": "forgotten"
     },
     {
         "bahasa": "kelupaan",
-        "bebasan": "ngelalenaken/napik diinget-inget/napik dikeling-keling",
+        "bebasan": "boten keingetan",
         "english": "forgetfulness"
     },
     {
         "bahasa": "melupakan",
-        "bebasan": "kelalen",
+        "bebasan": "ngelalenaken/napek diinget-inget/napik diinget-inget/napek dikeling-keling/napik dikeling-keling",
         "english": "forget"
     },
     {
         "bahasa": "terlupakan",
-        "bebasan": "kelalenan",
+        "bebasan": "kelalen",
         "english": "forgotten"
     },
     {
         "bahasa": "pelupa",
-        "bebasan": "lurah",
+        "bebasan": "kelalenan",
         "english": "forgetful"
     },
     {
         "bahasa": "lurah",
-        "bebasan": "lempeng",
+        "bebasan": "lurah",
         "english": "village head"
     },
     {
         "bahasa": "lurus",
-        "bebasan": "lempengaken",
+        "bebasan": "lempeng",
         "english": "straight"
     },
     {
         "bahasa": "luruskan",
-        "bebasan": "dilempengaken",
+        "bebasan": "lempengaken",
         "english": "straighten up"
     },
     {
         "bahasa": "diluruskan",
-        "bebasan": "ngelempengaken",
+        "bebasan": "dilempengaken",
         "english": "straightened out"
     },
     {
         "bahasa": "meluruskan",
-        "bebasan": "paling lurus",
+        "bebasan": "ngelempengaken",
         "english": "straighten up"
     },
     {
         "bahasa": "terlurus",
-        "bebasan": "wingine",
+        "bebasan": "paling lurus",
         "english": "straight"
     },
     {
         "bahasa": "lusa",
-        "bebasan": "losin",
+        "bebasan": "wingine",
         "english": "the day after tomorrow"
     },
     {
         "bahasa": "lusin",
-        "bebasan": "kumel",
+        "bebasan": "losin",
         "english": "dozen"
     },
     {
         "bahasa": "lusuh",
-        "bebasan": "dedengkul",
+        "bebasan": "kumel",
         "english": "shabby"
     },
     {
         "bahasa": "lutut",
-        "bebasan": "jejengklok",
+        "bebasan": "dedengkul",
         "english": "knee"
     },
     {
         "bahasa": "belakang lutut",
-        "bebasan": "luwes",
+        "bebasan": "jejengklok",
         "english": "behind the knee"
     },
     {
         "bahasa": "luwes",
-        "bebasan": "diluwesaken",
+        "bebasan": "luwes",
         "english": "flexible"
     },
     {
         "bahasa": "diluweskan",
-        "bebasan": "ngeluwesaken",
+        "bebasan": "diluwesaken",
         "english": "flexed"
     },
     {
         "bahasa": "meluweskan",
-        "bebasan": "keluwesen",
+        "bebasan": "ngeluwesaken",
         "english": "smooth"
     },
     {
         "bahasa": "keluwesan",
-        "bebasan": "keluwesēn",
+        "bebasan": "keluwesen",
         "english": "flexibility"
     },
     {
@@ -38000,11 +37995,6 @@
         "english": "drain"
     },
     {
-        "bahasa": "selonjor",
-        "bebasan": "ngelonjor",
-        "english": "selonjor"
-    },
-    {
         "bahasa": "selonjorkan",
         "bebasan": "selonjoraken",
         "english": "stretch"
@@ -43585,7 +43575,7 @@
         "english": "sticked"
     },
     {
-        "bahasa": "ditempeli",
+        "bahasa": "ditempelin",
         "bebasan": "ditempeli",
         "english": "pasted"
     },
