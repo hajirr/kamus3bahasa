@@ -27,8 +27,9 @@ class HomeView extends GetView<HomeController> {
           child: Column(
             children: [
               Container(
+                padding: EdgeInsets.only(bottom: Get.height / 55),
                 width: Get.width,
-                height: Get.height / 6,
+                height: Get.height / 8,
                 decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius: BorderRadius.only(
@@ -36,7 +37,7 @@ class HomeView extends GetView<HomeController> {
                         bottomRight: Radius.circular(Get.height / 30))),
                 child: Center(
                   child: Container(
-                    width: Get.width / 1.2,
+                    width: Get.width / 1.1,
                     height: Get.height / 12,
                     decoration: BoxDecoration(
                         color: Colors.white,
