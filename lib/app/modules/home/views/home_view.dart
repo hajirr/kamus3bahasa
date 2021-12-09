@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -15,25 +16,76 @@ class HomeView extends GetView<HomeController> {
         appBar: AppBar(
           title: Text(
             'Kamus 3 Bahasa',
-            style: GoogleFonts.buda(
-                color: Colors.black, fontWeight: FontWeight.bold),
+            style: GoogleFonts.buda(fontWeight: FontWeight.bold),
           ),
           centerTitle: true,
           elevation: 0,
-          backgroundColor: Colors.white,
         ),
         body: SizedBox(
           width: Get.width,
           height: Get.height,
           child: Column(
             children: [
-              const Spacer(),
-              Divider(
-                thickness: 4,
-                color: Colors.grey[200],
+              Container(
+                width: Get.width,
+                height: Get.height / 6,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.only(
+                        bottomLeft: Radius.circular(Get.height / 30),
+                        bottomRight: Radius.circular(Get.height / 30))),
+                child: Center(
+                  child: Container(
+                    width: Get.width / 1.2,
+                    height: Get.height / 12,
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(Get.height / 10)),
+                    child: Center(
+                      child: TextField(
+                          style: GoogleFonts.roboto(fontSize: Get.height / 40),
+                          controller: controller.searchWordController,
+                          decoration: InputDecoration(
+                              hintText: "Cari",
+                              hintStyle: GoogleFonts.roboto(),
+                              prefixIcon: Icon(CupertinoIcons.search,
+                                  size: Get.height / 30),
+                              border: InputBorder.none)),
+                    ),
+                  ),
+                ),
               ),
-              SizedBox(
-                height: Get.height / 1.5,
+              Row(
+                children: [
+                  Container(
+                    margin: EdgeInsets.fromLTRB(Get.height / 50,
+                        Get.height / 70, Get.height / 50, Get.height / 50),
+                    width: Get.width / 30,
+                    height: Get.height / 30,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.blue,
+                    ),
+                  ),
+                  Text(
+                    "Bank kata",
+                    style: GoogleFonts.roboto(fontSize: Get.height / 40),
+                  ),
+                ],
+              ),
+              Container(
+                margin: EdgeInsets.fromLTRB(
+                    Get.height / 70, 0, Get.height / 70, Get.height / 70),
+                height: Get.height / 3,
+                decoration: BoxDecoration(
+                    color: Colors.grey[200],
+                    borderRadius: BorderRadius.circular(Get.height / 40),
+                    boxShadow: const [
+                      BoxShadow(
+                          offset: Offset(0, 3),
+                          blurRadius: 10,
+                          color: Colors.grey)
+                    ]),
                 child: GetBuilder<HomeController>(
                   builder: (_) {
                     return ListView.builder(
@@ -41,24 +93,68 @@ class HomeView extends GetView<HomeController> {
                         itemBuilder: (context, index) {
                           return controller.isLoading
                               ? const CircularProgressIndicator()
-                              : ListTile(
-                                  title: Text(controller.results[index].bahasa,
-                                      style: GoogleFonts.roboto(
-                                          color: Colors.black)),
-                                  subtitle: Text(
-                                      controller.results[index].bebasan,
-                                      style: GoogleFonts.roboto()),
-                                  leading: Text(
-                                      controller.results[index].abjad
-                                          .toUpperCase(),
-                                      style: GoogleFonts.roboto()),
-                                  trailing:
-                                      Text(controller.results[index].english),
+                              : Column(
+                                  children: [
+                                    ListTile(
+                                      title: Text(
+                                          controller.results[index].bahasa,
+                                          style: GoogleFonts.roboto(
+                                              color: Colors.black,
+                                              fontSize: Get.height / 40)),
+                                      subtitle: Text(
+                                          controller.results[index].bebasan,
+                                          style: GoogleFonts.roboto(
+                                              fontSize: Get.height / 50)),
+                                      leading: Text(
+                                          controller.results[index].abjad
+                                              .toUpperCase(),
+                                          style: GoogleFonts.roboto(
+                                              fontSize: Get.height / 55)),
+                                      trailing: Text(
+                                          controller.results[index].english,
+                                          style: GoogleFonts.roboto(
+                                              fontSize: Get.height / 55)),
+                                    ),
+                                    Divider(
+                                        thickness: 3, color: Colors.grey[300])
+                                  ],
                                 );
                         });
                   },
                 ),
               ),
+              Row(
+                children: [
+                  Container(
+                    margin: EdgeInsets.fromLTRB(Get.height / 50,
+                        Get.height / 70, Get.height / 50, Get.height / 50),
+                    width: Get.width / 30,
+                    height: Get.height / 30,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.blue,
+                    ),
+                  ),
+                  Text(
+                    "Penanda",
+                    style: GoogleFonts.roboto(fontSize: Get.height / 40),
+                  ),
+                ],
+              ),
+              Container(
+                margin: EdgeInsets.fromLTRB(
+                    Get.height / 70, 0, Get.height / 70, Get.height / 70),
+                height: Get.height / 5,
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(Get.height / 40),
+                    boxShadow: const [
+                      BoxShadow(
+                          offset: Offset(0, 3),
+                          blurRadius: 10,
+                          color: Colors.grey)
+                    ]),
+              )
             ],
           ),
         ));

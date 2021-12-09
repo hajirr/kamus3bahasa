@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:kamus3bahasa/app/models/kamus_perkata_model.dart';
@@ -27,6 +28,8 @@ class HomeController extends GetxController {
 
   List<Datum> results = [];
   bool isLoading = false;
+  TextEditingController searchWordController = TextEditingController();
+
   Future readJsonData() async {
     isLoading = true;
     update();
