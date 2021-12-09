@@ -9,12 +9,12 @@ class DetailView extends GetView<DetailController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('DetailView'),
+        title: Text(controller.bahasa),
         centerTitle: true,
       ),
       body: Center(
         child: Text(
-          'DetailView is working',
+          '${controller.bahasa} is working',
           style: TextStyle(fontSize: 20),
         ),
       ),

@@ -63,7 +63,7 @@ class HomeView extends GetView<HomeController> {
                         Get.height / 70, Get.height / 50, Get.height / 50),
                     width: Get.width / 30,
                     height: Get.height / 30,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.blue,
                     ),
@@ -97,6 +97,14 @@ class HomeView extends GetView<HomeController> {
                               : Column(
                                   children: [
                                     ListTile(
+                                      onTap: () {
+                                        Get.toNamed("/detail", arguments: [
+                                          controller.results[index].bahasa,
+                                          controller.results[index].bebasan,
+                                          controller.results[index].english,
+                                          controller.results[index].abjad
+                                        ]);
+                                      },
                                       title: Text(
                                           controller.results[index].bahasa,
                                           style: GoogleFonts.roboto(
@@ -131,7 +139,7 @@ class HomeView extends GetView<HomeController> {
                         Get.height / 70, Get.height / 50, Get.height / 50),
                     width: Get.width / 30,
                     height: Get.height / 30,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.blue,
                     ),

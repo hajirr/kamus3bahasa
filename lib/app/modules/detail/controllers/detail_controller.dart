@@ -1,9 +1,6 @@
 import 'package:get/get.dart';
 
 class DetailController extends GetxController {
-  //TODO: Implement DetailController
-
-  final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
@@ -16,5 +13,9 @@ class DetailController extends GetxController {
 
   @override
   void onClose() {}
-  void increment() => count.value++;
+
+  String bahasa = Get.arguments[0];
+  String bebasan = Get.arguments[1];
+  String english = Get.arguments[2];
+  String abjad = Get.arguments[3];
 }
