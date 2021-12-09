@@ -44,6 +44,10 @@ class HomeView extends GetView<HomeController> {
                         borderRadius: BorderRadius.circular(Get.height / 10)),
                     child: Center(
                       child: TextField(
+                          onChanged: (value) {
+                            controller.searchWord = value;
+                            controller.update();
+                          },
                           style: GoogleFonts.roboto(fontSize: Get.height / 40),
                           controller: controller.searchWordController,
                           decoration: InputDecoration(
@@ -94,40 +98,91 @@ class HomeView extends GetView<HomeController> {
                         itemBuilder: (context, index) {
                           return controller.isLoading
                               ? const CircularProgressIndicator()
-                              : Column(
-                                  children: [
-                                    ListTile(
-                                      onTap: () {
-                                        Get.toNamed("/detail", arguments: [
-                                          controller.results[index].bahasa,
-                                          controller.results[index].bebasan,
-                                          controller.results[index].english,
-                                          controller.results[index].abjad
-                                        ]);
-                                      },
-                                      title: Text(
-                                          controller.results[index].bahasa,
-                                          style: GoogleFonts.roboto(
-                                              color: Colors.black,
-                                              fontSize: Get.height / 40)),
-                                      subtitle: Text(
-                                          controller.results[index].bebasan,
-                                          style: GoogleFonts.roboto(
-                                              fontSize: Get.height / 50)),
-                                      leading: Text(
-                                          controller.results[index].abjad
-                                              .toUpperCase(),
-                                          style: GoogleFonts.roboto(
-                                              fontSize: Get.height / 55)),
-                                      trailing: Text(
-                                          controller.results[index].english,
-                                          style: GoogleFonts.roboto(
-                                              fontSize: Get.height / 55)),
-                                    ),
-                                    Divider(
-                                        thickness: 3, color: Colors.grey[300])
-                                  ],
-                                );
+                              : controller.searchWord.isEmpty
+                                  ? Column(
+                                      children: [
+                                        ListTile(
+                                          onTap: () {
+                                            Get.toNamed("/detail", arguments: [
+                                              controller.results[index].bahasa,
+                                              controller.results[index].bebasan,
+                                              controller.results[index].english,
+                                              controller.results[index].abjad
+                                            ]);
+                                          },
+                                          title: Text(
+                                              controller.results[index].bahasa,
+                                              style: GoogleFonts.roboto(
+                                                  color: Colors.black,
+                                                  fontSize: Get.height / 40)),
+                                          subtitle: Text(
+                                              controller.results[index].bebasan,
+                                              style: GoogleFonts.roboto(
+                                                  fontSize: Get.height / 50)),
+                                          leading: Text(
+                                              controller.results[index].abjad
+                                                  .toUpperCase(),
+                                              style: GoogleFonts.roboto(
+                                                  fontSize: Get.height / 55)),
+                                          trailing: Text(
+                                              controller.results[index].english,
+                                              style: GoogleFonts.roboto(
+                                                  fontSize: Get.height / 55)),
+                                        ),
+                                        Divider(
+                                            thickness: 3,
+                                            color: Colors.grey[300])
+                                      ],
+                                    )
+                                  : controller.results[index].bahasa.contains(
+                                              controller.searchWord) ||
+                                          controller.results[index].bebasan
+                                              .contains(
+                                                  controller.searchWord) ||
+                                          controller.results[index].english
+                                              .contains(controller.searchWord)
+                                      ? Column(children: [
+                                          ListTile(
+                                            onTap: () {
+                                              Get.toNamed("/detail",
+                                                  arguments: [
+                                                    controller
+                                                        .results[index].bahasa,
+                                                    controller
+                                                        .results[index].bebasan,
+                                                    controller
+                                                        .results[index].english,
+                                                    controller
+                                                        .results[index].abjad
+                                                  ]);
+                                            },
+                                            title: Text(
+                                                controller
+                                                    .results[index].bahasa,
+                                                style: GoogleFonts.roboto(
+                                                    color: Colors.black,
+                                                    fontSize: Get.height / 40)),
+                                            subtitle: Text(
+                                                controller
+                                                    .results[index].bebasan,
+                                                style: GoogleFonts.roboto(
+                                                    fontSize: Get.height / 50)),
+                                            leading: Text(
+                                                controller.results[index].abjad
+                                                    .toUpperCase(),
+                                                style: GoogleFonts.roboto(
+                                                    fontSize: Get.height / 55)),
+                                            trailing: Text(
+                                                controller
+                                                    .results[index].english,
+                                                style: GoogleFonts.roboto(
+                                                    fontSize: Get.height / 55)),
+                                          ),
+                                          Divider(
+                                              thickness: 3,
+                                              color: Colors.grey[300])
+                                        ])
+                                      : const SizedBox();
                         });
                   },
                 ),

@@ -26,6 +26,8 @@ class HomeController extends GetxController {
     'Language is the road map of a culture. It tells you where its people come from and where they are going.'
   ];
 
+  String searchWord = '';
+
   List<Datum> results = [];
   bool isLoading = false;
   TextEditingController searchWordController = TextEditingController();
