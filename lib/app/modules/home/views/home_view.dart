@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 import '../controllers/home_controller.dart';
 
@@ -12,301 +11,193 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
-        resizeToAvoidBottomInset: false,
-        drawer: Drawer(
-          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-            ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                    fixedSize: Size(Get.width * 0.7, Get.height * 0.05)),
-                child: const Text("Contoh Kalimat")),
-            ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                    fixedSize: Size(Get.width * 0.7, Get.height * 0.05)),
-                child: const Text("Penanda"))
-          ]),
-        ),
-        appBar: AppBar(
-          title: Text(
-            'Kamus 3 Bahasa',
-            style: GoogleFonts.buda(fontWeight: FontWeight.bold),
-          ),
-          centerTitle: true,
-          elevation: 0,
-        ),
         body: SizedBox(
-          width: Get.width,
-          height: Get.height,
-          child: Column(
-            children: [
+            width: Get.width,
+            height: Get.height,
+            child: Column(children: [
               Container(
-                padding: EdgeInsets.only(bottom: Get.height * 0.03),
-                width: Get.width,
-                height: Get.height * 0.1,
-                decoration: BoxDecoration(
-                    color: Colors.blue,
-                    borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.circular(Get.height * 0.03),
-                        bottomRight: Radius.circular(Get.height * 0.03))),
-                child: Center(
-                  child: Container(
-                    width: Get.width * 0.9,
-                    height: Get.height * 0.08,
-                    padding: EdgeInsets.only(left: Get.height * 0.02),
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(Get.height * 0.05)),
-                    child: Center(
-                      child: TextField(
-                          onChanged: (value) {
-                            controller.searchWord =
-                                controller.searchWordController.text;
-                          },
-                          style:
-                              GoogleFonts.roboto(fontSize: Get.height * 0.03),
-                          controller: controller.searchWordController,
-                          decoration: InputDecoration(
-                              hintText: "Cari Kata",
-                              hintStyle: GoogleFonts.roboto(),
-                              suffixIcon: IconButton(
-                                  onPressed: () {
-                                    if (controller
-                                        .searchWordController.text.isNotEmpty) {
-                                      controller.searchData();
-                                    }
-                                  },
-                                  icon: const Icon(
-                                    Icons.search,
-                                    color: Colors.blue,
-                                  )),
-                              border: InputBorder.none)),
-                    ),
-                  ),
-                ),
-              ),
+                  height: Get.height * 0.5,
+                  width: Get.width,
+                  decoration: const BoxDecoration(
+                    color: Colors.white,
+                    image: DecorationImage(
+                        image: AssetImage('assets/images/conversations.png')),
+                  )),
               Container(
-                  padding: EdgeInsets.all(Get.height * 0.02),
-                  child: Column(children: [
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.only(right: Get.height * 0.02),
-                          width: Get.width * 0.02,
-                          height: Get.height * 0.02,
-                          decoration: const BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: Colors.blue,
-                          ),
-                        ),
-                        Text(
-                          "Bank kata",
-                          style:
-                              GoogleFonts.roboto(fontSize: Get.height * 0.02),
-                        ),
-                      ],
-                    ),
-                    Container(
-                      height: Get.height * 0.65,
-                      margin: EdgeInsets.only(top: Get.height * 0.02),
-                      decoration: BoxDecoration(
-                          color: Colors.grey[200],
-                          borderRadius:
-                              BorderRadius.circular(Get.height * 0.03),
-                          boxShadow: const [
-                            BoxShadow(
-                                offset: Offset(0, 3),
-                                blurRadius: 10,
-                                color: Colors.grey)
-                          ]),
-                      child: GetBuilder<HomeController>(
-                        builder: (_) {
-                          return controller.isLoading
-                              ? const CircularProgressIndicator()
-                              : Scrollbar(
-                                  child: SmartRefresher(
-                                    controller: controller.scrollController,
-                                    enablePullDown: true,
-                                    enablePullUp: true,
-                                    onRefresh: controller.refreshData,
-                                    footer: CustomFooter(
-                                      builder: (context, mode) {
-                                        if (mode == LoadStatus.idle) {
-                                          return const Center(
-                                              child: Text("Pull up load"));
-                                        } else if (mode == LoadStatus.loading) {
-                                          return const Center(
-                                            child: SizedBox(
-                                              width: 50,
-                                              height: 50,
-                                              child:
-                                                  CircularProgressIndicator(),
-                                            ),
-                                          );
-                                        } else if (mode == LoadStatus.failed) {
-                                          return const Center(
-                                              child: Text(
-                                                  "Load Failed! Click retry!"));
-                                        } else if (mode ==
-                                            LoadStatus.canLoading) {
-                                          return const Center(
-                                              child:
-                                                  Text("Release to load more"));
-                                        } else {
-                                          return const Center(
-                                              child: Text("No more Data"));
-                                        }
-                                      },
-                                    ),
-                                    onLoading: controller.loadData,
-                                    child: ListView.builder(
-                                        itemCount: controller.results.length,
-                                        itemBuilder: (context, index) {
-                                          return Column(
-                                            children: [
-                                              controller.results[index].abjad
-                                                          .toLowerCase() ==
-                                                      controller.results[index]
-                                                          .bahasa[0]
-                                                  ? ListTile(
-                                                      onTap: () {
-                                                        Get.toNamed("/detail",
-                                                            arguments: [
-                                                              controller
-                                                                  .results[
-                                                                      index]
-                                                                  .bahasa,
-                                                              controller
-                                                                  .results[
-                                                                      index]
-                                                                  .bebasan,
-                                                              controller
-                                                                  .results[
-                                                                      index]
-                                                                  .english,
-                                                              controller
-                                                                  .results[
-                                                                      index]
-                                                                  .abjad
-                                                            ]);
-                                                      },
-                                                      title: Text(
-                                                          controller
-                                                              .results[index]
-                                                              .bahasa,
-                                                          style: GoogleFonts
-                                                              .roboto(
-                                                                  color: Colors
-                                                                      .black,
-                                                                  fontSize: Get
-                                                                          .height *
-                                                                      0.022)),
-                                                      subtitle: Text(
-                                                          controller
-                                                              .results[index]
-                                                              .bebasan,
-                                                          style: GoogleFonts
-                                                              .roboto(
-                                                                  fontSize: Get
-                                                                          .height *
-                                                                      0.018)),
-                                                      leading: Text(
-                                                          controller
-                                                              .results[index]
-                                                              .abjad
-                                                              .toUpperCase(),
-                                                          style: GoogleFonts
-                                                              .roboto(
-                                                                  fontSize: Get
-                                                                          .height *
-                                                                      0.022)),
-                                                      trailing: Text(
-                                                          controller
-                                                              .results[index]
-                                                              .english,
-                                                          style: GoogleFonts
-                                                              .roboto(
-                                                                  fontSize: Get
-                                                                          .height *
-                                                                      0.018)),
-                                                    )
-                                                  : ListTile(
-                                                      onTap: () {
-                                                        Get.toNamed("/detail",
-                                                            arguments: [
-                                                              controller
-                                                                  .results[
-                                                                      index]
-                                                                  .bahasa,
-                                                              controller
-                                                                  .results[
-                                                                      index]
-                                                                  .bebasan,
-                                                              controller
-                                                                  .results[
-                                                                      index]
-                                                                  .english,
-                                                              controller
-                                                                  .results[
-                                                                      index]
-                                                                  .abjad
-                                                            ]);
-                                                      },
-                                                      title: Text(
-                                                          controller
-                                                              .results[index]
-                                                              .bahasa,
-                                                          style: GoogleFonts
-                                                              .roboto(
-                                                                  color: Colors
-                                                                      .red[200],
-                                                                  fontSize: Get
-                                                                          .height *
-                                                                      0.022)),
-                                                      subtitle: Text(
-                                                          controller
-                                                              .results[index]
-                                                              .bebasan,
-                                                          style: GoogleFonts
-                                                              .roboto(
-                                                                  fontSize: Get
-                                                                          .height *
-                                                                      0.018)),
-                                                      leading: Text(
-                                                          controller
-                                                              .results[index]
-                                                              .abjad
-                                                              .toUpperCase(),
-                                                          style: GoogleFonts
-                                                              .roboto(
-                                                                  fontSize: Get
-                                                                          .height *
-                                                                      0.022)),
-                                                      trailing: Text(
-                                                          controller
-                                                              .results[index]
-                                                              .english,
-                                                          style: GoogleFonts
-                                                              .roboto(
-                                                                  fontSize: Get
-                                                                          .height *
-                                                                      0.018)),
-                                                    ),
-                                              Divider(
-                                                  thickness: 3,
-                                                  color: Colors.grey[300])
-                                            ],
-                                          );
-                                        }),
-                                  ),
-                                );
-                        },
+                  decoration: const BoxDecoration(
+                    color: Colors.white,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black45,
+                        spreadRadius: 1,
+                        blurRadius: 20,
                       ),
-                    ),
-                  ]))
-            ],
-          ),
-        ));
+                    ],
+                  ),
+                  height: Get.height * 0.5,
+                  child: GridView.count(
+                    padding: EdgeInsets.all(Get.height * 0.03),
+                    crossAxisCount: 2,
+                    children: [
+                      GestureDetector(
+                        onTap: () {
+                          Get.toNamed('/team');
+                        },
+                        child: Container(
+                          width: Get.width * 0.4,
+                          height: Get.width * 0.4,
+                          margin: EdgeInsets.only(
+                              top: Get.height * 0.01,
+                              bottom: Get.height * 0.02,
+                              left: Get.height * 0.01,
+                              right: Get.height * 0.02),
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.black38,
+                                  spreadRadius: 1,
+                                  blurRadius: 12,
+                                ),
+                              ],
+                              borderRadius:
+                                  BorderRadius.circular(Get.height * 0.04)),
+                          child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Icon(
+                                  Icons.people,
+                                  color: Colors.black,
+                                  size: Get.height * 0.07,
+                                ),
+                                Text(
+                                  "Team",
+                                  style: GoogleFonts.poppins(
+                                      fontSize: Get.height * 0.025),
+                                )
+                              ]),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                          Get.toNamed('/favorite');
+                        },
+                        child: Container(
+                          width: Get.width * 0.4,
+                          height: Get.width * 0.4,
+                          margin: EdgeInsets.only(
+                              bottom: Get.height * 0.02,
+                              top: Get.height * 0.01,
+                              left: Get.height * 0.02,
+                              right: Get.height * 0.01),
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.black38,
+                                  spreadRadius: 1,
+                                  blurRadius: 12,
+                                ),
+                              ],
+                              borderRadius:
+                                  BorderRadius.circular(Get.height * 0.04)),
+                          child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Icon(
+                                  Icons.favorite,
+                                  color: Colors.pink,
+                                  size: Get.height * 0.07,
+                                ),
+                                Text(
+                                  "Favorit",
+                                  style: GoogleFonts.poppins(
+                                      fontSize: Get.height * 0.025),
+                                )
+                              ]),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                          Get.toNamed('/kalimat');
+                        },
+                        child: Container(
+                          width: Get.width * 0.4,
+                          height: Get.width * 0.4,
+                          margin: EdgeInsets.only(
+                              left: Get.height * 0.01,
+                              right: Get.height * 0.02,
+                              top: Get.height * 0.02,
+                              bottom: Get.height * 0.01),
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.black38,
+                                  spreadRadius: 1,
+                                  blurRadius: 12,
+                                ),
+                              ],
+                              borderRadius:
+                                  BorderRadius.circular(Get.height * 0.04)),
+                          child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Icon(
+                                  Icons.list_alt,
+                                  color: Colors.green,
+                                  size: Get.height * 0.07,
+                                ),
+                                Text(
+                                  "Kalimat",
+                                  style: GoogleFonts.poppins(
+                                      fontSize: Get.height * 0.025),
+                                )
+                              ]),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                          Get.toNamed('/translate');
+                        },
+                        child: Container(
+                          width: Get.width * 0.4,
+                          height: Get.width * 0.4,
+                          margin: EdgeInsets.only(
+                              bottom: Get.height * 0.01,
+                              top: Get.height * 0.02,
+                              left: Get.height * 0.02,
+                              right: Get.height * 0.01),
+                          decoration: BoxDecoration(
+                              color: Colors.blue,
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.black38,
+                                  spreadRadius: 1,
+                                  blurRadius: 12,
+                                ),
+                              ],
+                              borderRadius:
+                                  BorderRadius.circular(Get.height * 0.04)),
+                          child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Icon(
+                                  Icons.translate,
+                                  color: Colors.white,
+                                  size: Get.height * 0.07,
+                                ),
+                                Text(
+                                  "Kamus",
+                                  style: GoogleFonts.poppins(
+                                      color: Colors.white,
+                                      fontSize: Get.height * 0.025),
+                                )
+                              ]),
+                        ),
+                      ),
+                    ],
+                  ))
+            ])));
   }
 }

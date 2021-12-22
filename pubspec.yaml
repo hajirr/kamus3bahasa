@@ -25,4 +25,5 @@ flutter:
   assets:
     - assets/json/kamus.json
     - assets/images/logo.png
+    - assets/images/conversations.png
   uses-material-design: true
