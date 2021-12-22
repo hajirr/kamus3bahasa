@@ -54,7 +54,6 @@ class HomeController extends GetxController {
       await Future.delayed(const Duration(seconds: 1));
 
       if (results.length >= 35) {
-        // stop gaada user di database .... sudah abis datanya
         scrollController.loadNoData();
       } else {
         initData();
@@ -66,10 +65,30 @@ class HomeController extends GetxController {
     }
   }
 
+  void searchData() async {
+    isLoading = true;
+    final data = await rootBundle.loadString('assets/json/kamus.json');
+    word = kamusPerkataFromJson(data).data;
+    results.clear();
+    for (var i = 0; i < word.length; i++) {
+      if (word[i].bahasa.contains(searchWordController.text) ||
+          word[i].bebasan.contains(searchWordController.text) ||
+          word[i].english.contains(searchWordController.text)) {
+        results.add(Datum(
+            bahasa: word[i].bahasa,
+            bebasan: word[i].bebasan,
+            english: word[i].english,
+            abjad: word[i].abjad));
+      }
+    }
+    isLoading = false;
+    update();
+  }
+
   void initData() async {
+    final data = await rootBundle.loadString('assets/json/kamus.json');
+    word = kamusPerkataFromJson(data).data;
     for (var i = 0; i < 15; i++) {
-      final data = await rootBundle.loadString('assets/json/kamus.json');
-      word = kamusPerkataFromJson(data).data;
       results.add(Datum(
           bahasa: word[i].bahasa,
           bebasan: word[i].bebasan,
