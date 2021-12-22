@@ -7,8 +7,9 @@ import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 class HomeController extends GetxController {
   @override
-  void onInit() {
+  void onInit() async {
     super.onInit();
+    await getData();
     initData();
   }
 
@@ -37,6 +38,11 @@ class HomeController extends GetxController {
   TextEditingController searchWordController = TextEditingController();
   RefreshController scrollController = RefreshController();
   int currentDataWord = 0;
+
+  Future getData() async {
+    final data = await rootBundle.loadString('assets/json/kamus.json');
+    word = kamusPerkataFromJson(data).data;
+  }
 
   void refreshData() async {
     try {
@@ -68,9 +74,9 @@ class HomeController extends GetxController {
   }
 
   void searchData() async {
-    isLoading = true;
     results.clear();
     for (var i = 0; i < word.length; i++) {
+      
       if (word[i].bahasa.contains(searchWordController.text) ||
           word[i].bebasan.contains(searchWordController.text) ||
           word[i].english.contains(searchWordController.text)) {
@@ -81,23 +87,18 @@ class HomeController extends GetxController {
             abjad: word[i].abjad));
       }
     }
-    isLoading = false;
     update();
   }
 
   void initData() async {
     for (var i = 0; i < 15; i++) {
-      final data = await rootBundle.loadString('assets/json/kamus.json');
-      word = kamusPerkataFromJson(data).data;
       currentDataWord++;
       results.add(Datum(
           bahasa: word[currentDataWord].bahasa,
           bebasan: word[currentDataWord].bebasan,
           english: word[currentDataWord].english,
           abjad: word[currentDataWord].abjad));
-      print(currentDataWord);
     }
-
     update();
   }
 }
