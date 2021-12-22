@@ -9,6 +9,7 @@ void main() async {
   await GetStorage.init();
   runApp(
     GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Kamus 3 Bahasa",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
