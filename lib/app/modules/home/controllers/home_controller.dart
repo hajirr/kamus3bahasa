@@ -67,8 +67,6 @@ class HomeController extends GetxController {
 
   void searchData() async {
     isLoading = true;
-    final data = await rootBundle.loadString('assets/json/kamus.json');
-    word = kamusPerkataFromJson(data).data;
     results.clear();
     for (var i = 0; i < word.length; i++) {
       if (word[i].bahasa.contains(searchWordController.text) ||
