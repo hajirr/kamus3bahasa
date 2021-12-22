@@ -18,8 +18,7 @@ class DetailController extends GetxController {
   String bahasa = Get.arguments[0];
   String bebasan = Get.arguments[1];
   String english = Get.arguments[2];
-  String abjad = Get.arguments[3];
-  HomeController homeController = Get.find();
+  HomeController homeController = Get.put(HomeController());
 
   addBookmark(word) {
     if (homeController.box.read(word) == true) {

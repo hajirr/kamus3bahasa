@@ -51,7 +51,7 @@ class HomeView extends GetView<HomeController> {
                       ),
                       height: Get.height * 0.5,
                       child: GridView.count(
-                        padding: EdgeInsets.all(Get.height * 0.03),
+                        padding: EdgeInsets.all(Get.height * 0.05),
                         crossAxisCount: 2,
                         children: [
                           GestureDetector(
@@ -60,9 +60,8 @@ class HomeView extends GetView<HomeController> {
                             },
                             child: Container(
                               width: Get.width * 0.4,
-                              height: Get.width * 0.4,
+                              height: Get.width * 0.35,
                               margin: EdgeInsets.only(
-                                  top: Get.height * 0.01,
                                   bottom: Get.height * 0.02,
                                   left: Get.height * 0.01,
                                   right: Get.height * 0.02),
@@ -100,10 +99,9 @@ class HomeView extends GetView<HomeController> {
                             },
                             child: Container(
                               width: Get.width * 0.4,
-                              height: Get.width * 0.4,
+                              height: Get.width * 0.35,
                               margin: EdgeInsets.only(
                                   bottom: Get.height * 0.02,
-                                  top: Get.height * 0.01,
                                   left: Get.height * 0.02,
                                   right: Get.height * 0.01),
                               decoration: BoxDecoration(
@@ -140,12 +138,12 @@ class HomeView extends GetView<HomeController> {
                             },
                             child: Container(
                               width: Get.width * 0.4,
-                              height: Get.width * 0.4,
+                              height: Get.width * 0.35,
                               margin: EdgeInsets.only(
-                                  left: Get.height * 0.01,
-                                  right: Get.height * 0.02,
-                                  top: Get.height * 0.02,
-                                  bottom: Get.height * 0.01),
+                                left: Get.height * 0.01,
+                                right: Get.height * 0.02,
+                                top: Get.height * 0.02,
+                              ),
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   boxShadow: [
@@ -180,9 +178,8 @@ class HomeView extends GetView<HomeController> {
                             },
                             child: Container(
                               width: Get.width * 0.4,
-                              height: Get.width * 0.4,
+                              height: Get.width * 0.35,
                               margin: EdgeInsets.only(
-                                  bottom: Get.height * 0.01,
                                   top: Get.height * 0.02,
                                   left: Get.height * 0.02,
                                   right: Get.height * 0.01),

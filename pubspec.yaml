@@ -24,6 +24,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/json/kamus.json
+    - assets/json/kalimat.json
     - assets/images/logo.png
     - assets/images/conversations.png
   uses-material-design: true

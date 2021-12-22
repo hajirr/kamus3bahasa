@@ -20,17 +20,7 @@ class TranslateController extends GetxController {
 
   @override
   void onClose() {}
-
-  List quotes = [
-    'To learn a language is to have one more window from which to look at the word.',
-    'With languages, you are at home anywhere.',
-    'Language is power, life and the instrument of culture, the instrument of domination and liberation.',
-    'The art of communication is the language of leadership',
-    'Language is the road map of a culture. It tells you where its people come from and where they are going.'
-  ];
-
   String searchWord = '';
-  GetStorage box = GetStorage();
 
   List<Datum> word = [];
   List results = [];

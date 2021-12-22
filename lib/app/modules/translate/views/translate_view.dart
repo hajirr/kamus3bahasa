@@ -67,7 +67,9 @@ class TranslateView extends GetView<TranslateController> {
                   margin: EdgeInsets.only(top: Get.height * 0.02),
                   decoration: BoxDecoration(
                       color: Colors.white,
-                      borderRadius: BorderRadius.circular(Get.height * 0.03),
+                      borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(Get.height * 0.04),
+                          topRight: Radius.circular(Get.height * 0.04)),
                       boxShadow: const [
                         BoxShadow(
                             offset: Offset(0, 3),
