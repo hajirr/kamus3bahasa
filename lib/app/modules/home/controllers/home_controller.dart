@@ -36,11 +36,13 @@ class HomeController extends GetxController {
   bool isLoading = false;
   TextEditingController searchWordController = TextEditingController();
   RefreshController scrollController = RefreshController();
+  int currentDataWord = 0;
 
   void refreshData() async {
     try {
       await Future.delayed(const Duration(seconds: 1));
       results.clear();
+      currentDataWord = 0;
       initData();
       update();
       scrollController.refreshCompleted();
@@ -53,7 +55,7 @@ class HomeController extends GetxController {
     try {
       await Future.delayed(const Duration(seconds: 1));
 
-      if (results.length >= 35) {
+      if (results.length >= word.length) {
         scrollController.loadNoData();
       } else {
         initData();
@@ -84,15 +86,18 @@ class HomeController extends GetxController {
   }
 
   void initData() async {
-    final data = await rootBundle.loadString('assets/json/kamus.json');
-    word = kamusPerkataFromJson(data).data;
     for (var i = 0; i < 15; i++) {
+      final data = await rootBundle.loadString('assets/json/kamus.json');
+      word = kamusPerkataFromJson(data).data;
+      currentDataWord++;
       results.add(Datum(
-          bahasa: word[i].bahasa,
-          bebasan: word[i].bebasan,
-          english: word[i].english,
-          abjad: word[i].abjad));
+          bahasa: word[currentDataWord].bahasa,
+          bebasan: word[currentDataWord].bebasan,
+          english: word[currentDataWord].english,
+          abjad: word[currentDataWord].abjad));
+      print(currentDataWord);
     }
+
     update();
   }
 }
