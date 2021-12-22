@@ -11,6 +11,7 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.white,
         body: SizedBox(
             width: Get.width,
             height: Get.height,
@@ -47,13 +48,6 @@ class HomeView extends GetView<HomeController> {
                   Container(
                       decoration: const BoxDecoration(
                         color: Colors.white,
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black45,
-                            spreadRadius: 1,
-                            blurRadius: 15,
-                          ),
-                        ],
                       ),
                       height: Get.height * 0.5,
                       child: GridView.count(
@@ -74,9 +68,9 @@ class HomeView extends GetView<HomeController> {
                                   right: Get.height * 0.02),
                               decoration: BoxDecoration(
                                   color: Colors.white,
-                                  boxShadow: const [
+                                  boxShadow: [
                                     BoxShadow(
-                                      color: Colors.black38,
+                                      color: Colors.grey.withOpacity(0.4),
                                       spreadRadius: 1,
                                       blurRadius: 12,
                                     ),
@@ -114,9 +108,9 @@ class HomeView extends GetView<HomeController> {
                                   right: Get.height * 0.01),
                               decoration: BoxDecoration(
                                   color: Colors.white,
-                                  boxShadow: const [
+                                  boxShadow: [
                                     BoxShadow(
-                                      color: Colors.black38,
+                                      color: Colors.grey.withOpacity(0.4),
                                       spreadRadius: 1,
                                       blurRadius: 12,
                                     ),
@@ -154,9 +148,9 @@ class HomeView extends GetView<HomeController> {
                                   bottom: Get.height * 0.01),
                               decoration: BoxDecoration(
                                   color: Colors.white,
-                                  boxShadow: const [
+                                  boxShadow: [
                                     BoxShadow(
-                                      color: Colors.black38,
+                                      color: Colors.grey.withOpacity(0.4),
                                       spreadRadius: 1,
                                       blurRadius: 12,
                                     ),
@@ -194,9 +188,9 @@ class HomeView extends GetView<HomeController> {
                                   right: Get.height * 0.01),
                               decoration: BoxDecoration(
                                   color: Colors.blue,
-                                  boxShadow: const [
+                                  boxShadow: [
                                     BoxShadow(
-                                      color: Colors.black38,
+                                      color: Colors.grey.withOpacity(0.4),
                                       spreadRadius: 1,
                                       blurRadius: 12,
                                     ),
