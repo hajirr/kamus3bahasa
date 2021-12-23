@@ -23,9 +23,9 @@ class TranslateView extends GetView<TranslateController> {
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                   colors: [
-                HexColor("#FF7171"),
-                HexColor("#FCD1D1"),
-                HexColor("#ECE2E1"),
+                HexColor("#949CDF"),
+                HexColor("#A7C5EB"),
+                HexColor("#F6ECF0"),
               ])),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -157,25 +157,17 @@ class TranslateView extends GetView<TranslateController> {
                                                       TranslateController>(
                                                     builder: (_) {
                                                       return Icon(
-                                                        controller.homeController.box.read(controller
-                                                                        .results[
-                                                                            index]
-                                                                        .bahasa) ==
-                                                                    null ||
-                                                                controller
-                                                                        .homeController
-                                                                        .box
-                                                                        .read(controller
-                                                                            .results[
-                                                                                index]
-                                                                            .bahasa) ==
-                                                                    false
-                                                            ? Icons
-                                                                .favorite_outline
-                                                            : Icons.favorite,
-                                                        color:
-                                                            HexColor("#FF7171"),
-                                                      );
+                                                          controller.homeController
+                                                                      .box
+                                                                      .read(controller
+                                                                          .results[
+                                                                              index]
+                                                                          .bahasa) ==
+                                                                  true
+                                                              ? Icons.favorite
+                                                              : Icons
+                                                                  .favorite_outline,
+                                                          color: Colors.pink);
                                                     },
                                                   )),
                                               Text(
@@ -183,7 +175,7 @@ class TranslateView extends GetView<TranslateController> {
                                                 style: GoogleFonts.roboto(
                                                     fontSize: Get.height * 0.1,
                                                     fontWeight: FontWeight.bold,
-                                                    color: HexColor("#FF7171")),
+                                                    color: HexColor("#949CDF")),
                                               ),
                                             ]),
                                             SizedBox(

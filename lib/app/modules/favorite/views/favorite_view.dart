@@ -13,15 +13,16 @@ class FavoriteView extends GetView<FavoriteController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        resizeToAvoidBottomInset: false,
         body: Container(
             decoration: BoxDecoration(
                 gradient: LinearGradient(
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                     colors: [
-                  HexColor("#FF7171"),
-                  HexColor("#FCD1D1"),
-                  HexColor("#ECE2E1"),
+                  HexColor("#949CDF"),
+                  HexColor("#A7C5EB"),
+                  HexColor("#F6ECF0"),
                 ])),
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -166,17 +167,15 @@ class FavoriteView extends GetView<FavoriteController> {
                                                               FavoriteController>(
                                                             builder: (_) {
                                                               return Icon(
-                                                                controller.homeController.box.read(controller.results[index].bahasa) ==
-                                                                            null ||
-                                                                        controller.homeController.box.read(controller.results[index].bahasa) ==
-                                                                            false
-                                                                    ? Icons
-                                                                        .bookmark_outline
-                                                                    : Icons
-                                                                        .bookmark,
-                                                                color: HexColor(
-                                                                    "#FF7171"),
-                                                              );
+                                                                  controller.homeController.box.read(controller.results[index].bahasa) == null ||
+                                                                          controller.homeController.box.read(controller.results[index].bahasa) ==
+                                                                              false
+                                                                      ? Icons
+                                                                          .favorite_outline
+                                                                      : Icons
+                                                                          .favorite,
+                                                                  color: Colors
+                                                                      .pink);
                                                             },
                                                           )),
                                                       Text(
@@ -192,7 +191,7 @@ class FavoriteView extends GetView<FavoriteController> {
                                                                     FontWeight
                                                                         .bold,
                                                                 color: HexColor(
-                                                                    "#FF7171")),
+                                                                    "#949CDF")),
                                                       ),
                                                     ]),
                                                     SizedBox(

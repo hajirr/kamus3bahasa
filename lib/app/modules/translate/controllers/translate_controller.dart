@@ -20,14 +20,16 @@ class TranslateController extends GetxController {
 
   @override
   void onClose() {}
-  String searchWord = '';
 
+  String searchWord = '';
+  int currentDataWord = 0;
+  bool isLoading = false;
+  bool isSearching = false;
   List<Datum> word = [];
   List results = [];
-  bool isLoading = false;
+
   TextEditingController searchWordController = TextEditingController();
   RefreshController scrollController = RefreshController();
-  int currentDataWord = 0;
   HomeController homeController = Get.put(HomeController());
 
   Future getData() async {
@@ -46,6 +48,7 @@ class TranslateController extends GetxController {
     } catch (e) {
       scrollController.refreshFailed();
     }
+    isSearching = false;
   }
 
   void loadData() async {
@@ -65,6 +68,7 @@ class TranslateController extends GetxController {
   }
 
   void searchData() async {
+    isSearching = true;
     results.clear();
     for (var i = 0; i < word.length; i++) {
       if (word[i].bahasa.contains(searchWordController.text) ||
@@ -81,21 +85,33 @@ class TranslateController extends GetxController {
   }
 
   void addBookmark(input) {
-    homeController.box.read(input) == false ||
-            homeController.box.read(input) == null
-        ? homeController.box.write(input, true)
-        : homeController.box.write(input, false);
+    homeController.box.read(input) == true
+        ? homeController.box.write(input, false)
+        : homeController.box.write(input, true);
     update();
+    print("$input ${homeController.box.read(input)}");
   }
 
   void initData() async {
     for (var i = 0; i < 15; i++) {
+      if (isSearching) {
+        if (word[currentDataWord].bahasa.contains(searchWord) ||
+            word[currentDataWord].bebasan.contains(searchWord) ||
+            word[currentDataWord].english.contains(searchWord)) {
+          results.add(Datum(
+              bahasa: word[currentDataWord].bahasa,
+              bebasan: word[currentDataWord].bebasan,
+              english: word[currentDataWord].english,
+              abjad: word[currentDataWord].abjad));
+        }
+      } else {
+        results.add(Datum(
+            bahasa: word[currentDataWord].bahasa,
+            bebasan: word[currentDataWord].bebasan,
+            english: word[currentDataWord].english,
+            abjad: word[currentDataWord].abjad));
+      }
       currentDataWord++;
-      results.add(Datum(
-          bahasa: word[currentDataWord].bahasa,
-          bebasan: word[currentDataWord].bebasan,
-          english: word[currentDataWord].english,
-          abjad: word[currentDataWord].abjad));
     }
     update();
   }

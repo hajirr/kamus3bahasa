@@ -23,9 +23,9 @@ class KalimatView extends GetView<KalimatController> {
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                   colors: [
-                HexColor("#FF7171"),
-                HexColor("#FCD1D1"),
-                HexColor("#ECE2E1"),
+                HexColor("#949CDF"),
+                HexColor("#A7C5EB"),
+                HexColor("#F6ECF0"),
               ])),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
