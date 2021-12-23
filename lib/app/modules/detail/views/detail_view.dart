@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:kamus3bahasa/app/modules/home/controllers/home_controller.dart';
 
 import '../controllers/detail_controller.dart';
 

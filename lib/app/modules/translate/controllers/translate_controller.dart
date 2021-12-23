@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
 import 'package:kamus3bahasa/app/models/kamus_perkata_model.dart';
+import 'package:kamus3bahasa/app/modules/home/controllers/home_controller.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 class TranslateController extends GetxController {
@@ -28,6 +28,7 @@ class TranslateController extends GetxController {
   TextEditingController searchWordController = TextEditingController();
   RefreshController scrollController = RefreshController();
   int currentDataWord = 0;
+  HomeController homeController = Get.put(HomeController());
 
   Future getData() async {
     final data = await rootBundle.loadString('assets/json/kamus.json');
@@ -76,6 +77,14 @@ class TranslateController extends GetxController {
             abjad: word[i].abjad));
       }
     }
+    update();
+  }
+
+  void addBookmark(input) {
+    homeController.box.read(input) == false ||
+            homeController.box.read(input) == null
+        ? homeController.box.write(input, true)
+        : homeController.box.write(input, false);
     update();
   }
 
