@@ -115,4 +115,34 @@ class FavoriteController extends GetxController {
     }
     update();
   }
+
+  bool isFavorite(index) {
+    return homeController.box.read(results[index].bahasa) ?? false;
+  }
+
+  void valueChanged(index, value) {
+    homeController.box.write(results[index].bahasa, value);
+    print(
+        "${results[index].bahasa} INDEX Ke-$index ${homeController.box.read(results[index].bahasa)}");
+  }
+
+  Widget searchCondition(mode) {
+    if (mode == LoadStatus.idle) {
+      return const Center(child: Text("Pull up load"));
+    } else if (mode == LoadStatus.loading) {
+      return const Center(
+        child: SizedBox(
+          width: 40,
+          height: 40,
+          child: CircularProgressIndicator(),
+        ),
+      );
+    } else if (mode == LoadStatus.failed) {
+      return const Center(child: Text("Load Failed! Click retry!"));
+    } else if (mode == LoadStatus.canLoading) {
+      return const Center(child: Text("Release to load more"));
+    } else {
+      return const Center(child: Text("No more Data"));
+    }
+  }
 }

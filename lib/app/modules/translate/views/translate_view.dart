@@ -1,3 +1,4 @@
+import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -97,32 +98,9 @@ class TranslateView extends GetView<TranslateController> {
                               enablePullDown: true,
                               enablePullUp: true,
                               onRefresh: controller.refreshData,
-                              footer: CustomFooter(
-                                builder: (context, mode) {
-                                  if (mode == LoadStatus.idle) {
-                                    return const Center(
-                                        child: Text("Pull up load"));
-                                  } else if (mode == LoadStatus.loading) {
-                                    return const Center(
-                                      child: SizedBox(
-                                        width: 40,
-                                        height: 40,
-                                        child: CircularProgressIndicator(),
-                                      ),
-                                    );
-                                  } else if (mode == LoadStatus.failed) {
-                                    return const Center(
-                                        child:
-                                            Text("Load Failed! Click retry!"));
-                                  } else if (mode == LoadStatus.canLoading) {
-                                    return const Center(
-                                        child: Text("Release to load more"));
-                                  } else {
-                                    return const Center(
-                                        child: Text("No more Data"));
-                                  }
-                                },
-                              ),
+                              footer: CustomFooter(builder: (context, mode) {
+                                return controller.searchCondition(mode);
+                              }),
                               onLoading: controller.loadData,
                               child: ListView.builder(
                                   itemCount: controller.results.length,
@@ -144,42 +122,39 @@ class TranslateView extends GetView<TranslateController> {
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceBetween,
                                           children: [
-                                            Column(children: [
-                                              IconButton(
-                                                  onPressed: () {
-                                                    controller.addBookmark(
-                                                        controller
-                                                            .results[index]
-                                                            .bahasa);
-                                                  },
-                                                  iconSize: Get.height * 0.05,
-                                                  icon: GetBuilder<
+                                            Column(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceEvenly,
+                                                children: [
+                                                  GetBuilder<
                                                       TranslateController>(
                                                     builder: (_) {
-                                                      return Icon(
-                                                          controller.homeController
-                                                                      .box
-                                                                      .read(controller
-                                                                          .results[
-                                                                              index]
-                                                                          .bahasa) ==
-                                                                  true
-                                                              ? Icons.favorite
-                                                              : Icons
-                                                                  .favorite_outline,
-                                                          color: Colors.pink);
+                                                      return FavoriteButton(
+                                                          isFavorite: false,
+                                                          valueChanged:
+                                                              (value) {
+                                                            controller
+                                                                .valueChanged(
+                                                                    index,
+                                                                    value);
+                                                          });
                                                     },
-                                                  )),
-                                              Text(
-                                                controller.results[index].abjad,
-                                                style: GoogleFonts.roboto(
-                                                    fontSize: Get.height * 0.1,
-                                                    fontWeight: FontWeight.bold,
-                                                    color: HexColor("#949CDF")),
-                                              ),
-                                            ]),
+                                                  ),
+                                                  Text(
+                                                    controller
+                                                        .results[index].abjad,
+                                                    style: GoogleFonts.roboto(
+                                                        fontSize:
+                                                            Get.height * 0.1,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        color: HexColor(
+                                                            "#949CDF")),
+                                                  ),
+                                                ]),
                                             SizedBox(
-                                              width: Get.width * 0.65,
+                                              width: Get.width * 0.6,
                                               child: Column(
                                                   mainAxisAlignment:
                                                       MainAxisAlignment

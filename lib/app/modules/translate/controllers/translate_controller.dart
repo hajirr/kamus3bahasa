@@ -67,13 +67,13 @@ class TranslateController extends GetxController {
     }
   }
 
-  void searchData() async {
+  void searchData() {
     isSearching = true;
     results.clear();
     for (var i = 0; i < word.length; i++) {
-      if (word[i].bahasa.contains(searchWordController.text) ||
-          word[i].bebasan.contains(searchWordController.text) ||
-          word[i].english.contains(searchWordController.text)) {
+      if (word[i].bahasa.contains(searchWord) ||
+          word[i].bebasan.contains(searchWord) ||
+          word[i].english.contains(searchWord)) {
         results.add(Datum(
             bahasa: word[i].bahasa,
             bebasan: word[i].bebasan,
@@ -84,15 +84,7 @@ class TranslateController extends GetxController {
     update();
   }
 
-  void addBookmark(input) {
-    homeController.box.read(input) == true
-        ? homeController.box.write(input, false)
-        : homeController.box.write(input, true);
-    update();
-    print("$input ${homeController.box.read(input)}");
-  }
-
-  void initData() async {
+  void initData() {
     for (var i = 0; i < 15; i++) {
       if (isSearching) {
         if (word[currentDataWord].bahasa.contains(searchWord) ||
@@ -114,5 +106,35 @@ class TranslateController extends GetxController {
       currentDataWord++;
     }
     update();
+  }
+
+  bool isFavorite(index) {
+    return homeController.box.read(results[index].bahasa) ?? false;
+  }
+
+  void valueChanged(index, value) {
+    homeController.box.write(results[index].bahasa, value);
+    print(
+        "${results[index].bahasa} INDEX Ke-$index ${homeController.box.read(results[index].bahasa)}");
+  }
+
+  Widget searchCondition(mode) {
+    if (mode == LoadStatus.idle) {
+      return const Center(child: Text("Pull up load"));
+    } else if (mode == LoadStatus.loading) {
+      return const Center(
+        child: SizedBox(
+          width: 40,
+          height: 40,
+          child: CircularProgressIndicator(),
+        ),
+      );
+    } else if (mode == LoadStatus.failed) {
+      return const Center(child: Text("Load Failed! Click retry!"));
+    } else if (mode == LoadStatus.canLoading) {
+      return const Center(child: Text("Release to load more"));
+    } else {
+      return const Center(child: Text("No more Data"));
+    }
   }
 }
