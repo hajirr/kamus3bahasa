@@ -1,16 +1,31 @@
-# kamus3bahasa
+Privacy Policy for Kamus 3 Bahasa
+At Kamus 3 Bahasa, accessible from kamus3bahasa.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Kamus 3 Bahasa and how we use it.
 
-A new Flutter project.
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 
-## Getting Started
+Log Files
+Kamus 3 Bahasa follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information. Our Privacy Policy was created with the help of the Privacy Policy Generator.
 
-This project is a starting point for a Flutter application.
+Privacy Policies
+You may consult this list to find the Privacy Policy for each of the advertising partners of Kamus 3 Bahasa.
 
-A few resources to get you started if this is your first Flutter project:
+Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Kamus 3 Bahasa, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Note that Kamus 3 Bahasa has no access to or control over these cookies that are used by third-party advertisers.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Third Party Privacy Policies
+Kamus 3 Bahasa's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+
+You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites. What Are Cookies?
+
+Children's Information
+Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
+
+Kamus 3 Bahasa does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+
+Online Privacy Policy Only
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Kamus 3 Bahasa. This policy is not applicable to any information collected offline or via channels other than this website.
+
+Consent
+By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.
+

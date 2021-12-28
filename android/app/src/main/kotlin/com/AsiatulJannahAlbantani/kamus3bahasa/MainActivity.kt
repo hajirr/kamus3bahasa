@@ -1,4 +1,4 @@
-package com.example.kamus3bahasa
+package com.AsiatulJannahAlbantani.kamus3bahasa
 
 import io.flutter.embedding.android.FlutterActivity
 
