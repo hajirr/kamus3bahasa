@@ -69,7 +69,7 @@ class TranslateView extends GetView<TranslateController> {
                       style: GoogleFonts.roboto(fontSize: Get.height * 0.03),
                       controller: controller.searchWordController,
                       decoration: InputDecoration(
-                          hintText: "Cari Kalimat",
+                          hintText: "Cari Kata",
                           hintStyle: GoogleFonts.roboto(),
                           suffixIcon: IconButton(
                               onPressed: () {
